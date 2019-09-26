@@ -1,0 +1,30 @@
+title: CGVC
+email: r.s.laramee@swansea.ac.uk
+description: > # this means to ignore newlines until "baseurl:"
+  Computer Graphics & Visual Computing (CGVC) is an annual computer graphics, visualization, and visual computing gathering organized by the Eurographics UK Chapter. CGVC has been a Eurographics supported event Since 1983 when the first instance took place 28-29 March 1983 at York University.
+url: "https://CGVC.org.uk"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+paginate: 5
+paginate_path: "/news/page:num/"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+markdown: kramdown
+
+collections:
+    - vizsecmeta
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+      type: "posts"
+    values:
+      layout: "post"
