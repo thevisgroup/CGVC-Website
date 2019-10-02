@@ -168,9 +168,9 @@ a:active:not(.btn) {
   color: $vizsec_highlight;
 }
 
-#ieee {
+#eurographics {
   margin: 37px 30px 0;
-  height: 20px;
+  height: 50px;
 }
 
 .navbar-brand > img {
@@ -202,11 +202,11 @@ a:active:not(.btn) {
 }
 
 .navbar-nav a {
-  color: #fff;
+  color: $vizsec_light;
 }
 
 .navbar-nav a:hover {
-  color: #bbb;
+  color: $vizsec_light;
 }
 
 .nav > li:before {
@@ -430,4 +430,13 @@ ul.media-list li.media img.media-object {
 .sidebar_supporters img {
   max-width: 200px;
   max-height: 100px;
+}
+
+
+.highlight_div{
+  border-left: 4px solid #b30000;
+  padding: 0.5em 0.5em 0.1em 1em;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  background: #e8e8e8;
 }
