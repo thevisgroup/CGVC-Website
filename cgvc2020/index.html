@@ -4,7 +4,7 @@ custom_css: cfp_sidebar
 title: CGVC 2020
 ---
 
-<h3>Welcome to 38th Computer Graphics & Visual Computing Conference</h3>
+<h4>Welcome to the 38th Computer Graphics & Visual Computing Conference</h4>
 
 <p>CGVC 2020 will be held in <strong>King's College London, UK</strong>.</p>
 
@@ -12,13 +12,16 @@ title: CGVC 2020
         registration page</a>.
 </p>
 
-<p><em>Questions?</em> Please email <a href="mailto:chair@vizsec.org">chair@vizsec.org</a> for questions regarding
+<p><em>Questions?</em> Please email <a href="mailto:chair@vizsec.org">chair@cgvc.org.uk</a> for questions regarding
     CGVC 2020.</p>
 
 
 <a class="page-anchor" id="program"></a>
 <h3>Program</h3>
 
+TBA
+
+<!-- 
 <table class="program">
 
     <tbody>
@@ -218,12 +221,14 @@ title: CGVC 2020
             </td>
         </tr>
 
-</table>
+</table> -->
 
 <a class="page-anchor" id="keynote"></a>
 <h3>Keynote</h3>
 
-<img class="pull-right img-thumbnail" src="/assets/img/keynote-2019-Oehmen.jpg" alt="Dr Chris Oehmen"
+TBA
+
+<!-- <img class="pull-right img-thumbnail" src="/assets/img/keynote-2019-Oehmen.jpg" alt="Dr Chris Oehmen"
     style="margin-left: 6px; margin-bottom: 2px;">
 
 <h4 class="media-heading">
@@ -235,21 +240,8 @@ title: CGVC 2020
 
 <h5>Visualization in an Autonomic World: Establishing Trust, Maintaining Control, and Imparting Resilience</h5>
 
-<p>The increasingly time-sensitive requirements that bind logical and physical realms is driving an ecosystem of users,
-    software, hardware, and physical systems towards a world where autonomic control is the norm, not the exception. For
-    example, some critical infrastructure components must react to threats and hazards on the time scale of milliseconds
-    but are managed and operated by human practitioners who operate at a seconds-to-hours time scale. From this
-    perspective, hierarchical control that imparts some degree of autonomy on subsystems is therefore essential for
-    operating in the presence of non-innumerable adversarial and natural hazards. But as systems make more of their own
-    decisions, humans have an increasing need for visualization for 1) transparency into autonomous subsystem
-    decision-making; 2) sensing and control; and 3) reasoning over possible future states of the system. Transparency is
-    essential for building trust in autonomous decision making. Understanding current system state is a prerequisite for
-    efficient operation. The ability to reason over possible future states provides a basis for prioritizing proactive
-    and reactive actions to drive overall system survivability and resilience. As long as humans remain in (or on) these
-    decision loops, there will be a need to visualize complex and dynamic state information—reflecting the system’s
-    past, present, and future. As these systems grow in complexity, interconnectedness, and autonomy, new paradigms of
-    visualization will be essential for safe and efficient operation and control.
-</p>
+<p>The increasingly time-sensitive requirements that bind logical and physical realms is driving an ecosystem of users
+</p> -->
 
 <a class="page-anchor" id="submissions"></a>
 
@@ -319,90 +311,88 @@ title: CGVC 2020
 </p>
 
 <h3>5. Register for the conference</h3>
-<!--<p>Don't forget to <a href="registration.html">regi
+Don't forget to <a href="registration.html"> register</a>!
 
 
+<!-- <h3>Important Dates</h3>
 
-
-<h3>Important Dates</h3>
-
-{% for item in site.data.y2020.important_dates %}
-<h4>{{ item.title }}</h4>
-<table class="vizsec-cfp-dates">
-    <tr>
-        {% if item.extend %}
-        <td><s>{{ item.date }}</s></td>
-        <td><b>{{ item.extend }}: </b></td>
-        {% else %}
-        <td><b>{{ item.date }}: </b></td>
-        <td></td>
-        {% endif %}
-        {% if item.description %}
-        <td>{{ item.description }}</td>
-        {% endif %}
-    </tr>
-</table>
-{% endfor %}
-
-
-<h3>Committees</h3>
-
-<h4>Organizing Committee</h4>
-<ul>
-    {% for member in site.data.y2020.organizing_committee %}
-    <li>
-        <span class="committee name">
-            {% if member.url %}
-            <a href="{{ member.url }}">{{ member.name }}</a>,
+    {% for item in site.data.y2020.important_dates %}
+    <h4>{{ item.title }}</h4>
+    <table class="vizsec-cfp-dates">
+        <tr>
+            {% if item.extend %}
+            <td><s>{{ item.date }}</s></td>
+            <td><b>{{ item.extend }}: </b></td>
             {% else %}
-            {{ member.name }}
+            <td><b>{{ item.date }}: </b></td>
+            <td></td>
             {% endif %}
-        </span>
-        <span class="committee role">, {{ member.role }}</span><br>
-        <span class="committee affiliation">{{ member.affiliation }}</span>
-    </li>
+            {% if item.description %}
+            <td>{{ item.description }}</td>
+            {% endif %}
+        </tr>
+    </table>
     {% endfor %}
-</ul>
 
 
-<h4>Programme Committee</h4>
+    <h3>Committees</h3>
 
-<ul>
-    {% for member in site.data.y2020.programme_committee %}
-    <li>
-        <span class="committee name">
-            {% if member.url %}
-            <a href="{{ member.url }}">{{ member.name }}</a>,
-            {% else %}
-            {{ member.name }}
-            {% endif %}
-        </span>
-        {% if member.url %}
-        <span class="committee role">, {{ member.role }}</span>
-        {% endif %}
-        <br>
-        <span class="committee affiliation">{{ member.affiliation }}</span>
-    </li>
-    {% endfor %}
-</ul>
-
-
-<a class="page-anchor" id="supporters"></a>
-<div>
-    <h3>Supporters</h3>
-
-    <ul class="media-list">
-        {% for supporter in site.data.y2020.supporters %}
-        <li class="media">
-            <a href="{{ supporter.link }}">
-                <img class="media-object" src="{{ supporter.image }}" title="{{ supporter.title }}">
-            </a>
-            {% if supporter.job %}
-            <label>Open Position: <a href="{{ supporter.job_url }}">{{ supporter.job }}</a></label>
-            {% endif %}
-
-
+    <h4>Organizing Committee</h4>
+    <ul>
+        {% for member in site.data.y2020.organizing_committee %}
+        <li>
+            <span class="committee name">
+                {% if member.url %}
+                <a href="{{ member.url }}">{{ member.name }}</a>,
+                {% else %}
+                {{ member.name }}
+                {% endif %}
+            </span>
+            <span class="committee role">, {{ member.role }}</span><br>
+            <span class="committee affiliation">{{ member.affiliation }}</span>
         </li>
         {% endfor %}
     </ul>
-</div>
+
+
+    <h4>Programme Committee</h4>
+
+    <ul>
+        {% for member in site.data.y2020.programme_committee %}
+        <li>
+            <span class="committee name">
+                {% if member.url %}
+                <a href="{{ member.url }}">{{ member.name }}</a>,
+                {% else %}
+                {{ member.name }}
+                {% endif %}
+            </span>
+            {% if member.url %}
+            <span class="committee role">, {{ member.role }}</span>
+            {% endif %}
+            <br>
+            <span class="committee affiliation">{{ member.affiliation }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+
+    <a class="page-anchor" id="supporters"></a>
+    <div>
+        <h3>Supporters</h3>
+
+        <ul class="media-list">
+            {% for supporter in site.data.y2020.supporters %}
+            <li class="media">
+                <a href="{{ supporter.link }}">
+                    <img class="media-object" src="{{ supporter.image }}" title="{{ supporter.title }}">
+                </a>
+                {% if supporter.job %}
+                <label>Open Position: <a href="{{ supporter.job_url }}">{{ supporter.job }}</a></label>
+                {% endif %}
+
+
+            </li>
+            {% endfor %}
+        </ul>
+    </div> -->
