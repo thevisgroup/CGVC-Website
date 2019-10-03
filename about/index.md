@@ -10,22 +10,3 @@ The exciting and vibrant field of visual computing is an increasingly important 
 The objective of CGVC is to foster greater exchange between visual computing researchers and practitioners, and to draw more researchers and industry partners in the UK, Europe, and abroad to enter this rapidly growing area of research. CGVC has an expanded scope to include all areas of visual computing, and a steadily more wide-spread visibility that achieves a more wide-spread impact.
 
 CGVC papers are published in the Eurographics Digital Library of the Eurographics Association, using an expert review process.
-
-### Committee
-
-<div class="steering-committee">
-	<ul >
-	{% for member in site.data.committee %}
-		<li>
-			<span class="committee name">
-				{% if member.url %}
-					<a href="{{ member.url }}">{{ member.name }}</a>
-				{% else %}
-					{{ member.name }}
-				{% endif %}
-			</span><br>
-			<span class="committee affiliation">{{ member.affiliation }}</span>
-		</li>
-	{% endfor %}
-	</ul>
-</div>

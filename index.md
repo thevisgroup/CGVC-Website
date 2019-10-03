@@ -18,9 +18,10 @@ CGVC 2020 will be held in **King's College London, UK**.
 
 <p>
     <a class="btn btn-primary btn-lg" href="/cgvc2020" role="button">Learn more &raquo;</a>
+	<a class="btn btn-info btn-lg" href="/cgvc2020/registration" role="button">Registration &raquo;</a>
 </p>
 
-### Committee
+#### Committee
 
 <div class="steering-committee">
 	<ul >
@@ -28,11 +29,15 @@ CGVC 2020 will be held in **King's College London, UK**.
 		<li>
 			<span class="committee name">
 				{% if member.url %}
-					<a href="{{ member.url }}">{{ member.name }}</a>
+				<a href="{{ member.url }}">{{ member.name }}</a>,
 				{% else %}
-					{{ member.name }}
+				{{ member.name }}
 				{% endif %}
-			</span><br>
+			</span>
+			{% if member.role %}
+			<span class="committee role">, {{ member.role }}</span>
+			{% endif %}
+			<br>
 			<span class="committee affiliation">{{ member.affiliation }}</span>
 		</li>
 	{% endfor %}
