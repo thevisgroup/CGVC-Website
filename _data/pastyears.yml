@@ -40,106 +40,157 @@
   title: 31st TPCG Theory and Practice of Computer Graphics Conference
   location: University of Bath, UK
   date: 05 September
-  # website: http://eguk.bangor.ac.uk/TPCG2013/index.html
+  website: http://eguk.bangor.ac.uk/TPCG13/index.html
 
 - year: 2012
   title: 30th TPCG Theory and Practice of Computer Graphics Conference
   location: Rutherford Appleton Laboratory, UK
   date: 13 September
-  # website: http://eguk.bangor.ac.uk/TPCG2012/index.html
+  website: http://eguk.bangor.ac.uk/TPCG12/index.html
 
 - year: 2011
   title: 29th TPCG Theory and Practice of Computer Graphics Conference
   location: Warwick University, UK
   date: 07 September
-  # website: http://eguk.bangor.ac.uk/TPCG2011/index.html
+  website: http://eguk.bangor.ac.uk/TPCG11/index.html
 
 - year: 2010
   title: 28th TPCG Theory and Practice of Computer Graphics Conference
   location: University of Sheffield, UK
   date: 06 September
-  # website: http://eguk.bangor.ac.uk/TPCG2010/index.html
+  website: http://eguk.bangor.ac.uk/TPCG10/index.html
 
 - year: 2009
   title: 27th TPCG Theory and Practice of Computer Graphics Conference
   location: Cardiff University, UK
   date: 17 June
-  # website: http://eguk.bangor.ac.uk/TPCG2009/index.html
+  website: http://eguk.bangor.ac.uk/TPCG09/index.html
 
 - year: 2008
   title: 26th TPCG Theory and Practice of Computer Graphics Conference
   location: University of Manchester, UK
   date: 09 June
-  # website: http://eguk.bangor.ac.uk/TPCG2008/index.html
+  website: http://eguk.bangor.ac.uk/TPCG08/index.html
 
 - year: 2007
   title: 25th TPCG Theory and Practice of Computer Graphics Conference
   location: University of Wales, Bangor, UK
   date: 13 June
-  # website: http://eguk.bangor.ac.uk/TPCG2007/index.html
+  website: http://eguk.bangor.ac.uk/TPCG07/index.html
 
 - year: 2006
   title: 24th TPCG Theory and Practice of Computer Graphics Conference
   location: University of Teesside, UK
   date: 22 June
-  # website: http://eguk.bangor.ac.uk/TPCG2006/index.html
+  website: http://eguk.bangor.ac.uk/TPCG06/index.html
 
 - year: 2005
   title: 23rd TPCG Theory and Practice of Computer Graphics Conference
   location: University of Kent, UK
   date: 15 June
-  # website: http://eguk.bangor.ac.uk/TPCG2007/index.html
+  website: http://eguk.bangor.ac.uk/TPCG05/index.html
 
 - year: 2004
   title: 22nd TPCG Theory and Practice of Computer Graphics Conference
   location: University of Bournemouth, UK
   date: 08 June
-  # website: http://eguk.bangor.ac.uk/TPCG2007/index.html
+  website: http://eguk.bangor.ac.uk/TPCG04/index.html
 
 - year: 2003
   title: 21st TPCG Theory and Practice of Computer Graphics Conference
   location: University of Birmingham, UK
   date: 03 June
-  # website: http://eguk.bangor.ac.uk/TPCG2007/index.html
+  website: http://eguk.bangor.ac.uk/TPCG03/index.html
 
 - year: 2002
   title: 20th EGUK Annual Eurographics UK Conference
   location: De Montfort University, Leicester, UK
   date:  June
-  # website: http://eguk.bangor.ac.uk/EGUK2002/index.html
+  # website: http://eguk.bangor.ac.uk/DMU02/index.html
 
 - year: 2001
   title: 19th EGUK Annual Eurographics UK Conference
   location: University College London, UK
   date: 03 April
-  # website: http://eguk.bangor.ac.uk/EGUK2001/index.html
+  website: http://eguk.bangor.ac.uk/UCL01/index.html
 
 - year: 2000
   title: 18th EGUK Annual Eurographics UK Conference
   location: Swansea University, UK
   date: 04 April
-  # website: http://eguk.bangor.ac.uk/EGUK2000/index.html
+  website: http://eguk.bangor.ac.uk/Swansea00/index.html
 
 - year: 1999
   title: 17th EGUK Annual Eurographics UK Conference
   location: University of Cambridge, UK
   date: 13 April
-  # website: http://eguk.bangor.ac.uk/EGUK1999/index.html
+  website: http://eguk.bangor.ac.uk/Camb99/index.html
 
 - year: 1998
   title: 16th EGUK Annual Eurographics UK Conference
   location: University of Leeds, UK
   date: 25 March
-  # website: http://eguk.bangor.ac.uk/EGUK1998/index.html
+  website: http://eguk.bangor.ac.uk/Leeds98/index.html
 
 - year: 1997
-  title: 16th EGUK Annual Eurographics UK Conference
+  title: 15th EGUK Annual Eurographics UK Conference
   location: University of East Anglia, UK
   date: 24 March
-  # website: http://eguk.bangor.ac.uk/EGUK1997/index.html
+  website: http://eguk.bangor.ac.uk/UEA97/index.html
 
-# - year: 1996
-#   title: 15th EGUK Annual Eurographics UK Conference
-#   location: London, UK
-#   # date: 24 March
-#   # website: http://eguk.bangor.ac.uk/EGUK1997/index.html
+- year: 1996
+  title: 14th EGUK Annual Eurographics UK Conference
+  location: London, UK
+
+- year: 1995
+  title: 13rd EGUK Annual Eurographics UK Conference
+  location: Loughborough, UK
+
+- year: 1994
+  title: 12nd EGUK Annual Eurographics UK Conference
+  location: Oxford, UK
+
+- year: 1993
+  title: 11st EGUK Annual Eurographics UK Conference
+  location: York, UK
+
+- year: 1992
+  title: 10th EGUK Annual Eurographics UK Conference
+  location: Edinburgh, UK
+
+- year: 1991
+  title: 9th EGUK Annual Eurographics UK Conference
+  location: University of Sheffield, UK
+
+- year: 1990
+  title: 8th EGUK Annual Eurographics UK Conference
+  location: University of Bath, UK
+
+- year: 1989
+  title: 7th EGUK Annual Eurographics UK Conference
+  location: Manchester, UK
+
+- year: 1988
+  title: 6th EGUK Annual Eurographics UK Conference
+  location: Sussex, UK
+
+- year: 1987
+  title: 5th EGUK Annual Eurographics UK Conference
+  location: Norwich, UK
+
+- year: 1986
+  title: 4th EGUK Annual Eurographics UK Conference
+  location: Glasgow, UK
+
+- year: 1985
+  title: 3rd EGUK Annual Eurographics UK Conference
+  location: University of Bath, UK
+
+- year: 1984
+  title: 2nd EGUK Annual Eurographics UK Conference
+  location: University of Kent, UK
+
+- year: 1983
+  title: 1st EGUK Annual Eurographics UK Conference
+  location: University of York, UK
+  date: 28 March

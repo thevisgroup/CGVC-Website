@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<h2><img alt="Magnifying glass" src="/assets/img/branding_magnifier.png" class="header-magnifier" />News</h2>
+<h2><img alt="CGVC Logo" src="/assets/img/branding_logo.svg" class="header-logo" />News</h2>
 
 {% for post in paginator.posts %}
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <p class="author">
-  <span class="date">{{ post.date }}</span>
+  <span class="date">{{ post.date | date_to_long_string }}</span>
 </p>
 <div class="content">
   {{ post.content }}

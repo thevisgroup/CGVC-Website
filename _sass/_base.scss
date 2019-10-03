@@ -1,12 +1,12 @@
 /*
-	VizSec base SASS styling
+	cgvc base SASS styling
 */
 
 @charset "UTF-8";
 
 body {
   padding-top: floor(($navbar-height));
-  background: $vizsec_dark;
+  background: $cgvc_main;
 }
 
 // headers are all sans serif; body is serif
@@ -29,9 +29,9 @@ ul {
   margin: 0;
 }
 
-.header-magnifier {
-  height: 25px;
-  margin-right: 10px;
+.header-logo {
+  height: 50px;
+  margin-bottom: 10px;
 }
 
 .jumbotron {
@@ -57,7 +57,7 @@ li {
 
 li:before {
   content: "\BB  ";
-  color: $vizsec_highlight;
+  color: $cgvc_highlight;
 }
 
 li.no-bullet {
@@ -91,7 +91,7 @@ li.no-bullet {
   position: relative;
   top: -0.2em;
   font-size: 0.5em !important;
-  color: $vizsec_highlight;
+  color: $cgvc_highlight;
 }
 
 .navbar-nav .fa:not(.nav-sep) {
@@ -113,15 +113,15 @@ li.no-bullet {
   padding-top: 10px;
   width: 100%;
   height: 80px;
-  background-color: $vizsec_light;
+  background-color: $cgvc_main;
 }
 
 .footer > div {
-  border-top: 7px solid $vizsec_highlight;
-  background-color: $vizsec_dark;
+  border-top: 7px solid $cgvc_highlight;
+  background-color: $cgvc_main;
   font-family: $font-family-sans-serif;
   text-align: center;
-  color: $vizsec_light;
+  color: $cgvc_light;
   padding: 30px 0px 30px 0px;
 }
 
@@ -141,7 +141,7 @@ a:visited:not(.btn),
 a:hover:not(.btn),
 a:active:not(.btn) {
   text-decoration: none;
-  border-bottom: 1px dotted $vizsec_dark;
+  border-bottom: 1px dotted $cgvc_main;
 }
 
 .sidebar > div:not(:last-child) {
@@ -157,15 +157,15 @@ a:active:not(.btn) {
 }
 
 .jumbotron {
-  color: $vizsec_light;
+  color: $cgvc_main;
   padding-top: 0px;
   padding-bottom: 20px;
   margin: 0px;
-  border-bottom: 7px solid $vizsec_highlight;
+  border-bottom: 7px solid $cgvc_highlight;
 }
 
 .highlight {
-  color: $vizsec_highlight;
+  color: $cgvc_highlight;
 }
 
 #eurographics {
@@ -187,7 +187,7 @@ a:active:not(.btn) {
 // the underlay stops inertia scrolling from showing whitespace
 .navbar-underlay {
   z-index: -1;
-  background-color: $vizsec_dark;
+  background-color: $cgvc_main;
   width: 100%;
   height: $navbar_height;
   position: absolute;
@@ -202,11 +202,11 @@ a:active:not(.btn) {
 }
 
 .navbar-nav a {
-  color: $vizsec_light;
+  color: $cgvc_main;
 }
 
 .navbar-nav a:hover {
-  color: $vizsec_light;
+  color: $cgvc_main;
 }
 
 .nav > li:before {
@@ -224,7 +224,7 @@ a:active:not(.btn) {
 
 .ipc.affiliation {
   font-weight: bold;
-  color: $vizsec_highlight;
+  color: $cgvc_highlight;
 }
 
 .committee.name {
@@ -232,11 +232,11 @@ a:active:not(.btn) {
 }
 
 .committee.name > a {
-  color: $vizsec_dark;
+  color: $cgvc_main;
 }
 
 .committee.affiliation {
-  color: $vizsec_highlight;
+  color: $cgvc_highlight;
   font-size: floor(($font-size-base * 0.85));
 }
 
@@ -244,11 +244,11 @@ a:active:not(.btn) {
   font-style: italic;
 }
 
-.vizsec-event-sidebar-list > dt {
+.cgvc-event-sidebar-list > dt {
   width: 60px;
 }
 
-.vizsec-event-sidebar-list > dt > span {
+.cgvc-event-sidebar-list > dt > span {
   width: 50px;
   display: inline-block;
 }
@@ -290,7 +290,7 @@ a:active:not(.btn) {
   }
 }
 
-.vizsec-event-meta > dd {
+.cgvc-event-meta > dd {
   border-bottom: 1px solid red;
   padding: 10px;
   margin-bottom: 10px;
@@ -300,20 +300,20 @@ a:active:not(.btn) {
   }
 }
 
-.vizsec-event-meta.title {
+.cgvc-event-meta.title {
   font-style: italic;
 }
 
-.vizsec-event-meta.location {
+.cgvc-event-meta.location {
 }
 
-.vizsec-event-meta.date {
+.cgvc-event-meta.date {
 }
 
-.vizsec-event-meta.acceptance {
+.cgvc-event-meta.acceptance {
 }
 
-table.vizsec-cfp-dates {
+table.cgvc-cfp-dates {
   margin-left: 40px;
   .td-extend{
     padding-right: 10px;
@@ -323,7 +323,7 @@ table.vizsec-cfp-dates {
   }
 }
 
-table.vizsec-cfp-dates tr td:first-child {
+table.cgvc-cfp-dates tr td:first-child {
   padding-right: 10px;
   text-align: right;
 }

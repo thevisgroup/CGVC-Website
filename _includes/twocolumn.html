@@ -3,8 +3,8 @@
 	<div class="row">
 		<div class="col-md-8">
 
-			{% if page.title %}<h2><img alt="Magnifying glass" src="/assets/img/branding_magnifier.png"
-					class="header-magnifier" />{{ page.title }}</h2>{% endif %}
+			{% if page.title %}<h2><img alt="CGVC Logo" src="/assets/img/branding_logo.svg"
+					class="header-logo" />{{ page.title }}</h2>{% endif %}
 
 			{{ content }}
 		</div>
@@ -54,15 +54,23 @@
 			<div class="sidebar_extraneous">
 				<h4><i class="fas fa-calendar-alt" aria-hidden="true"></i> Past CGVC Conferences</h4>
 				<div>
-					<dl class="dl-horizontal-xs vizsec-event-sidebar-list">
-						{% for event in site.data.pastyears %}
-						<dt><a href="{{ event.website }}"><span class="label label-primary">{{ event.year }}</span></a>
+					<dl class="dl-horizontal-xs cgvc-event-sidebar-list">
+						{% assign pastyears = site.data.pastyears | slice:0, 20 %}
+						{% for event in pastyears %}
+						<dt>
+							<span class="label label-primary">{{ event.year }}</span>
 						</dt>
-						<dd><small>{{ event.location }}</small></dd>
+						<dd><small>
+								{% if event.website %}
+								<a href="{{ event.website }}">{{ event.location }}</a>
+								{% else %}
+								{{ event.location }}
+								{% endif %}
+							</small></dd>
 						{% endfor %}
 					</dl>
 				</div>
-				<a id="viewallevents" class="btn btn-default btn-sm " href="/past">View all »</a>
+				<a id="viewallevents" class="btn btn-success btn-sm " href="/past">View all »</a>
 			</div>
 		</div>
 	</div>
