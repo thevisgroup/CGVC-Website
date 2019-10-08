@@ -9,7 +9,7 @@ Check the [version of jekyll on github pages](https://pages.github.com/versions/
 
 Then to start a jekyll server:
 	
-		docker run -v "$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8.5 jekyll serve
+		docker run --name cgvc -v "$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8.5 jekyll serve
 	
 And open a browser to http://localhost:4000
 
@@ -27,11 +27,10 @@ And open a browser to http://localhost:4000
 
 # Deploying to a Github Pages setup
 
-Everything is now managed by Jekyll. Running: 
+Everything is now managed by Jekyll. Running:
 
 	jekyll build
 
-...will build the site into `_site`, as per Jekyll defaults. `jekyll serve` for local testing. 
+...will build the site into `_site`, as per Jekyll defaults. `jekyll serve` for local testing.
 
-Pushing the whole repository to a Github Pages-compliant repository will host the site there. 
-
+Pushing the whole repository to a Github Pages-compliant repository will host the site there.

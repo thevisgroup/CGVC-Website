@@ -60,10 +60,28 @@ li:before {
   color: $cgvc_highlight;
 }
 
-li.no-bullet {
+li.no-bullet, ul.dropdown-menu>li:before {
   content: "" !important;
   list-style: none;
   list-style-type: none;
+}
+
+.dropdown-menu {
+  li{
+    a {
+      padding: 3px 15px;
+    }
+    @media (max-width: $screen-sm){
+      a:hover {
+        background-color: $cgvc_main;
+      }
+    }
+  }
+  @media (max-width: $screen-sm){
+    .divider{
+      background-color: $cgvc_main;
+    }
+  }
 }
 
 .vspace {
@@ -87,10 +105,10 @@ li.no-bullet {
 .nav-sep {
   @extend .hidden-xs;
   margin-right: 0em;
-  margin-left: 3em;
+  margin-left: 1.5em;
   position: relative;
-  top: -0.2em;
-  font-size: 0.5em !important;
+  top: -0.1em;
+  font-size: 0.8em !important;
   color: $cgvc_highlight;
 }
 
@@ -304,15 +322,6 @@ a:active:not(.btn) {
   font-style: italic;
 }
 
-.cgvc-event-meta.location {
-}
-
-.cgvc-event-meta.date {
-}
-
-.cgvc-event-meta.acceptance {
-}
-
 table.cgvc-cfp-dates {
   margin-left: 40px;
   .td-extend{
@@ -450,4 +459,8 @@ ul.media-list li.media img.media-object {
 .sponsors-logo {
   margin: 37px 30px 0;
   height: 100px;
+}
+
+.steering-committee{
+  padding-bottom: 1rem;
 }
