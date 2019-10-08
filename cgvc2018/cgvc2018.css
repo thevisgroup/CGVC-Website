@@ -1,0 +1,117 @@
+.body {
+	color: #333;
+	font-family: Helvetica, sans-serif;
+}
+
+.body a {
+	color: #06266f;
+	text-decoration: none;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.body a:hover {
+	text-decoration: underline;
+}
+
+.body .header h1 {
+	font-size: 18pt;
+	margin-top: 18pt;
+}
+
+.body .header .top-logo {
+	float: right;
+	padding-top: 18pt;
+}
+
+.body .header .clear-logo {
+	clear:both;
+}
+
+.body .header .bottom-logo {
+	float: right;
+	padding-top: 12pt;
+}
+
+.body .navigation .unit {
+	padding-bottom: 3px;
+}
+
+.body .navigation a {
+	font-weight: bold;
+}
+
+.body table {
+	width: 100%;
+}
+
+.body tr {
+	background-color: #eee;
+}
+
+.body td {
+	vertical-align: top;
+	width: 50%
+}
+
+.body td p {
+	margin: 0px;
+	/*margin-right: 18pt;*/
+  min-width: 90px;
+}
+
+.body td p.title {
+	font-style: italic;
+}
+
+.img{
+
+
+}
+
+
+
+/*Gallery stuff*/
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+	height: 130px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(3,3);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
