@@ -1,7 +1,7 @@
 ---
 layout: front
 custom_css: show_past_years
-title: Welcome!
+title: Welcome to CGVC!
 ---
 
 Computer Graphics & Visual Computing (CGVC) has been a Eurographics supported event since 1983, when the first instance took place 28-29 March 1983 at University of York.
