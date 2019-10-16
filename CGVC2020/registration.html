@@ -26,15 +26,13 @@ We’re pleased to announce that the registration for CGVC 2019 is now open. To 
 <a class="page-anchor" id="venue"></a>
 <h3>Venue</h3>
 <p>
-    Venue info
+    King's College London
 </p>
 
 <p>
-    Contact info
-</p>
-
-<p>
-    a map here
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.094275545577!2d-0.11819104866023993!3d51.5114863795358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b5a3b455dd%3A0xb0643efb7ed0928d!2sKing&#39;s%20College%20London!5e0!3m2!1sen!2suk!4v1571257786967!5m2!1sen!2suk"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </p>
 
 <a class="page-anchor" id="accommodation"></a>
@@ -50,5 +48,36 @@ We’re pleased to announce that the registration for CGVC 2019 is now open. To 
 <a class="page-anchor" id="travel"></a>
 <h3>Travel Information</h3>
 <p>
-    travel info
+    For information about traveling to King's College London, please visit <a
+        href="https://www.kcl.ac.uk/study/london/travel">King's College London -- Travel in London.</a>
+</p>
+
+<p>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.094275545577!2d-0.11819104866023993!3d51.5114863795358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b5a3b455dd%3A0xb0643efb7ed0928d!2sKing&#39;s%20College%20London!5e0!3m2!1sen!2suk!4v1571257786967!5m2!1sen!2suk"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</p>
+
+<a class="page-anchor" id="contact"></a>
+<h3>Contact</h3>
+<p>
+    <ul>
+        {% for member in site.data.y2020.organizing_committee %}
+        <li class="list">
+            <span class="committee name">
+                {% if member.url %}
+                <a href="{{ member.url }}">{{ member.name }}</a>
+                {% else %}
+                {{ member.name }}
+                {% endif %}
+            </span>
+            {% if member.role %}
+            <span class="committee role">, {{ member.role }}</span>
+            {% endif %}
+            <br>
+            <span class="committee affiliation">{{ member.affiliation }}</span><br>
+            <span class="committee email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></span>
+        </li>
+        {% endfor %}
+    </ul>
 </p>
