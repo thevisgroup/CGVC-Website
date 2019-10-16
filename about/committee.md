@@ -6,7 +6,7 @@ layout: default
 <div class="steering-committee">
 	<ul >
 	{% for member in site.data.committee %}
-		<li>
+		<li class="list">
 			<span class="committee name">
 				{% if member.url %}
 					<a href="{{ member.url }}">{{ member.name }}</a>

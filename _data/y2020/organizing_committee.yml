@@ -2,4 +2,11 @@
 - name: Rita Borgo
   role: Conference Chair
   affiliation: King's College London
-  # url: http://cs.swan.ac.uk/~csbob/
+  url: https://www.kcl.ac.uk/people/rita-borgo
+  email: rita.borgo@kcl.ac.uk
+
+- name: Alfie Abdul-Rahman
+  role: Conference Chair
+  affiliation: King's College London
+  url: https://www.kcl.ac.uk/people/alfie-abdul-rahman
+  email: alfie.abdulrahman@kcl.ac.uk
