@@ -252,7 +252,7 @@ TBA
 <h4>Organizing Committee</h4>
 <ul>
     {% for member in site.data.y2020.organizing_committee %}
-    <li>
+    <li class="list">
         <span class="committee name">
             {% if member.url %}
             <a href="{{ member.url }}">{{ member.name }}</a>
@@ -270,44 +270,15 @@ TBA
 </ul>
 
 
-<h4>Programme Committee</h4>
+<h4>Programme Committee (Tentative)</h4>
 
 <ul>
     {% for member in site.data.y2020.programme_committee %}
-    <li>
+    <li class="list">
         <span class="committee name">
-            {% if member.url %}
-            <a href="{{ member.url }}">{{ member.name }}</a>,
-            {% else %}
-            {{ member.name }}
-            {% endif %}
+            {{ member.name }},
         </span>
-        {% if member.role %}
-        <span class="committee role">, {{ member.role }}</span>
-        {% endif %}
-        <br>
         <span class="committee affiliation">{{ member.affiliation }}</span>
     </li>
     {% endfor %}
 </ul>
-
-
-<a class="page-anchor" id="supporters"></a>
-<div>
-    <h3>Supporters</h3>
-    TBA
-    <!-- <ul class="media-list">
-        {% for supporter in site.data.y2020.supporters %}
-        <li class="media">
-            <a href="{{ supporter.link }}">
-                <img class="media-object" src="{{ supporter.image }}" title="{{ supporter.title }}">
-            </a>
-            {% if supporter.job %}
-            <label>Open Position: <a href="{{ supporter.job_url }}">{{ supporter.job }}</a></label>
-            {% endif %}
-
-
-        </li>
-        {% endfor %}
-    </ul> -->
-</div>
