@@ -25,7 +25,7 @@ CGVC 2020 will be held in **King's College London, UK**.
 
 <div class="steering-committee">
 	<ul >
-	{% for member in site.data.y2020.organizing_committee %}
+	{% for member in site.data.CGVC2020.organizing_committee %}
 		<li class="list">
 			<span class="committee name">
 				{% if member.url %}

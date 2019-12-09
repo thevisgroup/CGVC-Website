@@ -18,9 +18,6 @@ sass:
 
 markdown: kramdown
 
-collections:
-    - cgvcmeta
-
 defaults:
   -
     scope:
