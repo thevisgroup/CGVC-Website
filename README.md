@@ -1,6 +1,19 @@
 CGVC - How to update
 ===============
 
+## Access to this repository
+
+The repository is read-only for anyone, but in order to make changes you need to:
+
+1. Email Wang (wang.qiru"at"swansea.ac.uk) using your institutional email address.
+1. Include your GitHub account handler, you will be listed as a maintainer of this repository.
+
+### Submit changes
+
+1. All changes **must** be submitted via a [git pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+1. All changes **must** include a commit message explaining the changes you've made.
+1. A commit **must** focus on a single subject only, so it's easier to follow.
+
 ## Add a new conference
 
 For example we are adding a new conference for the CGVC in 2021, follow the steps below:
@@ -32,3 +45,4 @@ For example we are adding a new conference for the CGVC in 2021, follow the step
 ## Help
 
 1. Open an issue on CGVC's github page: https://github.com/swanseavisgroup/CGVC/issues/new
+1. Email Wang (wang.qiru"at"swansea.ac.uk)
