@@ -1,0 +1,56 @@
+---
+layout: default
+custom_css: cfp_sidebar
+title: CGVC 2020 Committee
+---
+
+<h3>Steering Committee</h3>
+<ul>
+    {% for member in site.data.CGVC2020.steering_committee %}
+    <li class="list">
+        <span class="committee name">
+            {% if member.url %}
+            <a href="{{ member.url }}">{{ member.name }}</a>
+            {% else %}
+            {{ member.name }}
+            {% endif %}
+        </span>
+        <span class="committee role">, {{ member.role }}</span><br>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>
+
+<h3>Organizing Committee</h3>
+<ul>
+    {% for member in site.data.CGVC2020.organizing_committee %}
+    <li class="list">
+        <span class="committee name">
+            {% if member.url %}
+            <a href="{{ member.url }}">{{ member.name }}</a>
+            {% else %}
+            {{ member.name }}
+            {% endif %}
+        </span>
+        {% if member.role %}
+        <span class="committee role">, {{ member.role }}</span>
+        {% endif %}
+        <br>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>
+
+
+<h3>Programme Committee (Tentative)</h3>
+
+<ul>
+    {% for member in site.data.CGVC2020.programme_committee %}
+    <li class="list">
+        <span class="committee name">
+            {{ member.name }},
+        </span>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>

@@ -21,6 +21,7 @@ CGVC 2020 will be held in **King's College London, UK**.
 	<a class="btn btn-info btn-lg" href="/CGVC2020/registration" role="button">Registration &raquo;</a>
 </p>
 
+<!-- 
 #### Committee
 
 <div class="steering-committee">
@@ -43,3 +44,4 @@ CGVC 2020 will be held in **King's College London, UK**.
 	{% endfor %}
 	</ul>
 </div>
+-->
