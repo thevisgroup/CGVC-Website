@@ -1,5 +1,4 @@
 <div class="container">
-
 	<div class="row">
 		<div class="col-md-8">
 
@@ -43,13 +42,28 @@
 			<!--</div>-->
 			<div>
 				<h4><i class="fas fa-bullhorn" aria-hidden="true"></i> CGVC News</h4>
-				<ul>
+				<div style="width:100%">
+					<div id="fb-root"></div>
+					<script async defer crossorigin="anonymous"
+						src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=326832641570659&autoLogAppEvents=1"></script>
+					<div class="fb-page"
+						data-href="https://www.facebook.com/Computer-Graphics-Visual-Computing-CGVC-107227347520634/"
+						data-tabs="timeline,events,messages" data-small-header="false" data-adapt-container-width="true"
+						data-hide-cover="false" data-show-facepile="true">
+						<blockquote
+							cite="https://www.facebook.com/Computer-Graphics-Visual-Computing-CGVC-107227347520634/"
+							class="fb-xfbml-parse-ignore"><a
+								href="https://www.facebook.com/Computer-Graphics-Visual-Computing-CGVC-107227347520634/">Computer
+								Graphics &amp; Visual Computing CGVC</a></blockquote>
+					</div>
+				</div>
+				<!-- <ul>
 					{% for post in site.posts %}
 					<li>
 						<a href="{{ post.url }}">{{ post.title }}</a>
 					</li>
 					{% endfor %}
-				</ul>
+				</ul> -->
 			</div>
 			<div class="sidebar_extraneous">
 				<h4><i class="fas fa-calendar-alt" aria-hidden="true"></i> Past CGVC Conferences</h4>
