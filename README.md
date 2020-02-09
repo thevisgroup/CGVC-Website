@@ -28,9 +28,8 @@ For example we are adding a new conference for the CGVC in 2021, follow the step
 
 ## Update data for a conference
 
-1. Update the corresponding files in `_data/CGVC2021`. There are 3 files in the folder, their names are self-explanatory.
+1. Update the corresponding files in `_data/CGVC2021`. There are 4 files in the folder, their names are self-explanatory.
 1. Update `pastyears.yml` in the `_data` folder to include CGVC 2021. **Indentation matters in these files.**
-1. Update `committee.yml` in the `_data` folder if necessary. **Indentation matters in these files.**
 
 ## Manual update/tweak for webpages
 
