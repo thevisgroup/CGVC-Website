@@ -9,9 +9,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-paginate: 5
-paginate_path: "/news/page:num/"
-
 sass:
   sass_dir: _sass
   style: compressed
@@ -19,8 +16,7 @@ sass:
 markdown: kramdown
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # empty string for all files
       type: "posts"
     values:
