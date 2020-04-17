@@ -402,6 +402,28 @@ table.program td p {
   margin: 8px 0px 0px 0px;
 }
 
+table.sponsor-level {
+  th,
+  td:not(:first-child) {
+    text-align: center;
+  }
+
+  tr:not(:first-child):hover {
+    background-color: $cgvc_light;
+  }
+
+  td,
+  th {
+    padding: 2px;
+    border: 1px solid $cgvc_highlight;
+  }
+
+  th:not(:first-child) {
+    background-color: $cgvc_light;
+    text-align: center;
+  }
+}
+
 // for that awkward middle responsive navbar transition
 @media (max-width: $screen-md) and (min-width: $screen-sm) {
   // .jumbotron {
