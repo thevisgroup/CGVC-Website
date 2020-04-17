@@ -61,6 +61,10 @@ li {
   text-indent: -0.7em;
 }
 
+li.committee-list {
+  padding: 0 0 0.5em 1.3em !important;
+}
+
 li:before {
   content: "\BB  ";
   color: $cgvc_highlight;
@@ -272,11 +276,6 @@ a:active:not(.btn) {
   .role {
     font-style: italic;
   }
-
-}
-
-li.list {
-  margin-bottom: 2em !important;
 }
 
 .cgvc-event-sidebar-list > dt {
@@ -313,9 +312,6 @@ li.list {
       margin-left: $dl-horizontal-xs-offset;
     }
   }
-}
-
-.dl-horizontal dd {
 }
 
 .dl-horizontal dd {
