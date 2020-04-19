@@ -123,8 +123,7 @@ Depending on the choice of sponsoring package(s), the following advantages are o
 
 ### Questions?
 
-Contact Information
-(Place a link to the conference committee page here.)
+Please visit [the conference committee](../CGVC2020/committee) page for contact information.
 
 ### Further Questions and Answers
 
