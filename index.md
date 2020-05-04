@@ -21,7 +21,11 @@ CGVC 2020 will be held in **King's College London, UK**.
 	<a class="btn btn-info btn-lg" href="/CGVC2020/registration" role="button">Registration &raquo;</a>
 </p>
 
-<!-- 
+### CGVC 2021
+
+The programme chair of CGVC 2021 will be [Dr. Tom Kelly](https://eps.leeds.ac.uk/computing/staff/1545/dr-tom-kelly) of **University of Leeds, UK**.
+
+<!--
 #### Committee
 
 <div class="steering-committee">
