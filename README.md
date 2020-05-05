@@ -1,11 +1,10 @@
-CGVC - How to update
-===============
+# CGVC - How to update
 
 ## Access to this repository
 
 The repository is read-only for anyone, but in order to make changes you need to:
 
-1. Email Bob (robert.laramee"at"nottingham.ac.uk) or Wang (wang.qiru"at"swansea.ac.uk) using your institutional email address.
+1. Email Bob (robert.laramee"at"nottingham.ac.uk) or Qiru (qiru.wang"at"nottingham.ac.uk) using your institutional email address.
 1. Include your GitHub account handler, you will be listed as a maintainer of this repository.
 
 ### Submit changes
@@ -19,12 +18,12 @@ The repository is read-only for anyone, but in order to make changes you need to
 For example we are adding a new conference for the CGVC in 2021, follow the steps below:
 
 1. Duplicate the last year's folder `CGVC2020` and rename it to `CGVC2021`. **This folder contains the webpage structure (HTML files)**.
-	1. Search and replace `site.data.CGVC2020` with `site.data.CGVC2021` within the `CGVC2021` folder created.
+   1. Search and replace `site.data.CGVC2020` with `site.data.CGVC2021` within the `CGVC2021` folder created.
 1. In the `_data` folder located in the root directory, duplicate the last year's folder `CGVC2020` and rename it to `CGVC2021`. **This folder contains the data (important dates and committees) for the conference.**
 1. Update `index.md` in the root directory to point to CGVC 2021:
-	1. The file supports HTML and markdown syntax.
-	1. Update the conference location, and the description if necessary.
-	1. Search and replace `CGVC2020` with `CGVC2021`.
+   1. The file supports HTML and markdown syntax.
+   1. Update the conference location, and the description if necessary.
+   1. Search and replace `CGVC2020` with `CGVC2021`.
 
 ## Update data for a conference
 
@@ -37,15 +36,19 @@ For example we are adding a new conference for the CGVC in 2021, follow the step
 1. To update the style, go to `_sass/base.scss`, which supports scss, sass and css syntax.
 1. In each year's folder, there is a `documents` folder which contains static files such as latex templates, guidelines for that year. Referencing them is easy: `<a href="documents/Guideline.pdf">Guideline.pdf</a>.`
 
+## Update email forwarding
+
+1. This is currently controlled by Qiru using Cloudflare.
+
 ## Preview
 
 1. Check the `Deploy.md` file on how to preview changes.
 
 ## Help
 
-1. Open an issue on CGVC's github page: https://github.com/swanseavisgroup/CGVC/issues/new
-1. Email Bob (robert.laramee"at"nottingham.ac.uk) or Wang (wang.qiru"at"swansea.ac.uk)
+1. Open an issue on CGVC's github page: <https://github.com/thevisgroup/CGVC/issues/new>
+1. Email Bob (robert.laramee"at"nottingham.ac.uk) or Qiru (qiru.wang"at"nottingham.ac.uk)
 
-https://github.com/swanseavisgroup/CGVC
+<https://github.com/thevisgroup/CGVC>
 
-Qiru Wang
+Updated on 5 May 2020 by Qiru Wang
