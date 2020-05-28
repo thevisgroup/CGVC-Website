@@ -43,18 +43,24 @@ title: CGVC 2020 Committee
     {% endfor %}
 </ul>
 
-### Programme Committee (Tentative)
+### Programme Committee
 
 <table>
-    {% for member in site.data.CGVC2020.programme_committee %}
-    {% assign index = forloop.index | modulo:3 %}
+
+{% for member in site.data.CGVC2020.programme_committee %}
+{% assign index = forloop.index | modulo:3 %}
 
     {% if index == 1 %}
-    <tr>
-        {% endif %}
+        <tr>
+    {% endif %}
+
         <td>
             <ul>
                 <li class="committee-list">
+                    {% if member.role %}
+                        <span class="committee role">{{ member.role }}</span>
+                        <br>
+                    {% endif %}
                     <span class="committee name">
                         {% if member.url %}
                         <a href="{{ member.url }}">{{ member.name }}</a>
@@ -62,19 +68,23 @@ title: CGVC 2020 Committee
                         {{ member.name }}
                         {% endif %}
                     </span>
-                    {% if member.role %}
-                    <span class="committee role">, {{ member.role }}</span>
-                    {% endif %}
                     <br>
-                    <span class="committee affiliation">{{ member.affiliation }}</span>
+                    {% if member.affiliation %}
+                        <span class="committee affiliation">{{ member.affiliation }}</span>
+                    {% endif %}
                 </li>
             </ul>
         </td>
-        {% if index == 0 %}
-    </tr>
+
+    {% if index == 0 %}
+        </tr>
     {% endif %}
 
-    {% endfor %}
+{% endfor %}
+
+    {% if index != 0 %}
+        </tr>
+    {% endif %}
 
 </table>
 
