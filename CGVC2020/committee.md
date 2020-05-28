@@ -129,6 +129,7 @@ Below are the roles and responsibilities for members of the CGVC Organizing Comm
 
 #### Webmaster
 
+- Website and email hosting
 - General website maintenance
 - Update site with organizing and program committee
 - Update site with CfP
