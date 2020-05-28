@@ -7,7 +7,11 @@ All source files are in the root directory to comply with [Github Pages](https:/
 Check the [version of jekyll on github pages](https://pages.github.com/versions/) and use that below:
 
 Then to start a jekyll server:
-docker run --name cgvc -v "\$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8.5 jekyll serve
+
+```bash
+    docker run --name cgvc -v "$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8.5 jekyll serve
+```
+
 And visit http://localhost:4000 in your browser for preview.
 
 ## Using Ruby
