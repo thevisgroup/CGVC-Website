@@ -1,8 +1,8 @@
 - title: "Submission Deadline"
-  description: "Submission will be closed."
+  # description: "The submission deadline is being extended.  Further details coming soon."
   date: "Friday, 5 June 2020"
+  extend: "The submission deadline is being extended. Further details coming soon."
 
-  # extend: "28 Jun 2020"
 - title: "Notification of Acceptance"
   date: "Tuesday, 21 July 2020"
 

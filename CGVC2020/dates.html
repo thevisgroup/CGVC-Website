@@ -3,30 +3,6 @@ layout: default
 title: CGVC 2020 Important Dates
 ---
 
-{% for item in site.data.CGVC2020.important_dates %}
-<h4>{{ item.title }}</h4>
-<table class="cgvc-cfp-dates">
-    <tr>
-        <td>{{ item.title }}:</td>
-        {% if item.extend %}
-        <td class="td-extend"> <s>{{ item.date }}</s> <b>{{ item.extend }} </b></td>
-
-        {% else %}
-        <td><b>{{ item.date }} </b></td>
-
-        {% endif %}
-
-        <td></td>
-        {% if item.description %}
-        <td>&nbsp- {{ item.description }}</td>
-        {% endif %}
-    </tr>
-</table>
-{% endfor %}
+{% include dates.html %}
 
 <p>View the <a href="cfp" role="button">Call for Papers</a> for information on submission guidelines.
-
-<p>
-    <a class="btn btn-primary btn-md" href="https://srmv2.eg.org/COMFy/Conference/CGVC_2020" role="button"
-        target="_blank">Start Submission </a>
-</p>

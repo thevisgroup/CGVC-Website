@@ -21,30 +21,7 @@ title: CGVC 2020 Call for Papers
   </b>
 </p>
 
-<h4>Important Dates</h4>
-{% for item in site.data.CGVC2020.important_dates %}
-<table class="cgvc-cfp-dates">
-  <tr>
-    <td>{{ item.title }}:</td>
-    {% if item.extend %}
-    <td class="td-extend"> <s>{{ item.date }}</s>
-      <b>{{ item.extend }} </b></td>
-    {% else %}
-    <td><b>{{ item.date }} </b></td>
-
-    {% endif %}
-
-    <td></td>
-    {% if item.description %}
-    <td>&nbsp- {{ item.description }}</td>
-    {% endif %}
-  </tr>
-</table>
-{% endfor %}
-<p>
-  <a class="btn btn-primary btn-md" href="https://srmv2.eg.org/COMFy/Conference/CGVC_2020" role="button"
-    target="_blank">Start Submission </a>
-</p>
+{% include dates.html %}
 
 <p>
   We seek contributions in the form of full papers, short papers, viewpoint papers and extended abstracts (posters).

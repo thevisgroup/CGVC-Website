@@ -1,0 +1,25 @@
+<h4>Important Dates</h4>
+{% for item in site.data.CGVC2020.important_dates %}
+<table class="cgvc-cfp-dates">
+	<tr>
+		<td>{{ item.title }}:</td>
+		{% if item.extend %}
+		<td class="td-extend"> <s>{{ item.date }}</s></td>
+		<b>{{ item.extend }} </b>
+		{% else %}
+		<td><b>{{ item.date }} </b></td>
+
+		{% endif %}
+
+		<td></td>
+		{% if item.description %}
+		<td>&nbsp- {{ item.description }}</td>
+		{% endif %}
+	</tr>
+</table>
+{% endfor %}
+
+<p>
+	<a class="btn btn-primary btn-md" href="https://srmv2.eg.org/COMFy/Conference/CGVC_2020" role="button"
+		target="_blank">Start Submission </a>
+</p>
