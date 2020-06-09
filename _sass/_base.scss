@@ -187,14 +187,14 @@ a:active:not(.btn) {
 
 .jumbotron {
   color: $cgvc_main;
-  padding-top: 0px;
-  padding-bottom: 20px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   margin: 0px;
-  border-bottom: 7px solid $cgvc_highlight;
+  border-bottom: 2px solid $cgvc_highlight;
 }
 
 .navbar {
-  border-bottom: 7px solid $cgvc_highlight;
+  border-bottom: 5px solid $cgvc_highlight;
 }
 
 .highlight {
@@ -426,15 +426,15 @@ table.sponsor-level {
 
 // for that awkward middle responsive navbar transition
 @media (max-width: $screen-md) and (min-width: $screen-sm) {
-  // .jumbotron {
-  //   padding-top: 50px !important;
-  // }
-  // .navbar-nav {
-  //   margin-top: -15px;
-  // }
-  // .page-content-default {
-  //   margin-top: 65px;
-  // }
+  .jumbotron {
+    padding-top: 50px !important;
+  }
+  .navbar-nav {
+    margin-top: -15px;
+  }
+  .page-content-default {
+    margin-top: 65px;
+  }
 }
 
 // sponsor lists

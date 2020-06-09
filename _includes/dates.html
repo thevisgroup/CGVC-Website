@@ -4,13 +4,10 @@
 	<tr>
 		<td>{{ item.title }}:</td>
 		{% if item.extend %}
-		<td class="td-extend"> <s>{{ item.date }}</s></td>
-		<b>{{ item.extend }} </b>
+		<td class="td-extend"> <s>{{ item.date }}</s> <b>{{ item.extend }} </b></td>
 		{% else %}
 		<td><b>{{ item.date }} </b></td>
-
 		{% endif %}
-
 		<td></td>
 		{% if item.description %}
 		<td>&nbsp- {{ item.description }}</td>
