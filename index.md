@@ -14,7 +14,7 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 ### CGVC 2020
 
-CGVC 2020 will be held in **King's College London, UK**.
+CGVC 2020 take place physically in **King's College London, UK**, but will be held virtually, during 10-11 September 2020.
 
 <p>
     <a class="btn btn-primary btn-lg" href="/CGVC2020" role="button">Learn more &raquo;</a>
