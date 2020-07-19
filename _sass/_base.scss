@@ -71,13 +71,10 @@ ul > li {
   color: $cgvc_light;
   background-color: $cgvc_main;
   font-size: x-large;
+
   img {
     height: 100%;
     width: 100%;
-  }
-
-  .copyright {
-    font-family: $font-family-sans-serif;
   }
 
   .block {
@@ -87,6 +84,7 @@ ul > li {
   }
 
   * {
+    font-family: $font-family-sans-serif;
     background-color: inherit;
     font-size: inherit;
   }
