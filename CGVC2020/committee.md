@@ -44,48 +44,43 @@ title: CGVC 2020 Committee
 
 ### Programme Committee
 
-<table>
+<div class="programme-committee">
 
 {% for member in site.data.CGVC2020.programme_committee %}
 {% assign index = forloop.index | modulo:3 %}
 
     {% if index == 1 %}
-        <tr>
+        <div class="row mt-3">
     {% endif %}
-
-        <td>
-            <ul>
-                <li class="committee-list">
-                    {% if member.role %}
-                        <span class="committee role">{{ member.role }}</span>
-                        <br>
-                    {% endif %}
-                    <span class="committee name">
-                        {% if member.url %}
-                        <a href="{{ member.url }}">{{ member.name }}</a>
-                        {% else %}
-                        {{ member.name }}
-                        {% endif %}
-                    </span>
-                    <br>
-                    {% if member.affiliation %}
-                        <span class="committee affiliation">{{ member.affiliation }}</span>
-                    {% endif %}
-                </li>
-            </ul>
-        </td>
-
+        <span class="col-4">
+            <span class="committee name">
+                {% if member.url %}
+                <a href="{{ member.url }}">{{ member.name }}</a>
+                {% else %}
+                {{ member.name }}
+                {% endif %}
+            </span>
+            {% if member.role %}
+                <br>
+                <span class="committee role">{{ member.role }}</span>
+            {% endif %}
+            <br>
+            {% if member.affiliation %}
+                <span class="committee affiliation">{{ member.affiliation }}</span>
+            {% endif %}
+        </span>
     {% if index == 0 %}
-        </tr>
+        </div>
     {% endif %}
 
 {% endfor %}
 
-    {% if index != 0 %}
-        </tr>
-    {% endif %}
+{% if index != 0 %}
 
-</table>
+</div>
+{% endif %}
+
+</div>
 
 ### Responsibilities
 
@@ -126,7 +121,7 @@ Below are the roles and responsibilities for members of the CGVC Organizing Comm
 - Send papers to whoever puts them onto a USB drive for the conference
 - Ensure that papers are available two weeks before the event and mail the URL to the CGVC mailing list
 
-#### Webmaster
+#### Web Master
 
 - Website development
 - Website and email hosting

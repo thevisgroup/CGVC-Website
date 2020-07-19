@@ -34,7 +34,7 @@ h3 {
 }
 
 h4 {
-  margin-bottom: 0.625rem;
+  margin: 0.625rem 0rem 0.625rem 0rem;
 }
 
 ul {
@@ -57,9 +57,6 @@ ul {
 }
 
 ul > li {
-  .committee-list {
-    padding: 0 0 0.5em 1.3em !important;
-  }
   &:before {
     content: "\BB  ";
     color: $cgvc_highlight;
@@ -70,7 +67,7 @@ ul > li {
   border-top: 0.4rem solid $cgvc_highlight;
   color: $cgvc_light;
   background-color: $cgvc_main;
-  font-size: x-large;
+  font-size: larger;
 
   img {
     height: 100%;
@@ -81,6 +78,11 @@ ul > li {
     border-right: 1px dashed #dc3521;
     border-right-width: 0.15rem;
     border-radius: 1rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    border: none;
   }
 
   * {
@@ -172,19 +174,12 @@ ul > li {
 }
 
 .committee {
-  .name {
+  &.name,
+  &.role {
     font-weight: bold;
-    > a {
-      color: $cgvc_main;
-    }
   }
 
-  .affiliation {
-    color: $cgvc_highlight;
-    font-size: floor(($font-size-base * 0.95));
-  }
-
-  .role {
+  &.affiliation {
     font-style: italic;
   }
 }
