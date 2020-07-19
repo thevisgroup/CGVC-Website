@@ -86,16 +86,29 @@ ul > li {
     border-radius: 1rem;
   }
 
-  > * {
+  * {
     background-color: inherit;
+    font-size: inherit;
   }
 }
 
 .page-content-default {
-  background: white;
   padding-top: 1.25rem;
   min-height: 40rem;
   padding-bottom: 3.125rem;
+
+  .watermark::after {
+    content: "";
+    background-image: url("../img/CGVC logo/vector/default.svg");
+    opacity: 0.2;
+    filter: alpha(opacity=30);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
 }
 
 .page-content {
