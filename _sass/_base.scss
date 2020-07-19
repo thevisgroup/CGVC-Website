@@ -52,18 +52,6 @@ ul {
   margin-bottom: 0.625rem;
 }
 
-.jumbotron {
-  padding: 0rem 1rem 0rem 1rem;
-}
-
-.jumbotron > .container {
-  padding: 0rem 0rem 0rem 2rem;
-}
-
-.jumbotron .btn {
-  margin-right: 1rem;
-}
-
 .align-to-list {
   margin-left: 1.8em;
 }
@@ -121,8 +109,9 @@ ul > li {
   }
 }
 
-.jumbotron {
+.alert {
   color: $cgvc_main;
+  background-color: $cgvc_light;
   margin: 0rem;
   border-bottom: 0.125rem solid $cgvc_highlight;
 }
@@ -221,19 +210,6 @@ table.sponsor-level {
   th:not(:first-child) {
     background-color: $cgvc_light;
     text-align: center;
-  }
-}
-
-// for that awkward middle responsive navbar transition
-@include media-breakpoint-between(md, sm) {
-  .jumbotron {
-    padding-top: 3.125rem !important;
-  }
-  .navbar-nav {
-    margin-top: -1rem;
-  }
-  .page-content-default {
-    margin-top: 4rem;
   }
 }
 
