@@ -32,7 +32,7 @@ different levels:
 Depending on the level of support, we offer various levels of advantages and
 visibility to our sponsors as summarized in the following table:
 
-<table class="sponsor-level">
+<table class="sponsor-level mb-3">
   <tr>
     <th></th>
     <th>Bronze</th>

@@ -49,10 +49,14 @@
 		content="{{ "/assets/img/favicon//ms-icon-144x144.png" | prepend: site.baseurl }}" />
 	<meta name="theme-color" content="#ffffff">
 
-	{% if page.custom_css %}
-	{% for stylesheet in page.custom_css %}
-	<link rel="stylesheet" href="/assets/css/{{ stylesheet }}.css" media="screen" type="text/css">
+	{% if page.hide_element %}
+	<style>
+	{% for e in page.hide_element %}
+		.{{ e }}{
+			display: none;
+		}
 	{% endfor %}
+	</style>	
 	{% endif %}
 
 </head>

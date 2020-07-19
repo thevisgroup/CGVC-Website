@@ -1,6 +1,5 @@
 ---
 layout: default
-custom_css: cfp_sidebar
 title: CGVC 2020 Committee
 ---
 
