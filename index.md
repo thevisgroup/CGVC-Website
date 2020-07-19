@@ -1,6 +1,5 @@
 ---
 layout: front
-custom_css: show_past_years
 title: Welcome to CGVC!
 ---
 
@@ -14,38 +13,16 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 ### CGVC 2020
 
-CGVC 2020 take place physically in **King's College London, UK**, but will be held virtually, during 10-11 September 2020.
-
-<p>
-    <a class="btn btn-primary btn-lg" href="/CGVC2020" role="button">Learn more &raquo;</a>
-	<a class="btn btn-info btn-lg" href="/CGVC2020/registration" role="button">Registration &raquo;</a>
-</p>
+<div class="row">
+    <p class="col-md-9">
+        CGVC 2020 take place physically in <b>King's College London, UK</b>, but will be held virtually, during 10-11 September 2020.
+    </p>
+    <p class="col-md-3">
+        <a class="btn btn-primary btn-block" href="/CGVC2020" role="button">Learn more</a>
+        <a class="btn btn-info btn-block" href="/CGVC2020/registration" role="button">Registration</a>
+    </p>
+</div>
 
 ### CGVC 2021
 
 The programme chair of CGVC 2021 will be [Dr. Tom Kelly](https://eps.leeds.ac.uk/computing/staff/1545/dr-tom-kelly) of **University of Leeds, UK**.
-
-<!--
-#### Committee
-
-<div class="steering-committee">
-	<ul >
-	{% for member in site.data.CGVC2020.organizing_committee %}
-		<li class="list">
-			<span class="committee name">
-				{% if member.url %}
-				<a href="{{ member.url }}">{{ member.name }}</a>
-				{% else %}
-				{{ member.name }}
-				{% endif %}
-			</span>
-			{% if member.role %}
-			<span class="committee role">, {{ member.role }}</span>
-			{% endif %}
-			<br>
-			<span class="committee affiliation">{{ member.affiliation }}</span>
-		</li>
-	{% endfor %}
-	</ul>
-</div>
--->

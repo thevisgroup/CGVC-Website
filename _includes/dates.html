@@ -1,6 +1,6 @@
-<h4>Important Dates</h4>
-{% for item in site.data.CGVC2020.important_dates %}
+<h3>Important Dates</h3>
 <table class="cgvc-cfp-dates">
+	{% for item in site.data.CGVC2020.important_dates %}
 	<tr>
 		<td>{{ item.title }}:</td>
 		{% if item.extend %}
@@ -10,12 +10,11 @@
 		{% endif %}
 		<td></td>
 		{% if item.description %}
-		<td>&nbsp- {{ item.description }}</td>
+		<td>{{ item.description }}</td>
 		{% endif %}
 	</tr>
+	{% endfor %}
 </table>
-{% endfor %}
-
 <p>
 	<a class="btn btn-primary btn-md" href="https://srmv2.eg.org/COMFy/Conference/CGVC_2020" role="button"
 		target="_blank">Start Submission </a>

@@ -4,9 +4,10 @@
 
 @charset "UTF-8";
 
-body {
-  padding-top: floor(($navbar-height));
-  background: $cgvc_main;
+a {
+  color: $cgvc_highlight;
+  text-decoration: none;
+  border-bottom: 0.0625rem dotted $cgvc_highlight;
 }
 
 // headers are all sans serif; body is serif
@@ -15,18 +16,25 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.btn,
+.navbar-nav {
   font-family: $font-family-sans-serif;
+}
+
+h3 {
+  width: 100%;
+  font-size: 1.5rem;
+  border-bottom: dotted 1px $cgvc_highlight;
 }
 
 h2,
 h3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 1rem 0rem 1rem 0rem;
 }
 
 h4 {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 ul {
@@ -35,166 +43,118 @@ ul {
   margin: 0;
 }
 
+.tar {
+  text-align: right;
+}
+
 .header-logo {
-  height: 50px;
-  margin-bottom: 10px;
+  height: 3.125rem;
+  margin-bottom: 0.625rem;
 }
 
 .jumbotron {
-  padding: 0px 15px 0px 15px;
+  padding: 0rem 1rem 0rem 1rem;
 }
 
 .jumbotron > .container {
-  padding: 0px 30px 0px 30px;
+  padding: 0rem 0rem 0rem 2rem;
 }
 
 .jumbotron .btn {
-  margin-right: 14px;
+  margin-right: 1rem;
 }
 
 .align-to-list {
   margin-left: 1.8em;
 }
 
-li {
-  padding-left: 1.8em;
-  text-indent: -0.7em;
-}
-
-li.committee-list {
-  padding: 0 0 0.5em 1.3em !important;
-}
-
-li:before {
-  content: "\BB  ";
-  color: $cgvc_highlight;
-}
-
-li.no-bullet,
-ul.dropdown-menu > li:before {
-  content: "" !important;
-  list-style: none;
-  list-style-type: none;
-}
-
-.dropdown-menu {
-  li {
-    a {
-      padding: 3px 15px;
-    }
-    @media (max-width: $screen-sm) {
-      a:hover {
-        background-color: $cgvc_main;
-      }
-    }
+ul > li {
+  .committee-list {
+    padding: 0 0 0.5em 1.3em !important;
   }
-  @media (max-width: $screen-sm) {
-    .divider {
-      background-color: $cgvc_main;
-    }
+  &:before {
+    content: "\BB  ";
+    color: $cgvc_highlight;
   }
 }
 
-.vspace {
-  margin-top: 10px;
-}
-
-.vspacebig {
-  margin-top: 20px;
-}
-
-// by default, the sidebar 'past years' list is hidden
-// it is invoked by page-specific css in the page's Liquid bits
-.sidebar_extraneous {
-  display: none;
-}
-
-#navbar li {
-  padding-left: 26px;
-}
-
-.nav-sep {
-  @extend .hidden-xs;
-  margin-right: 0em;
-  margin-left: 1.5em;
-  position: relative;
-  top: -0.1em;
-  font-size: 0.8em !important;
-  color: $cgvc_highlight;
-}
-
-.navbar-nav .fa:not(.nav-sep) {
-  font-size: 0.9em;
-  margin-top: -0.1em;
-  margin-left: 0.1em;
-  margin-right: 0.1em;
-}
-
-// thanks to http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
-.page-anchor {
-  padding-top: $navbar_height;
-  margin-top: (-$navbar_height);
-  display: inline-block;
-  height: 1px;
+.dropdown-toggle {
+  font-size: 1.2rem;
+  &::after {
+    content: "\22EE";
+    color: $cgvc_highlight;
+    font-weight: 900;
+  }
 }
 
 .footer {
-  padding-top: 10px;
+  padding-top: 0.625rem;
   width: 100%;
-  height: 80px;
+  height: 5rem;
   background-color: $cgvc_main;
 }
 
 .footer > div {
-  border-top: 7px solid $cgvc_highlight;
+  border-top: 0.4rem solid $cgvc_highlight;
   background-color: $cgvc_main;
   font-family: $font-family-sans-serif;
   text-align: center;
   color: $cgvc_light;
-  padding: 30px 0px 30px 0px;
+  padding: 2rem 0rem 2rem 0rem;
 }
 
 .page-content-default {
   background: white;
-  padding-top: 20px;
-  min-height: 700px;
-  padding-bottom: 50px;
+  padding-top: 1.25rem;
+  min-height: 40rem;
+  padding-bottom: 3.125rem;
 }
 
 .page-content {
   background: white;
 }
 
-a:link:not(.btn),
-a:visited:not(.btn),
-a:hover:not(.btn),
-a:active:not(.btn) {
-  text-decoration: none;
-  border-bottom: 1px dotted $cgvc_main;
-}
-
-.sidebar > div:not(:last-child) {
-  margin-bottom: 25px;
-}
-
 .sidebar {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+  div:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
 }
 
-.btn {
-  font-family: $font-family-sans-serif;
+.sidebar_extraneous,
+.sidebar_supporters,
+.sidebar_dates {
+  display: inline;
 }
 
 .jumbotron {
   color: $cgvc_main;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-  margin: 0px;
-  border-bottom: 2px solid $cgvc_highlight;
+  margin: 0rem;
+  border-bottom: 0.125rem solid $cgvc_highlight;
 }
 
 .navbar {
-  border-bottom: 5px solid $cgvc_highlight;
+  border-bottom: 0.3rem solid $cgvc_highlight;
+  color: $cgvc_main;
+  a {
+    border-bottom: none;
+  }
+  li:before {
+    content: none;
+  }
+}
+
+.nav-link {
+  margin-right: 1rem;
+  color: $cgvc_main !important;
+
+  &:hover {
+    color: $cgvc_highlight !important;
+  }
+
+  i {
+    padding-right: 0.3rem;
+  }
 }
 
 .highlight {
@@ -202,70 +162,20 @@ a:active:not(.btn) {
 }
 
 .brand-logo {
-  margin: 30px 10px 0px 0px;
-  height: 30px;
+  margin-left: 1rem;
+  height: 2rem;
 }
 
 .navbar-brand > img {
-  height: 40px;
-  margin-top: -5px;
+  height: 3.5rem;
 }
 
-@media (min-width: $screen-sm) {
-  .navbar-brand > img {
-    margin-top: 2px;
-  }
-}
-
-// the underlay stops inertia scrolling from showing whitespace
-.navbar-underlay {
-  z-index: -1;
-  background-color: $cgvc_main;
-  width: 100%;
-  height: $navbar_height;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
-.navbar-nav {
-  padding-top: 10px;
-  font-family: $font-family-sans-serif;
-  font-size: 13pt;
-}
-
-.navbar-nav a {
-  color: $cgvc_main;
-}
-
-.navbar-nav a:hover {
-  color: $cgvc_main;
-}
-
-.nav > li:before {
-  content: none;
-}
-
-.nav > li > a {
-  padding-left: 8px;
-  padding-right: 0px;
-}
-
-.ipc.name {
-  font-weight: bold;
-}
-
-.ipc.affiliation {
-  font-weight: bold;
-  color: $cgvc_highlight;
-}
 .committee {
   .name {
     font-weight: bold;
-  }
-
-  .name > a {
-    color: $cgvc_main;
+    > a {
+      color: $cgvc_main;
+    }
   }
 
   .affiliation {
@@ -278,128 +188,17 @@ a:active:not(.btn) {
   }
 }
 
-.cgvc-event-sidebar-list > dt {
-  width: 60px;
-}
-
-.cgvc-event-sidebar-list > dt > span {
-  width: 50px;
-  display: inline-block;
-}
-
-#viewallevents {
-  margin-top: 0px;
-  margin-left: 0px;
-  @media (min-width: $screen-sm) {
-    margin-left: 70px;
-  }
-}
-
-.dl-horizontal-xs {
-  dd {
-    @include clearfix; // Clear the floated `dt` if an empty `dd` is present
-  }
-
-  @media (min-width: $dl-horizontal-xs-offset) {
-    dt {
-      float: left;
-      width: ($dl-horizontal-xs-offset - 10);
-      clear: left;
-      text-align: right;
-      @include text-overflow;
-    }
-    dd {
-      margin-left: $dl-horizontal-xs-offset;
-    }
-  }
-}
-
-.dl-horizontal dd {
-  margin-left: 0px;
-  @media (min-width: $screen-sm) {
-    margin-left: 70px;
-  }
-}
-
-.cgvc-event-meta > dd {
-  border-bottom: 1px solid red;
-  padding: 10px;
-  margin-bottom: 10px;
-
-  @media (min-width: $screen-sm) {
-    margin-left: 180px;
-  }
-}
-
-.cgvc-event-meta.title {
-  font-style: italic;
-}
-
 table.cgvc-cfp-dates {
-  margin-left: 40px;
+  margin-left: 0.5rem;
   .td-extend {
-    padding-right: 10px;
+    padding-right: 0.625rem;
   }
   s {
     color: #9e9e9e;
   }
-}
-
-table.cgvc-cfp-dates tr td:first-child {
-  padding-right: 10px;
-  text-align: right;
-}
-
-// program style (added by sjengle)
-
-table.program {
-  border-collapse: collapse;
-}
-
-table.program tr {
-  border-bottom: 1px solid #eeeeee;
-  vertical-align: top;
-}
-
-table.program tr:last-child {
-  border-bottom: none;
-}
-
-table.program td {
-  padding: 8px 2px;
-}
-
-table.program tr td:nth-child(1) {
-  text-align: right;
-  white-space: nowrap;
-  padding-left: 0px;
-}
-
-table.program tr td:nth-child(2) {
-  text-align: center;
-  white-space: nowrap;
-}
-
-table.program tr td:nth-child(3) {
-  text-align: left;
-  white-space: nowrap;
-}
-
-table.program tr td:last-child {
-  text-align: left;
-  padding-left: 4px;
-  padding-right: 0px;
-}
-
-table.program td h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-table.program td p {
-  margin: 8px 0px 0px 0px;
+  tr td:first-child {
+    padding-right: 0.125rem;
+  }
 }
 
 table.sponsor-level {
@@ -414,8 +213,8 @@ table.sponsor-level {
 
   td,
   th {
-    padding: 2px;
-    border: 1px solid $cgvc_highlight;
+    padding: 0.125rem;
+    border: 0.0625rem solid $cgvc_highlight;
   }
 
   th:not(:first-child) {
@@ -425,75 +224,21 @@ table.sponsor-level {
 }
 
 // for that awkward middle responsive navbar transition
-@media (max-width: $screen-md) and (min-width: $screen-sm) {
+@include media-breakpoint-between(md, sm) {
   .jumbotron {
-    padding-top: 50px !important;
+    padding-top: 3.125rem !important;
   }
   .navbar-nav {
-    margin-top: -15px;
+    margin-top: -1rem;
   }
   .page-content-default {
-    margin-top: 65px;
+    margin-top: 4rem;
   }
-}
-
-// sponsor lists
-ul.media-list {
-  list-style: none;
-}
-
-ul.media-list li.media {
-  padding-left: 0em;
-  text-indent: 0em;
-  list-style-type: none;
-  float: left;
-  clear: both;
-  min-width: 210px;
-  padding-top: 10px;
-  border-top: solid 1px #e8e8e8;
-}
-
-ul.media-list li.media:before {
-  content: none;
-}
-
-ul.media-list li.media img.media-object {
-  max-width: 200px;
-  padding-right: 10px;
-}
-
-.sidebar_supporters {
-  display: none;
-}
-
-.sidebar_dates {
-  display: none;
-}
-
-.sidebar_dates table th {
-  text-align: right;
-  padding-right: 10px;
-  white-space: nowrap;
-}
-
-.sidebar_supporters img {
-  max-width: 200px;
-  max-height: 100px;
-}
-
-.highlight_div {
-  border-left: 4px solid #b30000;
-  padding: 0.5em 0.5em 0.1em 1em;
-  margin-left: -10px;
-  margin-bottom: 10px;
-  background: #e8e8e8;
 }
 
 .sponsors-logo {
-  margin: 37px 30px 0;
   height: auto;
-  width: 180px;
-  display: table;
+  width: 100%;
 }
 
 .steering-committee {

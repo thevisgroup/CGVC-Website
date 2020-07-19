@@ -1,5 +1,6 @@
 ---
 title: Past CGVC Conferences
+hide_element: past_event
 layout: default
 ---
 
@@ -7,13 +8,10 @@ layout: default
 	CGVC has been a Eurographics supported event since 1983, when the first instance took place 28-29 March 1983 at
 	University of York. Below we list the previous CGVC Conferences.
 </p>
-</p>
 
-<h3>Past Conferences</h3>
-
-<dl class="dl-horizontal cgvc-event-meta">
-	{% for event in site.data.pastyears %}
-	<dt>
+{% for event in site.data.pastyears %}
+<dl class="row mb-3">
+	<dt class="tar col-3">
 		<h4>{{ event.year }}</h4>
 		{% if event.proceedings %}
 		<a href="{{ event.proceedings }}" target="_blank">Proceedings</a><br>
@@ -22,13 +20,12 @@ layout: default
 		<a href="{{ event.website }}" target="_blank">Website</a>
 		{% endif %}
 	</dt>
-	<dd>
+	<dd class="col-9">
 		<span class="cgvc-event-meta title">{{ event.title }}</span><br>
-		<span class="cgvc-event-meta location">Held in {{ event.location}}</span><br>
+		<span class="cgvc-event-meta location">Held in {{ event.location }}</span><br>
 		{% if event.website %}
 		<span class="cgvc-event-meta date">On {{ event.date}} {{ event.year }}</span><br>
 		{% endif %}
 	</dd>
-	{% endfor %}
-
 </dl>
+{% endfor %}
