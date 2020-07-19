@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Neuton-Regular
+font link: https://fonts.google.com/specimen/Neuton
+font author: Brian Zick
+font author site: https://brianskywalker.deviantart.com/
+Slogan Font: Fanwood Text.otf
+
+icon designer: Piotrek Chuchla
+icon designer link: /pchuchla
+        
+
+fontColor: {"hex":"#2F2F35"}
+bgColor: {"hex":"#f8f9fa"}
+iconColor: {"gradient-0":"#FF0000","gradient-1":"#FFC06E"}
+sloganColor: {"hex":"#2F2F35"}
+      

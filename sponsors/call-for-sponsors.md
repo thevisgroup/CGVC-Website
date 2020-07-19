@@ -5,7 +5,7 @@ layout: default
 
 ### About CGVC and the Need for Support
 
-Participants from all over Britain and extending into Europe attend CGVC to see the latest developments in the fields of visualization, computer graphics, virtual reality, and computer vision. The CGVC program comprises of the top selection of all paper submissions. This selection is made over the course of a competitive peer-reviewing process, which involves the most respected scientists throughout the UK. The proceedings of CGVC are published and archived in the Eurographics digital library. CGVC is a priority British meeting point for many of the leading researchers in the visualization, graphics, virtual reality, and vision research fields.
+Participants from all over Britain and extending into Europe attend CGVC to see the latest developments in the fields of visualization, computer graphics, virtual reality, and computer vision. The CGVC programme comprises of the top selection of all paper submissions. This selection is made over the course of a competitive peer-reviewing process, which involves the most respected scientists throughout the UK. The proceedings of CGVC are published and archived in the Eurographics digital library. CGVC is a priority British meeting point for many of the leading researchers in the visualization, graphics, virtual reality, and vision research fields.
 
 The participants of CGVC pay a registration fee for attending the conference. Not at the least due to the relatively high prices in the UK, additional support is needed to offer a satisfying conference to all participants. To actually acquire this support, we (the event organizers) have started to contact a number of potential supporters from both the public and private sectors.
 
@@ -42,7 +42,7 @@ visibility to our sponsors as summarized in the following table:
   </tr>
   <tr>
     <td><b>Online/printed advertising</b></td>
-    <td colspan="4">All sponsors of CGVC are advertised with logo (and link) on conference web page and in the printed program (order/prominence depends on level).</td>
+    <td colspan="4">All sponsors of CGVC are advertised with logo (and link) on conference web page and in the printed programme (order/prominence depends on level).</td>
   </tr>
   <tr>
     <td><b>Advertisement in Conference Bag<sup>1</sup></b></td>
@@ -116,7 +116,7 @@ In addition to the option of becoming a general sponsor of CGVC, there is also a
 
 Depending on the choice of sponsoring package(s), the following advantages are offered to our sponsors:
 
-- All sponsors of CGVC are advertised with their logo (and link) on the conference web page and in the printed program (order/prominence according to the level of support).
+- All sponsors of CGVC are advertised with their logo (and link) on the conference web page and in the printed programme (order/prominence according to the level of support).
 - Special Package Sponsors are visibly (and by announcement) associated with the conference part which they support – a Lunch Sponsor, for instance, can place a poster, roll-up, and/or selected advertising content along with the supported lunch; the Digital Media Sponsor will be visible on the conference memory stick.
 - Special Package Sponsors have also the opportunity to present themselves with a talk in a planned special session.
 - Special Package Sponsors get (a) free conference pass(es) according to the amount of support.

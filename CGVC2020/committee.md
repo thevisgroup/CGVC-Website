@@ -101,16 +101,16 @@ Below are the roles and responsibilities for members of the CGVC Organizing Comm
 - Bring in sponsors
 - Find a keynote speaker
 
-#### Program Chair
+#### Programme Chair
 
-- Put together the Program Committee
+- Put together the Programme Committee
 - Write Call for Papers
 - Set up reviewing site [easychair](http://www.easychair.org/)
 - Assign reviewers (at least 3 per paper)
 - Determine the accepted papers based on reviews (no more than 12 papers)
 - Notify authors of acceptance/rejection
-- Determine program schedule
-- Chair the program onsite, including keeping to a schedule (have time remaining signs)
+- Determine programme schedule
+- Chair the programme onsite, including keeping to a schedule (have time remaining signs)
 
 #### Publication Chair
 
@@ -128,8 +128,7 @@ Below are the roles and responsibilities for members of the CGVC Organizing Comm
 
 #### Webmaster
 
+- Website development
 - Website and email hosting
+- Website information updating
 - General website maintenance
-- Update site with organizing and program committee
-- Update site with CfP
-- Update site with program schedule
