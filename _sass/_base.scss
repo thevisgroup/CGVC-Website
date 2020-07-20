@@ -100,8 +100,8 @@ ul > li {
   .watermark::after {
     content: "";
     background-image: url("../img/CGVC logo/vector/default.svg");
+    background-repeat: no-repeat;
     opacity: 0.2;
-    filter: alpha(opacity=30);
     top: 0;
     left: 0;
     bottom: 0;
