@@ -1,6 +1,6 @@
 <h3>Important Dates</h3>
 <table class="cgvc-cfp-dates">
-	{% for item in site.data.CGVC2020.important_dates %}
+	{% for item in site.data[site.current].important_dates %}
 	<tr>
 		<td>{{ item.title }}:</td>
 		{% if item.extend %}

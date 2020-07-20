@@ -11,10 +11,14 @@ The objective of CGVC is to foster greater exchange between visual computing res
 
 CGVC papers are published in the Eurographics Digital Library of the Eurographics Association, using an expert review process.
 
+<!-- This section should be updated every year -->
+
 ### CGVC 2020
 
-{% include venue.html %}
+{% include host.html year=site.current %}
 
 ### CGVC 2021
 
 The programme chair of CGVC 2021 will be [Dr. Tom Kelly](https://eps.leeds.ac.uk/computing/staff/1545/dr-tom-kelly) of **University of Leeds, UK**.
+
+<!-- End of the section -->

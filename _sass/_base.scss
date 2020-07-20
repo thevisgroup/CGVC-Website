@@ -229,10 +229,10 @@ table.sponsor-level {
 }
 
 .index-current-venue {
-  background-image: url(../img/venue.jpg);
   background-size: cover;
   height: 100%;
-  p {
+  font-size: 1.5rem;
+  .text {
     color: white;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
