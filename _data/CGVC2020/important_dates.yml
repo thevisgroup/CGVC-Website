@@ -1,3 +1,4 @@
+# title and date are required to generate the _includes/important_dates.html
 - title: "Submission Deadline"
   description: "The submission is closed."
   date: "Friday, 5 June 2020"

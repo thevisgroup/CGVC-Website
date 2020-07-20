@@ -1,5 +1,11 @@
+<!-- include.year is the variable passed, so this snippet knows where to find the right information -->
+
+<!-- pass 'CGVC2020' as the 'year' variable will point to -->
+<!-- _data/CGVC2020/important_dates.yml -->
+<!-- for the date information -->
+
 <h3>Important Dates</h3>
-<table class="cgvc-cfp-dates">
+<table class="cgvc-cfp-dates mb-2">
 	{% for item in site.data[include.year].important_dates %}
 	<tr>
 		<td>{{ item.title }}:</td>
@@ -15,6 +21,12 @@
 	</tr>
 	{% endfor %}
 </table>
-<!-- <a class="btn btn-primary btn-block" href="https://srmv2.eg.org/COMFy/Conference/CGVC_2020" role="button" >Start Submission </a> -->
-<a class="btn btn-secondary btn-block disabled" href="https://srmv2.eg.org/COMFy/Conference/CGVC_2020" role="button"
-	aria-disabled="true">Submission Closed</a>
+
+{% assign info = site.data[include.year].general_information %}
+
+{% if info.submission == true %}
+<a class="btn btn-primary btn-block" href="{{info.submission_link}}" role="button">Start
+	Submission </a>
+{% else %}
+<a class="btn btn-secondary btn-block disabled" href="#" role="button" aria-disabled="true">Submission Closed</a>
+{% endif %}
