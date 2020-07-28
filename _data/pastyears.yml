@@ -4,92 +4,105 @@
   location: Bangor University, UK
   date: 12 September
   website: http://eguk.bangor.ac.uk/CGVC2019/index.html
-  # proceedings: https://ieeexplore.ieee.org/xpl/conhome/8706256/proceeding
+  proceedings: https://diglib.eg.org/handle/10.2312/2632803
 
 - year: 2018
   title: 36th CGVC Computer Graphics & Visual Computing Conference
   location: Swansea University, UK
   date: 13 September
   website: /CGVC2018/index.html
-  proceedings: /CGVC2018/Proceedings
+  proceedings: https://dl.acm.org/doi/proceedings/10.5555/3301447
 
 - year: 2017
   title: 37th CGVC Computer Graphics & Visual Computing Conference
   location: Manchester Metropolitan University, UK
   date: 15 September
   website: http://eguk.bangor.ac.uk/CGVC2017/index.html
+  proceedings: https://dl.acm.org/doi/proceedings/10.5555/3298690
 
 - year: 2016
   title: 34th CGVC Computer Graphics & Visual Computing Conference
   location: Bournemouth University, UK
   date: 15 September
   website: http://eguk.bangor.ac.uk/CGVC2016/index.html
+  proceedings: https://dl.acm.org/doi/proceedings/10.5555/3056482
 
 - year: 2015
   title: 33rd CGVC Computer Graphics & Visual Computing Conference
   location: University College London, UK
   date: 16 September
   website: http://http://cgvc15.cs.ucl.ac.uk/
+  proceedings: https://diglib.eg.org/handle/10.2312/13226
 
 - year: 2014
   title: 32nd CGVC Computer Graphics & Visual Computing Conference
   location: University of Leeds, UK
   date: 10 September
   website: http://eguk.bangor.ac.uk/CGVC2014/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/7743
 
 - year: 2013
   title: 31st TPCG Theory and Practice of Computer Graphics Conference
   location: University of Bath, UK
   date: 05 September
   website: http://eguk.bangor.ac.uk/TPCG13/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/908
 
 - year: 2012
   title: 30th TPCG Theory and Practice of Computer Graphics Conference
   location: Rutherford Appleton Laboratory, UK
   date: 13 September
   website: http://eguk.bangor.ac.uk/TPCG12/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/907
 
 - year: 2011
   title: 29th TPCG Theory and Practice of Computer Graphics Conference
   location: Warwick University, UK
   date: 07 September
   website: http://eguk.bangor.ac.uk/TPCG11/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/906
 
 - year: 2010
   title: 28th TPCG Theory and Practice of Computer Graphics Conference
   location: University of Sheffield, UK
   date: 06 September
   website: http://eguk.bangor.ac.uk/TPCG10/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/905
 
 - year: 2009
   title: 27th TPCG Theory and Practice of Computer Graphics Conference
   location: Cardiff University, UK
   date: 17 June
   website: http://eguk.bangor.ac.uk/TPCG09/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/904
 
 - year: 2008
   title: 26th TPCG Theory and Practice of Computer Graphics Conference
   location: University of Manchester, UK
   date: 09 June
   website: http://eguk.bangor.ac.uk/TPCG08/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/903
 
 - year: 2007
   title: 25th TPCG Theory and Practice of Computer Graphics Conference
   location: University of Wales, Bangor, UK
   date: 13 June
   website: http://eguk.bangor.ac.uk/TPCG07/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/902
 
 - year: 2006
   title: 24th TPCG Theory and Practice of Computer Graphics Conference
   location: University of Teesside, UK
   date: 22 June
   website: http://eguk.bangor.ac.uk/TPCG06/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/901
 
 - year: 2005
   title: 23rd TPCG Theory and Practice of Computer Graphics Conference
   location: University of Kent, UK
   date: 15 June
   website: http://eguk.bangor.ac.uk/TPCG05/index.html
+  proceedings: https://diglib.eg.org/handle/10.2312/900
 
 - year: 2004
   title: 22nd TPCG Theory and Practice of Computer Graphics Conference
@@ -106,9 +119,9 @@
 - year: 2002
   title: 20th EGUK Annual Eurographics UK Conference
   location: De Montfort University, Leicester, UK
-  date:  June
-  # website: http://eguk.bangor.ac.uk/DMU02/index.html
+  date: June
 
+  # website: http://eguk.bangor.ac.uk/DMU02/index.html
 - year: 2001
   title: 19th EGUK Annual Eurographics UK Conference
   location: University College London, UK
