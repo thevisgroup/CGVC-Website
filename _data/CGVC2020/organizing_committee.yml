@@ -11,9 +11,14 @@
   email: alfie.abdulrahman@kcl.ac.uk
 
 - name: Stephanie Behnke
+  role: Technical Proceedings Master
   affiliation: Graz University of Technology
   url: https://graz.pure.elsevier.com/en/persons/stefanie-behnke
-  role: Technical Proceedings Master
+
+- name: Elif Firat
+  affiliation: University of Nottingham
+  url: http://cs.swansea.ac.uk/~cselif/
+  role: Social Programme Chair
 
 - name: Qiru Wang
   affiliation: University of Nottingham
