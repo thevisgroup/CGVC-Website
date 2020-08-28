@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CGVC 2020
+title: CGVC 2020 Programme
 ---
 
 <a id="programme"></a>
@@ -20,7 +20,7 @@ title: CGVC 2020
         <td>{{paper.end}}</td>
         <td class="p-2">
             {% if paper.author %}
-            <h5>{{paper.name}}<br>
+            <h5>{{paper.name}} {% if paper.link %} - <a href="{{paper.link}}">Abstract</a> {% endif %}<br>
                 <small class="text-muted">
                     by {{paper.author}}
                 </small>
@@ -39,6 +39,3 @@ title: CGVC 2020
     {% endfor %}
 </table>
 {% endfor %}
-
-<!-- <a id="keynote"></a>
-<h3>Keynote</h3> -->

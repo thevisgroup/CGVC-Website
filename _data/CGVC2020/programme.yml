@@ -6,6 +6,7 @@
       end: "11:00"
     - name: Keynote Talk
       author: Prof Nick Holliman, Newcastle University
+      link: "./keynote"
       start: "11:00"
       end: "12:30"
     - name: Break
