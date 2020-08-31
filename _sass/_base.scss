@@ -140,6 +140,13 @@ ul > li {
   }
 }
 
+.dropdown-item {
+  &:hover {
+    background: $cgvc_highlight;
+    color: white;
+  }
+}
+
 .nav-link {
   font-size: 1.1rem;
   margin-right: 0.3rem;
