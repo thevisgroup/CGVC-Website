@@ -11,6 +11,10 @@ title: CGVC 2020 Programme
 {% endif %}
 {% if session.name %}
 <h4>{{session.name}}</h4>
+{% if session.chair %}
+<h6 class="text-muted">Session chair: <a href="{{session.chair.url}}">{{session.chair.name}},
+        {{session.chair.affiliation}}</a></h6>
+{% endif %}
 {% endif %}
 <table class="mb-3">
     {% for paper in session.papers %}

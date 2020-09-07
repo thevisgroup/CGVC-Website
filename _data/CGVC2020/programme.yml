@@ -14,6 +14,10 @@
       end: "13:40"
 
 - name: "Session 1: Visualisation and Machine Learning"
+  chair:
+    name: Kai Xu
+    affiliation: Middlesex University
+    url: https://kaixu.me/
   papers:
     - name: Visualizing Usage Data from a Diabetes Management System (Full Paper)
       authors: David A. Duce, Clare Martin, Alex Russell, Dan Brown, Arantza Aldea, Bedour Alshaigy, Rachel Harrison, Marion Waite, Yenny Leal, Marzena Wos, Mercè Fernandez-Balsells, José Manuel Fernández Real, Lucian Nita, Beatriz López, Joaquim Massana, Parizad Avari, Pau Herrero, Narvada Jugnee, Nick Oliver, and Monika Reddy
@@ -40,6 +44,10 @@
       end: "15:30"
 
 - name: "Session 2: Graphics"
+  chair:
+    name: Franck Vidal
+    affiliation: Bangor University
+    url: http://www.fpvidal.net/
   papers:
     - name: Continuous-Line-Based Halftoning with Pinwheel Tiles (Full Paper)
       authors: Abdalla G. M. Ahmed
@@ -70,11 +78,15 @@
       start: "17:15"
       end: "18:00"
     - name: Quiz - night!
-      author: Elif Firat, Nottingham University (organiser)
+      author: Elif Firat, University of Nottingham (organiser)
       start: "18:30"
       end: "19:00"
-   
+
 - name: "Session 3: AR and VR"
+  chair:
+    name: Panagiotis D. Ritsos
+    affiliation: Bangor University
+    url: https://www.bangor.ac.uk/computer-science-and-electronic-engineering/staff/panagiotis-ritsos/en
   date: "Friday 11th September, 2020"
   papers:
     - name: Breathing life into statues using Augmented Reality (Full Paper)
