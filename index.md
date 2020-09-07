@@ -22,6 +22,7 @@ Dr. Alfie Abdul-Rahman (alfie.abdul-rahman at kcl .ac.uk)
 The paper chairs of CGVC 2020 are
 Dr. Panagiotis Ritsos (p.ritsos at bangor.ac.uk)
 Dr. Kay Xu (K.Xu at mdx.ac.uk)
+
 {% include host.html year=site.current %}
 
 ### CGVC 2021
