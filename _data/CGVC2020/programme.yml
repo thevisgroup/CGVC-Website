@@ -69,12 +69,7 @@
       author: David Chester, Lockwood Publishing Ltd.
       start: "17:15"
       end: "18:00"
-    - name: Industrial Talks 2
-      link: "./talk#talk-2"
-      author: Ben Spencer, Unity Technologies
-      start: "18:00"
-      end: "18:45"
-
+   
 - name: "Session 3: AR and VR"
   date: "Friday 11th September, 2020"
   papers:
@@ -98,9 +93,11 @@
       authors: Mario Sandoval, Tim Morris, and Martin Turner
       start: "11:00"
       end: "11:20"
-    - name: Capstone
+     - name: Industrial Talks 2
+      link: "./talk#talk-2"
+      author: Ben Spencer, Unity Technologies
       start: "11:30"
-      end: "12:30"
+      end: "12:15"
     - name: Awards and Closing
       authors: Dr Panos Ritsos, Bangor University, and Dr Kai Xu, Middlesex University
       start: "12:30"
