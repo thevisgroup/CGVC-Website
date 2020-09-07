@@ -10,7 +10,7 @@ layout: default
         association.</div>
 </div>
 <div class="row mb-4">
-    <div class="col-3"><img class="sponsors-logo" src="../assets/img/branding_CUSP-London.jpeg" alt="CUSP-London Logo" /></div>
+    <div class="col-3"><img class="sponsors-logo" src="../assets/img/branding_CUSP-London.png" alt="CUSP-London Logo" /></div>
     <div class="col-9"><b><a href="https://cusplondon.ac.uk">CUSP London</a></b> - The Centre for Urban Science and Progress London (CUSP London) is a joint initiative of King’s College London and the University of Warwick. Its aim is to bring together researchers, businesses, local authorities and government agencies to apply urban science to improving citizen’s lives, including their health and wellbeing. </div>
 </div>
 <div class="row mb-4">
