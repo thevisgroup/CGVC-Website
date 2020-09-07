@@ -15,6 +15,8 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 ### CGVC 2020
 
+{% include host.html year=site.current %}
+
 The programme chairs of CGVC 2020 are
 Dr. Rita Borgo (rita.borgo at kcl.ac.uk)
 Dr. Alfie Abdul-Rahman (alfie.abdul-rahman at kcl .ac.uk)
@@ -23,7 +25,6 @@ The paper chairs of CGVC 2020 are
 Dr. Panagiotis Ritsos (p.ritsos at bangor.ac.uk)
 Dr. Kay Xu (K.Xu at mdx.ac.uk)
 
-{% include host.html year=site.current %}
 
 ### CGVC 2021
 
