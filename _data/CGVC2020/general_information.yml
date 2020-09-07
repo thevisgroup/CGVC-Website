@@ -6,3 +6,27 @@ logo: "logo.svg"
 # variable below are required to generate the _includes/important_dates.html
 submission: false
 submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2020"
+
+committee:
+  conference_chair:
+    - name: Rita Borgo
+      role: Conference Chair
+      affiliation: King's College London
+      url: https://www.kcl.ac.uk/people/rita-borgo
+      email: rita.borgo@kcl.ac.uk
+    - name: Alfie Abdul-Rahman
+      role: Conference Co-Chair
+      affiliation: King's College London
+      url: https://www.kcl.ac.uk/people/alfie-abdul-rahman
+      email: alfie.abdulrahman@kcl.ac.uk
+  paper_chair:
+    - name: Panagiotis D. Ritsos
+      affiliation: Bangor University
+      role: Programme Chair
+      url: https://www.bangor.ac.uk/computer-science-and-electronic-engineering/staff/panagiotis-ritsos/en
+      email: p.ritsos@bangor.ac.uk
+    - name: Kai Xu
+      affiliation: Middlesex University
+      role: Programme Chair
+      url: https://kaixu.me/
+      email: K.Xu@mdx.ac.uk

@@ -23,3 +23,41 @@
 		</div>
 	</div>
 </div>
+
+<h4>Conference Committee</h4>
+
+{% assign committee = info.committee %}
+
+<h6>Programme Chairs</h6>
+<ul class="mb-3">
+	{% for chair in committee.conference_chair %}
+	<li class="committee-list">
+		<span class="committee name">
+			{% if chair.url %}
+			<a href="{{ chair.url }}">{{ chair.name }}</a>
+			{% else %}
+			{{ chair.name }}
+			{% endif %}
+		</span>
+		<span class="committee role">, {{ chair.role }}</span>
+		<span class="committee affiliation">, {{ chair.affiliation }}</span>
+	</li>
+	{% endfor %}
+</ul>
+
+<h6>Paper Chairs</h6>
+<ul>
+	{% for chair in committee.paper_chair %}
+	<li class="committee-list">
+		<span class="committee name">
+			{% if chair.url %}
+			<a href="{{ chair.url }}">{{ chair.name }}</a>
+			{% else %}
+			{{ chair.name }}
+			{% endif %}
+		</span>
+		<span class="committee role">, {{ chair.role }}</span>
+		<span class="committee affiliation">, {{ chair.affiliation }}</span>
+	</li>
+	{% endfor %}
+</ul>
