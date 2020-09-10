@@ -2,6 +2,7 @@
   papers:
     - name: Opening Session
       author: Dr Rita Borgo, King’s College London
+      link: "./documents/CGVC_2020_Opening.pdf"
       start: "10:30"
       end: "11:00"
     - name: Keynote Talk
