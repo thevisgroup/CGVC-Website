@@ -60,10 +60,12 @@
       end: "16:10"
     - name: "CLAWS: Computational Load Balancing for Accelerated Neighbour Processing on GPUs using Warp Scheduling (Full Paper)"
       authors: Julian Gross, Marcel Köster, and Antonio Krüger
+      award: "The Ken Brodlie Prize: Best Full Paper"
       start: "16:10"
       end: "16:30"
     - name: Generalized K-mean for Graph Partition Using PageRank (Short Paper)
       authors: Mustafa Hajij, Eyad Said, and Robert Todd
+      award: "The David Duce Prize: Best Short Paper"
       start: "16:30"
       end: "16:45"
     - name: Persistent Homology and the Discrete Laplace Operator For Mesh Similarity (Short Paper)
@@ -92,6 +94,7 @@
   papers:
     - name: Breathing life into statues using Augmented Reality (Full Paper)
       authors: Eleftherios Ioannou and Steve Maddock
+      award: "The Rob Fletcher Prize: Best Student Application Paper"
       start: "10:00"
       end: "10:20"
     - name: Interaction Framework within Collaborative Virtual Environments for Multiple Users each interacting (Poster)
@@ -107,6 +110,7 @@
       start: "10:50"
       end: "11:00"
     - name: Controlling Game Objects Using Multiple Degrees-Of-Freedom (Full Paper)
+      award: "The Terry Hewitt Prize: Best Student Technical Paper"
       authors: Mario Sandoval, Tim Morris, and Martin Turner
       start: "11:00"
       end: "11:20"

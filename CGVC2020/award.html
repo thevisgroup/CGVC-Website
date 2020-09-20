@@ -1,0 +1,26 @@
+---
+layout: default
+title: CGVC 2020 Best Paper Awards
+---
+
+<a id="award"></a>
+
+{% for session in site.data.CGVC2020.programme %}
+<table class="mb-3">
+    {% for paper in session.papers %}
+    {% if paper.award%}
+    <tr>
+        <td class="p-2">
+            <p>
+            <h4><span class="badge badge-danger">{{paper.award}}</span></h4><br>
+            <b>{{paper.name}}</b><br>
+            <em class="text-muted">
+                by {{paper.authors}}
+            </em>
+            </p>
+        </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>
+{% endfor %}
