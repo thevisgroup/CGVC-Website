@@ -1,6 +1,12 @@
+- year: 2020
+  title: 38th CGVC Computer Graphics & Visual Computing Conference
+  location: King’s College London, UK
+  date: 10 September
+  website: https://cgvc.org.uk/CGVC2020
+  proceedings: https://diglib.eg.org/handle/10.2312/2632929
+
 - year: 2019
   title: 37th CGVC Computer Graphics & Visual Computing Conference
-  # with: <a href='http://ieeevis.org/year/2018/welcome'>IEEE VIS</a>
   location: Bangor University, UK
   date: 12 September
   website: http://eguk.bangor.ac.uk/CGVC2019/index.html
@@ -120,6 +126,7 @@
   title: 20th EGUK Annual Eurographics UK Conference
   location: De Montfort University, Leicester, UK
   date: June
+
 
   # website: http://eguk.bangor.ac.uk/DMU02/index.html
 - year: 2001
