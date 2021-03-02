@@ -24,4 +24,4 @@ defaults:
 
 # 'current' is used across the entire website, update it accordingly.
 # _includes/header.html replies on this value to generate the right links
-current: CGVC2020
+current: CGVC2021

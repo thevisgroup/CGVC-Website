@@ -1,0 +1,133 @@
+- date: "Thursday 10th September, 2020"
+  papers:
+    - name: Opening Session
+      author: Dr Rita Borgo, King’s College London
+      link: "./documents/CGVC_2020_Opening.pdf"
+      start: "10:30"
+      end: "11:00"
+    - name: Keynote Talk
+      author: Prof Nick Holliman, Newcastle University
+      link: "./keynote"
+      start: "11:00"
+      end: "12:30"
+    - name: Break
+      start: "12:30"
+      end: "13:40"
+
+- name: "Session 1: Visualisation and Machine Learning"
+  chair:
+    name: Kai Xu
+    affiliation: Middlesex University
+    url: https://kaixu.me/
+  papers:
+    - name: Visualizing Usage Data from a Diabetes Management System (Full Paper)
+      authors: David A. Duce, Clare Martin, Alex Russell, Dan Brown, Arantza Aldea, Bedour Alshaigy, Rachel Harrison, Marion Waite, Yenny Leal, Marzena Wos, Mercè Fernandez-Balsells, José Manuel Fernández Real, Lucian Nita, Beatriz López, Joaquim Massana, Parizad Avari, Pau Herrero, Narvada Jugnee, Nick Oliver, and Monika Reddy
+      start: "13:40"
+      end: "14:00"
+    - name: Recognising specific foods in MRI scans using CNN and visualisation (Full Paper)
+      authors: Joshua Gardner, Shatha Al-Maliki, Évelyne Lutton, François Boué, and Franck P. Vidal
+      start: "14:00"
+      end: "14:20"
+    - name: Emotion Transfer for 3D Hand Motion using StarGAN (Full Paper)
+      authors: Jacky C. P. Chan, Ana-Sabina Irimia, and Edmond S. L. Ho
+      start: "14:20"
+      end: "14:40"
+    - name: Encyclopaedia-based Framework for 3D Image Processing Applications (Short Paper)
+      authors: Terence Morley, Tim Morris, and Martin Turner
+      start: "14:40"
+      end: "14:55"
+    - name: Simulating Dynamic Ecosystems with Co-Evolutionary Agents (Short Paper)
+      authors: Gary Ferguson and Franck P. Vidal
+      start: "14:55"
+      end: "15:10"
+    - name: Break
+      start: "15:10"
+      end: "15:30"
+
+- name: "Session 2: Graphics"
+  chair:
+    name: Franck Vidal
+    affiliation: Bangor University
+    url: http://www.fpvidal.net/
+  papers:
+    - name: Continuous-Line-Based Halftoning with Pinwheel Tiles (Full Paper)
+      authors: Abdalla G. M. Ahmed
+      start: "15:30"
+      end: "15:50"
+    - name: "ORQA: Objective Reflection Quality Assessment (Full Paper)"
+      authors: Sietze G. Houwink, Klaas Y. Kliffen, and Jiri Kosinka
+      start: "15:50"
+      end: "16:10"
+    - name: "CLAWS: Computational Load Balancing for Accelerated Neighbour Processing on GPUs using Warp Scheduling (Full Paper)"
+      authors: Julian Gross, Marcel Köster, and Antonio Krüger
+      award: "The Ken Brodlie Prize: Best Full Paper"
+      img: "gross2020computational.png"
+      start: "16:10"
+      end: "16:30"
+    - name: Generalized K-mean for Graph Partition Using PageRank (Short Paper)
+      authors: Mustafa Hajij, Eyad Said, and Robert Todd
+      award: "The David Duce Prize: Best Short Paper"
+      img: "hajij2020generalized.png"
+      start: "16:30"
+      end: "16:45"
+    - name: Persistent Homology and the Discrete Laplace Operator For Mesh Similarity (Short Paper)
+      authors: Mustafa Hajij, Yunhao Zhang, Haowen Liu, and Paul Rosen
+      start: "16:45"
+      end: "17:00"
+    - name: Break
+      start: "17:00"
+      end: "17:15"
+    - name: Industrial Talks 1
+      link: "./talk#talk-1"
+      author: David Chester, Lockwood Publishing Ltd.
+      start: "17:15"
+      end: "18:00"
+    - name: Quiz - night!
+      author: Elif Firat, University of Nottingham (organiser)
+      start: "18:15"
+      end: "19:00"
+
+- name: "Session 3: AR and VR"
+  chair:
+    name: Panagiotis D. Ritsos
+    affiliation: Bangor University
+    url: http://pdritsos.com/
+  date: "Friday 11th September, 2020"
+  papers:
+    - name: Breathing life into statues using Augmented Reality (Full Paper)
+      authors: Eleftherios Ioannou and Steve Maddock
+      award: "The Rob Fletcher Prize: Best Student Application Paper"
+      img: "ioannou2020breathing.png"
+      start: "10:00"
+      end: "10:20"
+    - name: Interaction Framework within Collaborative Virtual Environments for Multiple Users each interacting (Poster)
+      authors: Mario Sandoval, Tim Morris, and Martin Turner
+      start: "10:20"
+      end: "10:30"
+    - name: A Gesture Recognition Model for Virtual Reality Motion Controllers (Full Paper)
+      authors: Christopher Headleand, Benjamin Williams, Jussi Holopainen, and Marlon Gilliam
+      start: "10:30"
+      end: "10:50"
+    - name: Medical Ultrasound Training in Virtual Reality (Poster)
+      authors: James P. Elliman, Sarath Bethapudi, and George Alex Koulieris
+      start: "10:50"
+      end: "11:00"
+    - name: Controlling Game Objects Using Multiple Degrees-Of-Freedom (Full Paper)
+      award: "The Terry Hewitt Prize: Best Student Technical Paper"
+      authors: Mario Sandoval, Tim Morris, and Martin Turner
+      img: "sandoval2020controlling.png"
+      start: "11:00"
+      end: "11:20"
+    - name: Industrial Talks 2
+      link: "./talk#talk-2"
+      author: Ben Spencer, Unity Technologies
+      start: "11:30"
+      end: "12:15"
+    - name: Awards and Closing
+      authors: Dr Panos Ritsos, Bangor University, and Dr Kai Xu, Middlesex University
+      start: "12:30"
+      end: "12:45"
+    - name: EGUK Annual General Meeting
+      authors: Dr Robert Laramee, University of Nottingham
+      start: "12:45"
+      end: "13:30"

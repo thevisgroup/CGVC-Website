@@ -13,12 +13,12 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 <!-- This section should be updated every year -->
 
-### CGVC 2020
+### CGVC 2021
 
 {% include host.html year=site.current %}
 
-### CGVC 2021
+<!-- ### CGVC 2022
 
-The programme chair of CGVC 2021 will be [Dr. Tom Kelly](https://eps.leeds.ac.uk/computing/staff/1545/dr-tom-kelly) of **University of Leeds, UK**.
+The programme chair of CGVC 2021 will be [Dr. Tom Kelly](https://eps.leeds.ac.uk/computing/staff/1545/dr-tom-kelly) of **University of Leeds, UK**. -->
 
 <!-- End of the section -->
