@@ -100,7 +100,7 @@ Below are the roles and responsibilities for members of the CGVC Organizing Comm
 
 - Put together the Programme Committee
 - Write Call for Papers
-- Set up reviewing site [easychair](http://www.easychair.org/)
+- Set up reviewing site, the [Eurographics SRM conference management system](https://srmv2.eg.org/)
 - Assign reviewers (at least 3 per paper)
 - Determine the accepted papers based on reviews (no more than 12 papers)
 - Notify authors of acceptance/rejection
@@ -109,15 +109,14 @@ Below are the roles and responsibilities for members of the CGVC Organizing Comm
 
 #### Publication Chair
 
-- Set up agreement with ACM for proceedings in the [International Conference Proceedings
-  Series](https://www.acm.org/publications/icp_series), including free access for two weeks prior
+- Set up agreement with Eurographics for conference proceedings in the [Eurographics Digital Library](https://diglib.eg.org/handle/10.2312/899), including free access for two weeks prior
 - Get ISBN number
 - Get copyrights from authors for all accepted papers
 - Provide copyright block for papers to authors
 - Collect camera ready papers from authors
 - Check formatting of papers, fix minor issues, communicate to authors
-- Generate frontmatter for proceedings [instructions](https://www.acm.org/publications/icps-instructions/)
-- Send papers on to ACM
+- Generate frontmatter for proceedings
+- Send papers on to Eurographics
 - Send papers to whoever puts them onto a USB drive for the conference
 - Ensure that papers are available two weeks before the event and mail the URL to the CGVC mailing list
 
