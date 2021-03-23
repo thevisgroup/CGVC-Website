@@ -215,3 +215,14 @@
   title: 1st EGUK Annual Eurographics UK Conference
   location: University of York, UK
   date: 28 March
+
+- year: 1982
+  title: 'First event: one day seminar on "3D Computer Graphics"'
+  location: Rutherford Appleton Laboratory, UK
+  date_in: Summer
+
+- year: 1981
+  title: The Founding of Eurographics UK Chapter 
+  date_in: December
+  pdf: 'EGUK-History.pdf'
+  pdf_intro: 'History of the Chapter'
