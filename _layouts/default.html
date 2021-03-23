@@ -4,8 +4,11 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
+    {% if page.year %}
+    {% include header.html year=page.year %}
+    {% else %}
+    {% include header.html year=site.current_year %}
+    {% endif %}
 
     <div class="page-content-default">
   		  {% include twocolumn.html %}

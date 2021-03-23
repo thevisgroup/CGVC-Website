@@ -1,6 +1,7 @@
 ---
 layout: default
-title: CGVC 2020 Committee
+year: CGVC2020
+title: Committee
 ---
 
 ### Steering Committee

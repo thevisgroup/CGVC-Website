@@ -23,5 +23,5 @@ defaults:
       layout: "post"
 
 # 'current' is used across the entire website, update it accordingly.
-# _includes/header.html replies on this value to generate the right links
-current: CGVC2021
+# _layout/default.html relies on this value to generate the right links
+site.current_year: CGVC2021

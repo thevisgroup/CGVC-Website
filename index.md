@@ -1,5 +1,6 @@
 ---
 layout: front
+year: CGVC2021
 title: Welcome to CGVC!
 ---
 
@@ -15,7 +16,7 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 ### CGVC 2021
 
-{% include host.html year=site.current %}
+{% include host.html year=page.year %}
 
 <!-- ### CGVC 2022
 
