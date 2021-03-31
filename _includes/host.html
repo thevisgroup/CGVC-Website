@@ -34,13 +34,13 @@
 	<li class="committee-list">
 		<span class="committee name">
 			{% if chair.url %}
-			<a href="{{ chair.url }}">{{ chair.name }}</a>
+			<a href="{{ chair.url }}">{{ chair.name }},</a>
 			{% else %}
-			{{ chair.name }}
+			{{ chair.name }},
 			{% endif %}
 		</span>
-		<span class="committee role">, {{ chair.role }}</span>
-		<span class="committee affiliation">, {{ chair.affiliation }}</span>
+		<span class="committee role"> {{ chair.role }}</span>
+		<span class="committee affiliation"> {{ chair.affiliation }}</span>
 	</li>
 	{% endfor %}
 </ul>
@@ -51,13 +51,13 @@
 	<li class="committee-list">
 		<span class="committee name">
 			{% if chair.url %}
-			<a href="{{ chair.url }}">{{ chair.name }}</a>
+			<a href="{{ chair.url }}">{{ chair.name }},</a>
 			{% else %}
-			{{ chair.name }}
+			{{ chair.name }},
 			{% endif %}
 		</span>
-		<span class="committee role">, {{ chair.role }}</span>
-		<span class="committee affiliation">, {{ chair.affiliation }}</span>
+		<span class="committee role"> {{ chair.role }}</span>
+		<span class="committee affiliation"> {{ chair.affiliation }}</span>
 	</li>
 	{% endfor %}
 </ul>
