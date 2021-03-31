@@ -16,10 +16,9 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 ### CGVC 2021
 
+We are excited to announce that CGVC 2021 will take place on the 8-10th September at the University of Lincoln. The <a href="CGVC2021/cfp.html">call for papers</a> and <a href="CGVC2021">additional information</a> are now available. 
+
 {% include host.html year=page.year %}
 
-<!-- ### CGVC 2022
-
-The programme chair of CGVC 2021 will be [Dr. Tom Kelly](https://eps.leeds.ac.uk/computing/staff/1545/dr-tom-kelly) of **University of Leeds, UK**. -->
 
 <!-- End of the section -->
