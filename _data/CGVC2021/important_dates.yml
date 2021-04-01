@@ -1,15 +1,13 @@
 # title and date are required to generate the _includes/important_dates.html
 - title: "Submission Deadline"
-  # description: "The submission is closed."
-  date: "TBA"
-  # extend: "Sunday, 28 June 2020"
+  date: "4th June 2021"	
 
-- title: "Notification of Acceptance"
-  date: "TBA"
+- title: "Decisions Available"
+  date: "23rd July 2021"
 
 - title: "Camera Ready"
-  date: "TBA"
+  date: "6th August 2021"
 
 - title: "Conference"
-  description: "The conference starts."
-  date: "22-24 September 2021"
+#  description: "conference starts."
+  date: "8-10 September 2021"

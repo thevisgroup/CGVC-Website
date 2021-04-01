@@ -28,19 +28,19 @@
 
 {% assign committee = info.committee %}
 
-<h6>Conference Chairs</h6>
+<h6>Conference Chair</h6>
 <ul class="mb-3">
 	{% for chair in committee.conference_chair %}
 	<li class="committee-list">
 		<span class="committee name">
 			{% if chair.url %}
-			<a href="{{ chair.url }}">{{ chair.name }}</a>
+			<a href="{{ chair.url }}">{{ chair.name }},</a>
 			{% else %}
-			{{ chair.name }}
+			{{ chair.name }},
 			{% endif %}
 		</span>
-		<span class="committee role">, {{ chair.role }}</span>
-		<span class="committee affiliation">, {{ chair.affiliation }}</span>
+		<span class="committee role"> {{ chair.role }}</span>
+		<span class="committee affiliation"> {{ chair.affiliation }}</span>
 	</li>
 	{% endfor %}
 </ul>
@@ -51,13 +51,13 @@
 	<li class="committee-list">
 		<span class="committee name">
 			{% if chair.url %}
-			<a href="{{ chair.url }}">{{ chair.name }}</a>
+			<a href="{{ chair.url }}">{{ chair.name }},</a>
 			{% else %}
-			{{ chair.name }}
+			{{ chair.name }},
 			{% endif %}
 		</span>
-		<span class="committee role">, {{ chair.role }}</span>
-		<span class="committee affiliation">, {{ chair.affiliation }}</span>
+		<span class="committee role"> {{ chair.role }}</span>
+		<span class="committee affiliation"> {{ chair.affiliation }}</span>
 	</li>
 	{% endfor %}
 </ul>
