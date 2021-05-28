@@ -25,10 +25,12 @@
 {% assign info = site.data[include.year].general_information %}
 
 {% if info.submission_started == true %}
-<a class="btn btn-primary btn-block" href="{{info.submission_link}}" role="button">Start
-	Submission </a>
-{% elsif info.submission_closed == true%}
-<a class="btn btn-secondary btn-block disabled" href="#" role="button" aria-disabled="true">Submission Closed</a>
+	{% if info.submission_closed == true %}
+	<a class="btn btn-secondary btn-block disabled" href="#" role="button" aria-disabled="true">Submission Closed</a>
+	{% else %}
+	<a class="btn btn-primary btn-block" href="{{info.submission_link}}" role="button">Start
+		Submission </a>
+	{% endif %}
 {% else %}
 <a class="btn btn-secondary btn-block disabled" href="#" role="button" aria-disabled="true">Submission Opening Soon</a>
 {% endif %}
