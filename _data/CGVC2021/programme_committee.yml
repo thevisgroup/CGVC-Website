@@ -1,12 +1,12 @@
-- name: Tom Kelly
-  affiliation: University of Leeds
-  role: Programme Chair
-  url: https://twak.org
-
 - name: Kai Xu
   affiliation: Middlesex University
   role: Programme Chair
   url: https://kaixu.me/
+
+- name: Martin Turner
+  affiliation: University of Manchester
+  role: Programme Chair
+  url: https://www.research.manchester.ac.uk/portal/martin.turner.html
 
 - name: Aaron Sújar
   affiliation: Universidad Rey Juan Carlos
@@ -86,17 +86,11 @@
 - name: Joss Whittle
   affiliation: Swansea University
 
-- name: Kai Xu
-  affiliation: Middlesex University
-
 - name: Kenny Mitchell
   affiliation: Edinburgh Napier University
 
 - name: Llyr Ap Cenydd
   affiliation: Bangor University
-
-- name: Martin Turner
-  affiliation: University of Manchester
 
 - name: Min Chen
   affiliation: University of Oxford

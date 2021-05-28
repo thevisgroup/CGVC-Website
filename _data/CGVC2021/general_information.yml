@@ -4,7 +4,7 @@ logo: "logo.jpg"
 
 # variable below are required to generate the _includes/important_dates.html
 submission_closed: false
-submission_started: false
+submission_started: true
 submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2021"
 
 committee:
@@ -15,13 +15,13 @@ committee:
       url: https://staff.lincoln.ac.uk/daa59075-c37c-4a18-a529-ead1acfcf512
       email: cheadleand@lincoln.ac.uk
   programme_chair:
-    - name: Tom Kelly
-      affiliation: University of Leeds
-      role: Programme Chair
-      url: https://vcg.leeds.ac.uk/profiles/twak/
-      email: t.w.a.kelly@leeds.ac.uk
     - name: Kai Xu
       affiliation: Middlesex University
       role: Programme Chair
       url: https://kaixu.me/
       email: K.Xu@mdx.ac.uk
+    - name: Martin Turner
+      affiliation: University of Manchester
+      role: Programme Chair
+      url: https://www.research.manchester.ac.uk/portal/martin.turner.html
+      email: Martin.Turner@manchester.ac.uk

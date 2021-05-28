@@ -4,7 +4,8 @@ host_intro: "CGVC 2020 will take place physically in <b>King's College London, U
 logo: "logo.svg"
 
 # variable below are required to generate the _includes/important_dates.html
-submission: false
+submission_closed: true
+submission_started: true
 submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2020"
 
 committee:
