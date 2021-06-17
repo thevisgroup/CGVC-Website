@@ -1,4 +1,11 @@
-<div class="footer container-fluid pt-3">
+<div class="container-fluid sponsor-row mt-3">
+	<div class="row">
+		{% for sponsor in site.data[page.year].sponsors %}
+		<img class="sponsors-logo mx-auto" src="{{site.baseurl}}/assets/img/{{sponsor.logo}}" alt="{{sponsor.name}}" />
+		{% endfor %}
+	</div>
+</div>
+<div class="footer container-fluid pt-1">
 	<div class="row">
 		<div class="block col-lg-2 col-md-3 d-none d-md-block">
 			<img src="/assets/img/CGVC logo/footer.svg" alt="CGVC Logo" />

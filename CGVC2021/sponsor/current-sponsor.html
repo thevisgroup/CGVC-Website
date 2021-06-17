@@ -1,0 +1,14 @@
+---
+title: CGVC Sponsors
+year: CGVC2021
+layout: default
+---
+
+{% for sponsor in site.data[page.year].sponsors %}
+<div class="row mb-4">
+    <div class="col-3"><img class="sponsors-logo" src="{{site.baseurl}}/assets/img/{{sponsor.logo}}"
+            alt="{{sponsor.name}}" />
+    </div>
+    <div class="col-9"><b><a href="{{sponsor.url}}">{{sponsor.name}}</a></b> - {{sponsor.intro}}</div>
+</div>
+{% endfor %}

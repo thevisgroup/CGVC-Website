@@ -10,7 +10,7 @@
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto mt-2">
 			<li class="nav-item">
-				<a class="nav-link" href="/"><i class="fas fa-fw fa-home" aria-hidden="true"></i> Homepage <span
+				<a class="nav-link" href="/{{include.year}}"><i class="fas fa-fw fa-home" aria-hidden="true"></i> Homepage <span
 						class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item dropdown">
@@ -89,11 +89,11 @@
 					<i class="fas fa-feather-alt" aria-hidden="true"></i> For Sponsors
 				</a>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="/sponsors">
+					<a class="dropdown-item" href="/{{include.year}}/sponsor/current-sponsor">
 						Current Sponsors
 					</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="/sponsors/call-for-sponsors">
+					<a class="dropdown-item" href="/{{include.year}}/sponsor/call-for-sponsors">
 						Call for Sponsors
 					</a>
 				</div>

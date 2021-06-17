@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    {% if page.year %}
-    {% include header.html year=page.year %}
-    {% else %}
-    {% include header.html year=site.current_year %}
-    {% endif %}
+<body>
+  {% if page.year %}
+  {% include header.html year=page.year %}
+  {% else %}
+  {% include header.html year=site.current_year %}
+  {% endif %}
 
-    <div class="page-content-default">
-  		  {% include twocolumn.html %}
-    </div>
+  <div class="page-content-default">
+    {% include twocolumn.html %}
+  </div>
 
-    {% include footer.html %}
+  {% if page.year %}
+  {% include footer.html year=page.year %}
+  {% else %}
+  {% include footer.html year=site.current_year %}
+  {% endif %}
 
-  </body>
+</body>
+
 </html>

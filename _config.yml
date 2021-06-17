@@ -4,6 +4,10 @@ description: > # this means to ignore newlines until "baseurl:"
   Computer Graphics & Visual Computing (CGVC) is an annual computer graphics, visualization, and visual computing gathering organized by the Eurographics UK Chapter. CGVC has been a Eurographics supported event Since 1983 when the first instance took place 28-29 March 1983 at University of York.
 url: "https://CGVC.org.uk"
 
+# 'current' is used across the entire website, update it accordingly.
+# _layout/default.html relies on this value to generate the right links
+current_year: CGVC2021
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -21,7 +25,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-# 'current' is used across the entire website, update it accordingly.
-# _layout/default.html relies on this value to generate the right links
-site.current_year: CGVC2021

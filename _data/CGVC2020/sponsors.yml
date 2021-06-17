@@ -1,0 +1,29 @@
+- name: Eurographics Association
+  url: https://www.eg.org/
+  logo: branding_eg.png
+  intro: Eurographics is the only truly Europe-wide professional Computer Graphics association.
+
+- name: CUSP London
+  url: https://cusplondon.ac.uk
+  logo: branding_CUSP-London.png
+  intro: The Centre for Urban Science and Progress London (CUSP London) is a joint initiative of King’s College London and the University of Warwick. Its aim is to bring together researchers, businesses, local authorities and government agencies to apply urban science to improving citizen’s lives, including their health and wellbeing.
+
+- name: University of Nottingham
+  url: https://nottingham.ac.uk/
+  logo: sponsor-nottingham.png
+  intro: The University of Nottingham is a pioneering university providing an exceptional research-led education and an outstanding student experience.
+
+- name: EPSRC
+  url: https://epsrc.ukri.org/
+  logo: sponsor-epsrc.png
+  intro: The Engineering and Physical Sciences Research Council is a British Research Council that provides government funding for grants to undertake research and postgraduate degrees in engineering and the physical sciences.
+
+- name: MDPI
+  url: https://www.mdpi.com/
+  logo: sponsor-mdpi.png
+  intro: A pioneer in scholarly open access publishing, MDPI has supported academic communities since 1996. Based in Basel, Switzerland, MDPI has the mission to foster open scientific exchange in all forms, across all disciplines.
+
+- name: Visual and Interactive Computing Group, Swansea University
+  url: https://www.swansea.ac.uk/compsci/research-and-impact/visual-interactive-computing/
+  logo: branding_dragon.png
+  intro: The group follows an ambitious and curiosity-driven programme to develop new algorithms and methods, as well as advanced software techniques and tools, for these areas. It has a number of on-going collaborative research projects with scientists from around the world and is actively involved in knowledge transfer and industrial applications.
