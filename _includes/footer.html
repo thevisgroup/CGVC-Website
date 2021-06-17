@@ -1,7 +1,9 @@
 <div class="container-fluid sponsor-row mt-3">
 	<div class="row">
 		{% for sponsor in site.data[page.year].sponsors %}
-		<img class="sponsors-logo mx-auto" src="{{site.baseurl}}/assets/img/{{sponsor.logo}}" alt="{{sponsor.name}}" />
+		<a class="w-10 h-100 m-auto border-0" href="{{sponsor.url}}">
+			<img class="w-100" src="{{site.baseurl}}/assets/img/{{sponsor.logo}}" alt="{{sponsor.name}}" />
+		</a>
 		{% endfor %}
 	</div>
 </div>

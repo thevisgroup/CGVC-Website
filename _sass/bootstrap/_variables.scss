@@ -145,6 +145,7 @@ $sizes: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $sizes: map-merge(
   (
+    10: 10%,
     25: 25%,
     50: 50%,
     75: 75%,
