@@ -1,5 +1,5 @@
 # variable below are required to generate the _includes/host.html
-host_intro: "CGVC 2021 will take place in <b>the University of Lincoln, UK</b>, during 22-24 September 2021."
+host_intro: "CGVC 2021 will take place in <b>the University of Lincoln, UK</b>, during 8-10 September 2021."
 logo: "logo.jpg"
 
 # variable below are required to generate the _includes/important_dates.html
