@@ -5,38 +5,39 @@
       end: "9:30"
 
 - name: "Session 1: Data and Visualisation"
+  start: "9:30"
+  end: "11:00"
   papers:
     - name: 3D visualisations should not be displayed alone – encouraging a need for multivocality in visualisation
       authors: Jonathan Roberts, Joseph Mearman, Panagiotis D. Ritsos, Hayder Al-maneea and Peter Butcher
-      start: "9:30"
-      end: "10:00"
+      type: full
     - name: Multiple DOF for Visualisation of CT Volumes for Hydrocarbon Exploration
       authors: Mario Sandoval, Martin Turner and Tim Morris
-      start: "10:00"
-      end: "10:30"
+      type: short
     - name: Design guidelines for virtual neurological procedures
       authors: Silvester Czanner and Mattia Mancosu
-      start: "10:30"
-      end: "11:00"
+      type: poster
     - name: Break and Networking
       start: "11:00"
       end: "11:30"
 
 - name: "Session 2: Computer Vision"
+  start: "11:30"
+  end: "12:30"
   papers:
     - name: Training dataset construction for anomaly detection in face anti-spoofing
       authors: Ioannis Ivrissimtzis and Latifah Abduh
-      start: "11:30"
-      end: "12:00"
+      type: full
     - name: Where's Wally? A machine learning approach
       authors: Tobias Barthelmes and Franck Vidal
-      start: "12:00"
-      end: "12:30"
+      type: short
     - name: Lunch
       start: "12:30"
       end: "13:00"
 
 - name: "Session 3: Education"
+  start: "13:00"
+  end: "14:00"
   # chair:
   #   name: Panagiotis D. Ritsos
   #   affiliation: Bangor University
@@ -44,56 +45,53 @@
   papers:
     - name: "The University on Lincoln Island: Reimagining a University Campus as a Role-Playing Video Game"
       authors: Chris Headleand, Ben Williams, Beth Davies and Danielle Threlfall
-      start: "13:00"
-      end: "13:20"
+      type: full
     - name: Learning activities in colours and rainbows for programming skill-development
       authors: Jonathan Roberts
-      start: "13:20"
-      end: "13:40"
+      type: full
     - name: "Automating Visualization Quality Assessment: a Case Study in Higher Education"
       authors: Nicolas Holliman
-      start: "13:40"
-      end: "14:00"
+      type: full
     - name: Break and Networking
       start: "14:00"
       end: "14:30"
 
 - name: "Session 4: Games and Virtual Reality"
+  start: "14:30"
+  end: "15:30"
   papers:
     - name: "Recreational Motion Simulation: A New Frontier for Virtual Worlds Research"
       authors: Benjamin Williams and Chris Headleand
-      start: "14:30"
-      end: "15:00"
+      type: full
     - name: "Adi's Maze and the Research Arcade: A long-term study on the impact of gendered representation on player preferences"
       authors: Benjamin Williams, Chris Headleand and Bethany Davies
-      start: "15:00"
-      end: "15:30"
+      type: short
     - name: Keynote Talk 1
-      # link: "./talk#talk-2"
-      author: Nigel Allinson
+      link: "./keynote"
+      author: "Nigel Allinson, University of Lincoln"
       start: "15:30"
       end: "16:30"
 
-- name: "Session 5: Computer Graphics"
-  date: "Day 2 (Online), Thursday 9th September, 2021"
+- date: "Day 2 (Online), Thursday 9th September, 2021"
+  name: "Session 5: Computer Graphics"
+  start: "9:30"
+  end: "10:30"
   papers:
     - name: Improving Ray Tracing Performance with Variable Rate Shading
-      authors: Alexander Dahlin
-      start: "9:30"
-      end: "10:00"
+      authors: Alexander Dahlin and Veronica Sundstedt
+      type: short
     - name: "RECCS: Real-Time Camera Control for Particle Systems"
       authors: Marcel Koester, Antonio Krueger and Julian Gross
-      start: "10:00"
-      end: "10:30"
+      type: full
     - name: Break and Networking
       start: "10:30"
       end: "11:00"
     - name: Keynote Talk 2
-      # link: "./talk#talk-2"
-      author: Nigel John
+      link: "./keynote"
+      author: "Nigel John, University of Chester"
       start: "11:00"
       end: "12:00"
-    - name: Closing
+    - name: Awards and Closing
       start: "12:00"
       end: "12:30"
     - name: Lunch
@@ -104,9 +102,9 @@
       start: "13:00"
       end: "15:00"
 
-- name: Face to Face Networking workshop and tour of Lincoln
-  date: "Day 3 (On site at the University of Lincoln), Friday 10th September, 2021"
+- date: "Day 3 (On site at the University of Lincoln), Friday 10th September, 2021"
+  name: Face to Face Networking workshop and tour of Lincoln
+  start: "9:00"
+  end: "15:00"
   papers:
     - name: Please note that this is an optional additional day. The main conference will be online, and joining instructions will be sent out closer to the time. Please indicate if you wish to attend this additional session in your registration form.
-      start: "9:00"
-      end: "15:00"

@@ -241,6 +241,18 @@ table.sponsor-level {
   .text {
     color: white;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
   }
+}
+
+.badge-full {
+  background-color: rgb(7, 243, 66);
+}
+
+.badge-short {
+  background-color: rgb(223, 219, 8);
+}
+
+.badge-poster {
+  background-color: rgb(223, 7, 243);
+  color: white;
 }

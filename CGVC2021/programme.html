@@ -14,7 +14,8 @@ title: Programme
 <h3>{{session.date}}</h3>
 {% endif %}
 {% if session.name %}
-<h4>{{session.name}}</h4>
+<h4>{{session.name}} {% if session.start %} {{session.start}} - {{session.end}} {% endif %}
+</h4>
 {% if session.chair %}
 <h6 class="text-muted">Session chair: <a href="{{session.chair.url}}">{{session.chair.name}},
         {{session.chair.affiliation}}</a></h6>
@@ -23,28 +24,34 @@ title: Programme
 <table class="mb-3">
     {% for paper in session.papers %}
     <tr>
-        <td>{{paper.start}}</td>
-        <td>&ndash;</td>
-        <td>{{paper.end}}</td>
         <td class="p-2">
+            <!-- For speaker events -->
             {% if paper.author %}
-            <h5>{{paper.name}} {% if paper.link %} - <a href="{{paper.link}}">Abstract</a> {% endif %}<br>
+            <h5> {{paper.name}} {% if paper.link %} - <a href="{{paper.link}}">Abstract</a> {% endif %} {% if paper.start %}
+                {{paper.start}} - {{paper.end}}
+                {% endif %}<br>
                 <small class="text-muted">
                     by {{paper.author}}
                 </small>
             </h5>
+            <!-- For papers -->
             {% elsif paper.authors%}
             <p>
                 {% if paper.award%}
                 <span class="badge badge-danger">{{paper.award}}</span><br>
                 {% endif %}
-                <b>{{paper.name}}</b><br>
+                <b>{{paper.name}}</b>
+                {% if paper.type %}
+                <span class="badge badge-{{paper.type}}">{{paper.type}}</span>{% endif %}<br>
                 <em class="text-muted">
                     by {{paper.authors}}
                 </em>
             </p>
             {% else %}
-            <h5 class="text-muted"><i>{{paper.name}}</i></h5>
+            <!-- For lunch, breaks etc. -->
+            <h5 class="text-muted"><i>{{paper.name}}</i> {% if paper.start %}
+                {{paper.start}} - {{paper.end}}
+                {% endif %} </h5>
             {% endif %}
         </td>
     </tr>
