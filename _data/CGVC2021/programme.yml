@@ -1,133 +1,112 @@
-- date: "Thursday 10th September, 2020"
+- date: "Day 1 (Online), Wednesday 8th September, 2021"
   papers:
-    - name: Opening Session
-      author: Dr Rita Borgo, King’s College London
-      link: "./documents/CGVC_2020_Opening.pdf"
+    - name: Welcome, and Introduction to Lincoln
+      start: "9:00"
+      end: "9:30"
+
+- name: "Session 1: Data and Visualisation"
+  papers:
+    - name: 3D visualisations should not be displayed alone – encouraging a need for multivocality in visualisation
+      authors: Jonathan Roberts, Joseph Mearman, Panagiotis D. Ritsos, Hayder Al-maneea and Peter Butcher
+      start: "9:30"
+      end: "10:00"
+    - name: Multiple DOF for Visualisation of CT Volumes for Hydrocarbon Exploration
+      authors: Mario Sandoval, Martin Turner and Tim Morris
+      start: "10:00"
+      end: "10:30"
+    - name: Design guidelines for virtual neurological procedures
+      authors: Silvester Czanner and Mattia Mancosu
       start: "10:30"
       end: "11:00"
-    - name: Keynote Talk
-      author: Prof Nick Holliman, Newcastle University
-      link: "./keynote"
+    - name: Break and Networking
       start: "11:00"
-      end: "12:30"
-    - name: Break
-      start: "12:30"
-      end: "13:40"
+      end: "11:30"
 
-- name: "Session 1: Visualisation and Machine Learning"
-  chair:
-    name: Kai Xu
-    affiliation: Middlesex University
-    url: https://kaixu.me/
+- name: "Session 2: Computer Vision"
   papers:
-    - name: Visualizing Usage Data from a Diabetes Management System (Full Paper)
-      authors: David A. Duce, Clare Martin, Alex Russell, Dan Brown, Arantza Aldea, Bedour Alshaigy, Rachel Harrison, Marion Waite, Yenny Leal, Marzena Wos, Mercè Fernandez-Balsells, José Manuel Fernández Real, Lucian Nita, Beatriz López, Joaquim Massana, Parizad Avari, Pau Herrero, Narvada Jugnee, Nick Oliver, and Monika Reddy
+    - name: Training dataset construction for anomaly detection in face anti-spoofing
+      authors: Ioannis Ivrissimtzis and Latifah Abduh
+      start: "11:30"
+      end: "12:00"
+    - name: Where's Wally? A machine learning approach
+      authors: Tobias Barthelmes and Franck Vidal
+      start: "12:00"
+      end: "12:30"
+    - name: Lunch
+      start: "12:30"
+      end: "13:00"
+
+- name: "Session 3: Education"
+  # chair:
+  #   name: Panagiotis D. Ritsos
+  #   affiliation: Bangor University
+  #   url: http://pdritsos.com/
+  papers:
+    - name: "The University on Lincoln Island: Reimagining a University Campus as a Role-Playing Video Game"
+      authors: Chris Headleand, Ben Williams, Beth Davies and Danielle Threlfall
+      start: "13:00"
+      end: "13:20"
+    - name: Learning activities in colours and rainbows for programming skill-development
+      authors: Jonathan Roberts
+      start: "13:20"
+      end: "13:40"
+    - name: "Automating Visualization Quality Assessment: a Case Study in Higher Education"
+      authors: Nicolas Holliman
       start: "13:40"
       end: "14:00"
-    - name: Recognising specific foods in MRI scans using CNN and visualisation (Full Paper)
-      authors: Joshua Gardner, Shatha Al-Maliki, Évelyne Lutton, François Boué, and Franck P. Vidal
+    - name: Break and Networking
       start: "14:00"
-      end: "14:20"
-    - name: Emotion Transfer for 3D Hand Motion using StarGAN (Full Paper)
-      authors: Jacky C. P. Chan, Ana-Sabina Irimia, and Edmond S. L. Ho
-      start: "14:20"
-      end: "14:40"
-    - name: Encyclopaedia-based Framework for 3D Image Processing Applications (Short Paper)
-      authors: Terence Morley, Tim Morris, and Martin Turner
-      start: "14:40"
-      end: "14:55"
-    - name: Simulating Dynamic Ecosystems with Co-Evolutionary Agents (Short Paper)
-      authors: Gary Ferguson and Franck P. Vidal
-      start: "14:55"
-      end: "15:10"
-    - name: Break
-      start: "15:10"
+      end: "14:30"
+
+- name: "Session 4: Games and Virtual Reality"
+  papers:
+    - name: "Recreational Motion Simulation: A New Frontier for Virtual Worlds Research"
+      authors: Benjamin Williams and Chris Headleand
+      start: "14:30"
+      end: "15:00"
+    - name: "Adi's Maze and the Research Arcade: A long-term study on the impact of gendered representation on player preferences"
+      authors: Benjamin Williams, Chris Headleand and Bethany Davies
+      start: "15:00"
       end: "15:30"
-
-- name: "Session 2: Graphics"
-  chair:
-    name: Franck Vidal
-    affiliation: Bangor University
-    url: http://www.fpvidal.net/
-  papers:
-    - name: Continuous-Line-Based Halftoning with Pinwheel Tiles (Full Paper)
-      authors: Abdalla G. M. Ahmed
+    - name: Keynote Talk 1
+      # link: "./talk#talk-2"
+      author: Nigel Allinson
       start: "15:30"
-      end: "15:50"
-    - name: "ORQA: Objective Reflection Quality Assessment (Full Paper)"
-      authors: Sietze G. Houwink, Klaas Y. Kliffen, and Jiri Kosinka
-      start: "15:50"
-      end: "16:10"
-    - name: "CLAWS: Computational Load Balancing for Accelerated Neighbour Processing on GPUs using Warp Scheduling (Full Paper)"
-      authors: Julian Gross, Marcel Köster, and Antonio Krüger
-      award: "The Ken Brodlie Prize: Best Full Paper"
-      img: "gross2020computational.png"
-      start: "16:10"
       end: "16:30"
-    - name: Generalized K-mean for Graph Partition Using PageRank (Short Paper)
-      authors: Mustafa Hajij, Eyad Said, and Robert Todd
-      award: "The David Duce Prize: Best Short Paper"
-      img: "hajij2020generalized.png"
-      start: "16:30"
-      end: "16:45"
-    - name: Persistent Homology and the Discrete Laplace Operator For Mesh Similarity (Short Paper)
-      authors: Mustafa Hajij, Yunhao Zhang, Haowen Liu, and Paul Rosen
-      start: "16:45"
-      end: "17:00"
-    - name: Break
-      start: "17:00"
-      end: "17:15"
-    - name: Industrial Talks 1
-      link: "./talk#talk-1"
-      author: David Chester, Lockwood Publishing Ltd.
-      start: "17:15"
-      end: "18:00"
-    - name: Quiz - night!
-      author: Elif Firat, University of Nottingham (organiser)
-      start: "18:15"
-      end: "19:00"
 
-- name: "Session 3: AR and VR"
-  chair:
-    name: Panagiotis D. Ritsos
-    affiliation: Bangor University
-    url: http://pdritsos.com/
-  date: "Friday 11th September, 2020"
+- name: "Session 5: Computer Graphics"
+  date: "Day 2 (Online), Thursday 9th September, 2021"
   papers:
-    - name: Breathing life into statues using Augmented Reality (Full Paper)
-      authors: Eleftherios Ioannou and Steve Maddock
-      award: "The Rob Fletcher Prize: Best Student Application Paper"
-      img: "ioannou2020breathing.png"
+    - name: Improving Ray Tracing Performance with Variable Rate Shading
+      authors: Alexander Dahlin
+      start: "9:30"
+      end: "10:00"
+    - name: "RECCS: Real-Time Camera Control for Particle Systems"
+      authors: Marcel Koester, Antonio Krueger and Julian Gross
       start: "10:00"
-      end: "10:20"
-    - name: Interaction Framework within Collaborative Virtual Environments for Multiple Users each interacting (Poster)
-      authors: Mario Sandoval, Tim Morris, and Martin Turner
-      start: "10:20"
       end: "10:30"
-    - name: A Gesture Recognition Model for Virtual Reality Motion Controllers (Full Paper)
-      authors: Christopher Headleand, Benjamin Williams, Jussi Holopainen, and Marlon Gilliam
+    - name: Break and Networking
       start: "10:30"
-      end: "10:50"
-    - name: Medical Ultrasound Training in Virtual Reality (Poster)
-      authors: James P. Elliman, Sarath Bethapudi, and George Alex Koulieris
-      start: "10:50"
       end: "11:00"
-    - name: Controlling Game Objects Using Multiple Degrees-Of-Freedom (Full Paper)
-      award: "The Terry Hewitt Prize: Best Student Technical Paper"
-      authors: Mario Sandoval, Tim Morris, and Martin Turner
-      img: "sandoval2020controlling.png"
+    - name: Keynote Talk 2
+      # link: "./talk#talk-2"
+      author: Nigel John
       start: "11:00"
-      end: "11:20"
-    - name: Industrial Talks 2
-      link: "./talk#talk-2"
-      author: Ben Spencer, Unity Technologies
-      start: "11:30"
-      end: "12:15"
-    - name: Awards and Closing
-      authors: Dr Panos Ritsos, Bangor University, and Dr Kai Xu, Middlesex University
+      end: "12:00"
+    - name: Closing
+      start: "12:00"
+      end: "12:30"
+    - name: Lunch
       start: "12:30"
-      end: "12:45"
+      end: "13:00"
     - name: EGUK Annual General Meeting
-      authors: Dr Robert Laramee, University of Nottingham
-      start: "12:45"
-      end: "13:30"
+      authors: Robert Laramee, University of Nottingham
+      start: "13:00"
+      end: "15:00"
+
+- name: Face to Face Networking workshop and tour of Lincoln
+  date: "Day 3 (On site at the University of Lincoln), Friday 10th September, 2021"
+  papers:
+    - name: Please note that this is an optional additional day. The main conference will be online, and joining instructions will be sent out closer to the time. Please indicate if you wish to attend this additional session in your registration form.
+      start: "9:00"
+      end: "15:00"
