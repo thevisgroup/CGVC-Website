@@ -6,7 +6,7 @@
 
 - name: "Session 1: Data and Visualisation"
   start: "9:30"
-  end: "11:00"
+  end: "10:30"
   papers:
     - name: 3D visualisations should not be displayed alone – encouraging a need for multivocality in visualisation
       authors: Jonathan Roberts, Joseph Mearman, Panagiotis D. Ritsos, Hayder Al-maneea and Peter Butcher
@@ -18,12 +18,12 @@
       authors: Silvester Czanner and Mattia Mancosu
       type: poster
     - name: Break and Networking
-      start: "11:00"
-      end: "11:30"
+      start: "10:30"
+      end: "11:00"
 
 - name: "Session 2: Computer Vision"
-  start: "11:30"
-  end: "12:30"
+  start: "11:00"
+  end: "12:00"
   papers:
     - name: Training dataset construction for anomaly detection in face anti-spoofing
       authors: Ioannis Ivrissimtzis and Latifah Abduh
@@ -32,11 +32,11 @@
       authors: Tobias Barthelmes and Franck Vidal
       type: short
     - name: Lunch
-      start: "12:30"
-      end: "13:00"
+      start: "12:00"
+      end: "12:40"
 
 - name: "Session 3: Education"
-  start: "13:00"
+  start: "12:40"
   end: "14:00"
   # chair:
   #   name: Panagiotis D. Ritsos
