@@ -1,13 +1,16 @@
 - date: "Day 1 (Online), Wednesday 8th September, 2021"
-  papers:
+  items:
     - name: Welcome, and Introduction to Lincoln
       start: "9:00"
       end: "9:30"
 
 - name: "Session 1: Data and Visualisation"
+  chair:
+    name: Kai Xu
+    affiliation: Middlesex University
   start: "9:30"
   end: "10:30"
-  papers:
+  items:
     - name: 3D visualisations should not be displayed alone – encouraging a need for multivocality in visualisation
       authors: Jonathan Roberts, Joseph Mearman, Panagiotis D. Ritsos, Hayder Al-maneea and Peter Butcher
       type: full
@@ -22,9 +25,12 @@
       end: "11:00"
 
 - name: "Session 2: Computer Vision"
+  chair:
+    name: Elif Firat
+    affiliation: University of Nottingham
   start: "11:00"
   end: "12:00"
-  papers:
+  items:
     - name: Training dataset construction for anomaly detection in face anti-spoofing
       authors: Ioannis Ivrissimtzis and Latifah Abduh
       type: full
@@ -38,11 +44,10 @@
 - name: "Session 3: Education"
   start: "12:40"
   end: "14:00"
-  # chair:
-  #   name: Panagiotis D. Ritsos
-  #   affiliation: Bangor University
-  #   url: http://pdritsos.com/
-  papers:
+  chair: 
+    name: Helen Miles
+    affiliation: Aberystwyth University
+  items:
     - name: "The University on Lincoln Island: Reimagining a University Campus as a Role-Playing Video Game"
       authors: Chris Headleand, Ben Williams, Beth Davies and Danielle Threlfall
       type: full
@@ -59,24 +64,36 @@
 - name: "Session 4: Games and Virtual Reality"
   start: "14:30"
   end: "15:30"
-  papers:
+  chair: 
+    name: Martin Turner
+    affiliation: University of Manchester
+  items:
     - name: "Recreational Motion Simulation: A New Frontier for Virtual Worlds Research"
       authors: Benjamin Williams and Chris Headleand
       type: full
     - name: "Adi's Maze and the Research Arcade: A long-term study on the impact of gendered representation on player preferences"
       authors: Benjamin Williams, Chris Headleand and Bethany Davies
       type: short
-    - name: Keynote Talk 1
-      link: "./keynote"
-      author: "Nigel Allinson, University of Lincoln"
-      start: "15:30"
-      end: "16:30"
+
+- name: "Keynote Talk 1"
+  start: "15:30"
+  end: "16:30"
+  chair: 
+    name: Chris Headleand
+    affiliation: University of Lincoln
+  items:
+    - link: "./keynote"
+      name: "Proton Imaging – a new tool for cancer treatment"
+      speaker: "Nigel Allinson, University of Lincoln"
 
 - date: "Day 2 (Online), Thursday 9th September, 2021"
   name: "Session 5: Computer Graphics"
   start: "9:30"
   end: "10:30"
-  papers:
+  chair: 
+    name: Frank Vidal
+    affiliation: Bangor University
+  items:
     - name: Improving Ray Tracing Performance with Variable Rate Shading
       authors: Alexander Dahlin and Veronica Sundstedt
       type: short
@@ -86,25 +103,53 @@
     - name: Break and Networking
       start: "10:30"
       end: "11:00"
-    - name: Keynote Talk 2
+
+- name: "Keynote Talk 2"
+  start: "11:00"
+  end: "12:00"
+  chair: 
+    name: Horia Maior
+    affiliation: University of Lincoln
+  items:
+    - name: "eXtended Reality (XR) and Healthcare Applications - A Personal Review and Forward-Look"
       link: "./keynote"
-      author: "Nigel John, University of Chester"
-      start: "11:00"
-      end: "12:00"
-    - name: Awards and Closing
-      start: "12:00"
-      end: "12:30"
+      speaker: "Nigel John, University of Chester"
+
+- name: Awards and Closing
+  start: "12:00"
+  end: "12:30"
+  items:
     - name: Lunch
       start: "12:30"
       end: "13:00"
-    - name: EGUK Annual General Meeting
-      authors: Robert Laramee, University of Nottingham
-      start: "13:00"
-      end: "15:00"
+
+- name: EGUK Annual General Meeting
+  authors: Robert Laramee, University of Nottingham
+  start: "13:00"
+  end: "15:00"
 
 - date: "Day 3 (On site at the University of Lincoln), Friday 10th September, 2021"
   name: Face to Face Networking workshop and tour of Lincoln
   start: "9:00"
-  end: "15:00"
-  papers:
-    - name: Please note that this is an optional additional day. The main conference will be online, and joining instructions will be sent out closer to the time. Please indicate if you wish to attend this additional session in your registration form.
+  end: "17:00"
+  items:
+    - name: Breakfast
+      desc: Meet at <a href="https://www.harvester.co.uk/restaurants/eastandwestmidlands/thebrayfordwharflincoln">Brayford Warf Harvester</a>.
+      start: "9:00"
+      end: "10:00"
+    - name: Computer Graphics and Visual Computing Retrospective Workshop
+      desc: Meet us in the atrium of the Minerva building at the University of Lincoln During the workshop we will look back on the history of CGVC, and consider the state of the art in the current research.
+      start: "10:00"
+      end: "11:30"
+    - name: Lunch
+      desc: During the lunch break we will go to one of the many restaurants on the Brayford Pool. This will require a 10 min walk.
+      start: "11:30"
+      end: "13:00"
+    - name: The Future of CGVC
+      desc: In the second workshop we will attempt to predict the future of computer graphics research based on current trends in publication. We will end the workshop by defining a position statement on current issues and future opportunities.
+      start: "13:30"
+      end: "15:00"
+    - name: Tour of Lincoln
+      desc: At the end of the workshop, conference chair (Chris Headleand) will offer a tour of Lincoln, walking up step hill to the Cathedral and Lincoln Castle. This tour will go past the train station for anyone who wishes to head off at this point.
+      start: "15:00"
+      end: "17:00"

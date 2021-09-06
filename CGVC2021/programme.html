@@ -17,41 +17,44 @@ title: Programme
 <h4>{{session.name}} {% if session.start %} {{session.start}} - {{session.end}} {% endif %}
 </h4>
 {% if session.chair %}
-<h6 class="text-muted">Session chair: <a href="{{session.chair.url}}">{{session.chair.name}},
-        {{session.chair.affiliation}}</a></h6>
+<h6 class="text-muted">Session chair: {{session.chair.name}},
+        {{session.chair.affiliation}}</h6>
 {% endif %}
 {% endif %}
 <table class="mb-3">
-    {% for paper in session.papers %}
+    {% for item in session.items %}
     <tr>
         <td class="p-2">
             <!-- For speaker events -->
-            {% if paper.author %}
-            <h5> {{paper.name}} {% if paper.link %} - <a href="{{paper.link}}">Abstract</a> {% endif %} {% if paper.start %}
-                {{paper.start}} - {{paper.end}}
+            {% if item.speaker %}
+            <h5> {{item.name}} {% if item.link %} - <a href="{{item.link}}">Abstract</a> {% endif %} {% if item.start %}
+                {{item.start}} - {{item.end}}
                 {% endif %}<br>
-                <small class="text-muted">
-                    by {{paper.author}}
-                </small>
+                 <em class="text-muted">
+                    by {{item.speaker}}
+                </em>
             </h5>
             <!-- For papers -->
-            {% elsif paper.authors%}
+            {% elsif item.authors%}
             <p>
-                {% if paper.award%}
-                <span class="badge badge-danger">{{paper.award}}</span><br>
+                {% if item.award%}
+                <span class="badge badge-danger">{{item.award}}</span><br>
                 {% endif %}
-                <b>{{paper.name}}</b>
-                {% if paper.type %}
-                <span class="badge badge-{{paper.type}}">{{paper.type}}</span>{% endif %}<br>
+                <b>{{item.name}}</b>
+                {% if item.type %}
+                <span class="badge badge-{{item.type}}">{{item.type}}</span>{% endif %}<br>
                 <em class="text-muted">
-                    by {{paper.authors}}
+                    by {{item.authors}}
                 </em>
             </p>
             {% else %}
             <!-- For lunch, breaks etc. -->
-            <h5 class="text-muted"><i>{{paper.name}}</i> {% if paper.start %}
-                {{paper.start}} - {{paper.end}}
+            <h5 class="text-muted"><i>{{item.name}}</i> {% if item.start %}
+                {{item.start}} - {{item.end}}
                 {% endif %} </h5>
+            {% endif %}
+            {% if item.desc %}
+            {{item.desc}}
             {% endif %}
         </td>
     </tr>
