@@ -3,9 +3,10 @@ host_intro: "CGVC 2021 will take place in <b>the University of Lincoln, UK</b>, 
 logo: "logo.jpg"
 
 # variable below are required to generate the _includes/important_dates.html
-submission_closed: false
+submission_closed: true
 submission_started: true
 submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2021"
+proceedings: "https://diglib.eg.org/handle/10.2312/2633082"
 
 committee:
   conference_chair:

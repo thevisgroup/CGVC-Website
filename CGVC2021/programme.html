@@ -6,10 +6,12 @@ title: Programme
 
 <a id="programme"></a>
 
-<!-- <h5> CGVC 2021 Conference Proceedings are available online at <a href="https://diglib.eg.org/handle/10.2312/2632929"> EG
-        Digital Library</a>.</h5> -->
+{% if site.data[page.year].general_information.proceedings %}
+<h5> {{page.year}} Conference Proceedings are available online at <a href="{{site.data.CGVC2021.general_information.proceedings}}"> EG
+        Digital Library</a>.</h5>
+{% endif %}
 
-{% for session in site.data.CGVC2021.programme %}
+{% for session in site.data[page.year].programme %}
 {% if session.date %}
 <h3>{{session.date}}</h3>
 {% endif %}
