@@ -14,9 +14,10 @@
     - name: 3D visualisations should not be displayed alone – encouraging a need for multivocality in visualisation
       authors: Jonathan Roberts, Joseph Mearman, Panagiotis D. Ritsos, Hayder Al-maneea and Peter Butcher
       type: full
-    - name: Multiple DOF for Visualisation of CT Volumes for Hydrocarbon Exploration
+    - name: Multiple DOF for X-ray CT Hydrocarbon Exploration
       authors: Mario Sandoval, Martin Turner and Tim Morris
       type: short
+      award: "The David Duce Prize: Best Short Paper"
     - name: Design guidelines for virtual neurological procedures
       authors: Silvester Czanner and Mattia Mancosu
       type: poster
@@ -37,6 +38,7 @@
     - name: Where's Wally? A machine learning approach
       authors: Tobias Barthelmes and Franck Vidal
       type: short
+      award: "The Terry Hewitt Prize: Best Student Technical Paper"
     - name: Lunch
       start: "12:00"
       end: "12:40"
@@ -57,6 +59,7 @@
     - name: "Automating Visualization Quality Assessment: a Case Study in Higher Education"
       authors: Nicolas Holliman
       type: full
+      award: "The Ken Brodlie Prize: Best Full Paper"
     - name: Break and Networking
       start: "14:00"
       end: "14:30"
@@ -71,6 +74,7 @@
     - name: "Recreational Motion Simulation: A New Frontier for Virtual Worlds Research"
       authors: Benjamin Williams and Chris Headleand
       type: full
+      award: "The Rob Fletcher Prize: Best Student Application Paper"
     - name: "Adi's Maze and the Research Arcade: A long-term study on the impact of gendered representation on player preferences"
       authors: Benjamin Williams, Chris Headleand and Bethany Davies
       type: short
