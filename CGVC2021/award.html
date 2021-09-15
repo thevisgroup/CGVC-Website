@@ -6,17 +6,17 @@ title: Best Paper Awards
 
 <a id="award"></a>
 
-TBA
-
-<!-- <table class="mb-3">
-    {% for session in site.data.CGVC2021.programme %}
-    {% for paper in session.papers %}
+<table class="mb-3">
+    {% for session in site.data[page.year].programme %}
+    {% for paper in session.items %}
     {% if paper.award%}
     <tr>
         <td class="p-2">
             <p>
             <h4><span class="badge badge-danger">{{paper.award}}</span></h4><br>
-            <img class="mw-100" src="{{site.baseurl}}/assets/img/CGVC2021/award/{{paper.img}}">
+            {% if paper.img%}
+            <img class="mw-100" src="{{site.baseurl}}/assets/img/CGVC2021/award/{{paper.img}}"><br>
+            {% endif %}
             <b>{{paper.name}}</b><br>
             <em class="text-muted">
                 by {{paper.authors}}
@@ -27,4 +27,4 @@ TBA
     {% endif %}
     {% endfor %}
     {% endfor %}
-</table> -->
+</table>

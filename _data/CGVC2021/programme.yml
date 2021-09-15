@@ -18,6 +18,7 @@
       authors: Mario Sandoval, Martin Turner and Tim Morris
       type: short
       award: "The David Duce Prize: Best Short Paper"
+      img: "sandoval2021multiple.png"
     - name: Design guidelines for virtual neurological procedures
       authors: Silvester Czanner and Mattia Mancosu
       type: poster
@@ -39,6 +40,7 @@
       authors: Tobias Barthelmes and Franck Vidal
       type: short
       award: "The Terry Hewitt Prize: Best Student Technical Paper"
+      img: "barthelmes2021wally.png"
     - name: Lunch
       start: "12:00"
       end: "12:40"
@@ -60,6 +62,7 @@
       authors: Nicolas Holliman
       type: full
       award: "The Ken Brodlie Prize: Best Full Paper"
+      img: "holliman2021automating.png"
     - name: Break and Networking
       start: "14:00"
       end: "14:30"
