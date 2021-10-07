@@ -1,6 +1,6 @@
 ---
 layout: front
-year: CGVC2021
+year: CGVC2022
 title: Welcome to CGVC!
 ---
 
@@ -14,9 +14,9 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 <!-- This section should be updated every year -->
 
-### CGVC 2021
+### CGVC 2022
 
-We are excited to announce that CGVC 2021 will take place on the 8-10th September at the University of Lincoln. The <a href="CGVC2021/cfp.html">call for papers</a> and <a href="CGVC2021">additional information</a> are now available. 
+We are excited to announce that CGVC 2021 will take place on the 8-10th September at the University of Lincoln. The <a href="CGVC2022/cfp.html">call for papers</a> and <a href="CGVC2022">additional information</a> are now available. 
 
 {% include host.html year=page.year %}
 

@@ -1,0 +1,28 @@
+# variable below are required to generate the _includes/host.html
+host_intro: "CGVC 2022 will be hosted by <b>Cardiff Metropolitan University, Wales, UK</b>."
+logo: "logo.jpg"
+
+# variable below are required to generate the _includes/important_dates.html
+submission_closed: false
+submission_started: false
+submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2022"
+proceedings: ""
+
+committee:
+  conference_chair:
+    - name: Edmond Prakash
+      role: Conference Chair
+      affiliation: Cardiff Metropolitan University
+      url: 
+      email: eprakash@cardiffmet.ac.uk
+  programme_chair:
+    - name: Peter Vangorp
+      affiliation: Edge Hill University
+      role: Programme Chair
+      url: https://www.edgehill.ac.uk/computerscience/people/academic-staff/peter-vangorp/
+      email: peter.vangorp@edgehill.ac.uk
+    - name: Martin Turner
+      affiliation: University of Manchester
+      role: Programme Chair
+      url: http://www.rcs.manchester.ac.uk/aboutus/staff/MartinTurner
+      email: Martin.Turner@manchester.ac.uk
