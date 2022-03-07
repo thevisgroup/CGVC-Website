@@ -37,7 +37,7 @@ const list = ` Aaron Sújar	Universidad Rey Juan Carlos
  Nigel W. John	University of Chester
  Panagiotis D. Ritsos	Bangor University
  Peter Passmore	Middlesex University London
- Peter Vangorp	Edge Hill University
+ Peter Vangorp	Utrecht University
  Pierre-Frederic Villard	University of Lorraine
  Ran Song	University of Brighton
  Reyer Zwiggelaar	Aberystwyth University
