@@ -16,8 +16,12 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 ### CGVC 2022
 
-We are excited to announce that CGVC 2022 will take place on 15-16 September 2022 at Cardiff Metropolitan University. The <a href="CGVC2022/cfp.html">call for papers</a> and <a href="CGVC2022">additional information</a> are now available. 
+We are excited to announce that CGVC 2022 will take place on 15-16 September 2022 at Cardiff Metropolitan University. The [call for papers](CGVC2022/cfp.html) and [additional information](CGVC2022) are now available.
+
+<!-- End of the section -->
 
 {% include host.html year=page.year %}
 
-<!-- End of the section -->
+<hr>
+
+{% include important_dates.html year=page.year %}

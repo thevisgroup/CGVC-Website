@@ -4,7 +4,7 @@ logo: "logo.jpg"
 
 # variable below are required to generate the _includes/important_dates.html
 submission_closed: false
-submission_started: false
+submission_started: true
 submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2022"
 proceedings: ""
 
