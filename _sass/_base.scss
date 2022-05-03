@@ -56,7 +56,7 @@ ul {
   margin-left: 1.8em;
 }
 
-ul > li {
+ul>li {
   &:before {
     content: "\BB  ";
     color: $cgvc_highlight;
@@ -117,6 +117,7 @@ ul > li {
 
 .sidebar {
   margin-bottom: 1.25rem;
+
   div:not(:last-child) {
     margin-bottom: 1.5rem;
   }
@@ -132,9 +133,11 @@ ul > li {
 .navbar {
   border-bottom: 0.3rem solid $cgvc_highlight;
   color: $cgvc_main;
+
   a {
     border-bottom: none;
   }
+
   li:before {
     content: none;
   }
@@ -176,11 +179,12 @@ ul > li {
   height: 2rem;
 }
 
-.navbar-brand > img {
+.navbar-brand>img {
   height: 3.5rem;
 }
 
 .committee {
+
   &.name,
   &.role {
     font-weight: bold;
@@ -193,18 +197,22 @@ ul > li {
 
 table.cgvc-cfp-dates {
   margin-left: 0.5rem;
+
   .td-extend {
     padding-right: 0.625rem;
   }
+
   s {
     color: #9e9e9e;
   }
+
   tr td:first-child {
     padding-right: 0.125rem;
   }
 }
 
 table.sponsor-level {
+
   th,
   td:not(:first-child) {
     text-align: center;
@@ -238,6 +246,7 @@ table.sponsor-level {
   background-size: cover;
   height: 100%;
   font-size: 1.5rem;
+
   .text {
     color: white;
     background: rgba(0, 0, 0, 0.6);
@@ -255,4 +264,12 @@ table.sponsor-level {
 .badge-poster {
   background-color: rgb(223, 7, 243);
   color: white;
+}
+
+.keynote-profile {
+  text-align: center;
+  float: right;
+  shape-outside: margin-box;
+  margin: 0.5rem;
+  max-width: 30%;
 }
