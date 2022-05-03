@@ -9,10 +9,10 @@ Check the [version of jekyll on github pages](https://pages.github.com/versions/
 Then to start a jekyll server:
 
 ```bash
-    docker run --name cgvc -v "$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve
+    docker run --name cgvc -v "$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8.6 jekyll serve
 ```
 
-And visit http://localhost:4000 in your browser for preview.
+And visit <http://localhost:4000> in your browser for preview.
 
 ## Using Ruby
 
@@ -26,7 +26,7 @@ And visit http://localhost:4000 in your browser for preview.
 
     bundle install
 
-Run `jekyll serve` in the terminal, and visit http://localhost:4000 in your browser for preview.
+Run `jekyll serve` in the terminal, and visit <http://localhost:4000> in your browser for preview.
 
 ## Deploying to a Github Pages setup
 
