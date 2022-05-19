@@ -1,5 +1,5 @@
 # variable below are required to generate the _includes/host.html
-host_intro: "CGVC 2022 will be hosted by <b>Cardiff Metropolitan University, Wales, UK</b>."
+host_intro: "CGVC 2022 will be hosted virtually by <br> <b>Leeds Trinity University, England, UK</b>."
 logo: "logo.jpg"
 
 # variable below are required to generate the _includes/important_dates.html
@@ -12,9 +12,9 @@ committee:
   conference_chair:
     - name: Edmond Prakash
       role: Conference Chair
-      affiliation: Cardiff Metropolitan University
-      url: https://www.cardiffmet.ac.uk/technologies/staff-profiles/Pages/Edmond-Prakash.aspx
-      email: eprakash@cardiffmet.ac.uk
+      affiliation: Leeds Trinity University
+      url: https://research.leedstrinity.ac.uk/en/persons/edmond-prakash
+      email: e.prakash@leedstrinity.ac.uk
   programme_chair:
     - name: Peter Vangorp
       affiliation: Utrecht University
