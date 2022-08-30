@@ -1,162 +1,143 @@
-- date: "Day 1 (Online), Wednesday 8th September, 2021"
+- date: "Day 1, Thursday 15th September, 2021"
   items:
-    - name: Welcome, and Introduction to Lincoln
-      start: "9:00"
-      end: "9:30"
+    - name: Registration
+      start: "10:00"
+      end: "10:20"
+    - name: Opening
+      start: "10:20"
+      end: "10:30"
 
-- name: "Session 1: Data and Visualisation"
-  chair:
-    name: Kai Xu
-    affiliation: Middlesex University
-  start: "9:30"
-  end: "10:30"
-  items:
-    - name: 3D visualisations should not be displayed alone – encouraging a need for multivocality in visualisation
-      authors: Jonathan Roberts, Joseph Mearman, Panagiotis D. Ritsos, Hayder Al-maneea and Peter Butcher
-      type: full
-    - name: Multiple DOF for X-ray CT Hydrocarbon Exploration
-      authors: Mario Sandoval, Martin Turner and Tim Morris
-      type: short
-      award: "The David Duce Prize: Best Short Paper"
-      img: "sandoval2021multiple.png"
-    - name: Design guidelines for virtual neurological procedures
-      authors: Silvester Czanner and Mattia Mancosu
-      type: poster
-    - name: Break and Networking
-      start: "10:30"
-      end: "11:00"
-
-- name: "Session 2: Computer Vision"
-  chair:
-    name: Elif Firat
-    affiliation: University of Nottingham
-  start: "11:00"
+- name: "Session 1: Computer Graphics"
+  # chair:
+  #   name: Kai Xu
+  #   affiliation: Middlesex University
+  start: "10:30"
   end: "12:00"
   items:
-    - name: Training dataset construction for anomaly detection in face anti-spoofing
-      authors: Ioannis Ivrissimtzis and Latifah Abduh
+    - name: Depth-aware Neural Style Transfer using Instance Normalization
+      authors: Eleftherios Ioannou and Steve Maddock
       type: full
-    - name: Where's Wally? A machine learning approach
-      authors: Tobias Barthelmes and Franck Vidal
-      type: short
       award: "The Terry Hewitt Prize: Best Student Technical Paper"
-      img: "barthelmes2021wally.png"
-    - name: Lunch
-      start: "12:00"
-      end: "12:40"
-
-- name: "Session 3: Education"
-  start: "12:40"
-  end: "14:00"
-  chair: 
-    name: Helen Miles
-    affiliation: Aberystwyth University
-  items:
-    - name: "The University on Lincoln Island: Reimagining a University Campus as a Role-Playing Video Game"
-      authors: Chris Headleand, Ben Williams, Beth Davies and Danielle Threlfall
-      type: full
-    - name: Learning activities in colours and rainbows for programming skill-development
-      authors: Jonathan Roberts
-      type: full
-    - name: "Automating Visualization Quality Assessment: a Case Study in Higher Education"
-      authors: Nicolas Holliman
-      type: full
-      award: "The Ken Brodlie Prize: Best Full Paper"
-      img: "holliman2021automating.png"
-    - name: Break and Networking
-      start: "14:00"
-      end: "14:30"
-
-- name: "Session 4: Games and Virtual Reality"
-  start: "14:30"
-  end: "15:30"
-  chair: 
-    name: Martin Turner
-    affiliation: University of Manchester
-  items:
-    - name: "Recreational Motion Simulation: A New Frontier for Virtual Worlds Research"
-      authors: Benjamin Williams and Chris Headleand
-      type: full
-      award: "The Rob Fletcher Prize: Best Student Application Paper"
-    - name: "Adi's Maze and the Research Arcade: A long-term study on the impact of gendered representation on player preferences"
-      authors: Benjamin Williams, Chris Headleand and Bethany Davies
+      start: "10:30"
+      end: "10:50"
+    - name: Parallelizing Rendering Calculations on Modern Mobile Phones with Multi-Core CPUs - An Implementation Suggestion for Educations
+      authors: Ron Porath
       type: short
+      start: "10:50"
+      end: "11:05"
+    - name: Semi-Sharp Subdivision Shading
+      authors: Jun Zhou, Jan Boonstra, and Jirí Kosinka
+      type: short
+      start: "11:05"
+      end: "11:20"
+    - name: Surface Mesh Modeling of Spiny Neuronal Morphologies using Union Operators
+      authors: Marwan Abdellah, Juan José García Cantero, Alessandro Foni, Nadir Román Guerrero, Elvis Boci, and Felix Schürmann
+      type: full
+      start: "11:20"
+      end: "11:40"
+    - name: Lunch Break and Networking
+      start: "12:00"
+      end: "13:00"
+
+- name: "Session 2: Visualisation"
+  # chair:
+  #   name: Elif Firat
+  #   affiliation: University of Nottingham
+  start: "13:00"
+  end: "14:30"
+  items:
+    - name: "Personalised Authentic assessments with Synchronous Learning Activities: a Framework for Teaching Visualisation and Graphics"
+      authors: Jonathan C. Roberts
+      type: full
+      start: "13:00"
+      end: "13:20"
+    - name: "Extended Reality (XR) Immersive Visualisation: Identifying AI project member 'needs' in order to design for a more effective Low-Code Machine Learning Model Development experience"
+      authors: Richard Wheeler and Fiona Carroll
+      type: full
+      start: "13:20"
+      end: "13:40"
+    - name: Interactive Visualisation of the Food Content of a Human Stomach in MRI
+      authors: Conor Spann, Shatha Al-Maliki, François Boué, Évelyne Lutton, and Franck P. Vidal
+      type: full
+      start: "13:40"
+      end: "14:00"
+    - name: Chladni Plate Visualisation
+      authors: Sarah Dashti, Edmond Prakash, Andres Adolfo Navarro-Newball, Fiaz Hussain, and Fiona Carroll
+      type: full
+      start: "14:00"
+      end: "14:20"
+    - name: Break and Networking
+      start: "14:30"
+      end: "15:00"
 
 - name: "Keynote Talk 1"
-  start: "15:30"
-  end: "16:30"
+  start: "15:00"
+  end: "16:00"
   chair: 
-    name: Chris Headleand
-    affiliation: University of Lincoln
+    name: Prof Edmond Prakash
+  #   affiliation: University of Lincoln
   items:
     - link: "./keynote"
-      name: "Proton Imaging – a new tool for cancer treatment"
-      speaker: "Nigel Allinson, University of Lincoln"
+      name: "Rethinking the Design of our Online Spaces"
+      speaker: "Dr Fiona Carroll, Cardiff Metropolitan University"
 
-- date: "Day 2 (Online), Thursday 9th September, 2021"
-  name: "Session 5: Computer Graphics"
-  start: "9:30"
-  end: "10:30"
+- date: "Day 2, Friday 16th September, 2021"
+  name: "Session 3: Visual Computing & Applications"
+  start: "10:30"
+  end: "12:00"
   chair: 
-    name: Frank Vidal
-    affiliation: Bangor University
+    # name: Frank Vidal
+    # affiliation: Bangor University
   items:
-    - name: Improving Ray Tracing Performance with Variable Rate Shading
-      authors: Alexander Dahlin and Veronica Sundstedt
-      type: short
-    - name: "RECCS: Real-Time Camera Control for Particle Systems"
-      authors: Marcel Koester, Antonio Krueger and Julian Gross
+    - name: Real-time Indexing of Point Cloud Data During LiDAR Capture
+      authors: Pascal Bormann, Tobias Dorra, Bastian Stahl, and Dieter W. Fellner
       type: full
-    - name: Break and Networking
       start: "10:30"
-      end: "11:00"
+      end: "10:50"
+      award: "The Ken Brodlie Prize: Best Full Paper"
+    - name: Towards Developing a Digital application for the Five Design-Sheets Methodology
+      authors: Aron E. Owen and Jonathan C. Roberts
+      type: short
+      start: "10:50"
+      end: "11:05"
+      award: "The David Duce Prize: Best Short Paper"
+    - name: Building Augmented and Virtual Reality Experiences for Children with Visual Diversity
+      authors: Andres Adolfo Navarro-Newball, Martín Vladimir Alonso Sierra Galvis, Juan Carlos Martínez, Juan José Betancourt, Katherine Ramirez, Andrés Velasquez, Valeria Quinto, Gerardo Restrepo, Andrés Darío Castillo, Elizabeth Asprilla, Anita Portilla, Laura Lucia Serrano, Frank Alexander Rodríguez, and Eliana Peñaloza
+      type: short
+      start: "11:05"
+      end: "11:20"
+    - name: "Developing Transitional Activities to Support Student Transition to University: Findings From a Qualitative Co-design Study With University Stakeholders"
+      authors: Danielle Threlfall, Christopher J. Headleand, Kieran Hicks, and Kirsty Miller
+      type: poster
+      start: "11:20"
+      end: "11:30"
+    - name: Augmented Reality for Safety Zones in Human-Robot Collaboration
+      authors: Yunus Emre Cogurcu, James A. Douthwaite, and Steve Maddock
+      type: full
+      start: "11:30"
+      end: "11:50"
+      award: "The Rob Fletcher Prize: Best Student Application Paper"
+    - name: Lunch Break and Networking
+      start: "12:00"
+      end: "13:00"
 
-- name: "Keynote Talk 2"
+- name: "Keynote 2"
   start: "11:00"
   end: "12:00"
   chair: 
-    name: Horia Maior
-    affiliation: University of Lincoln
+    name: Dr Franck P. Vidal
+    affiliation: Bangor University
   items:
-    - name: "eXtended Reality (XR) and Healthcare Applications - A Personal Review and Forward-Look"
+    - name: "The Inner Lives of Visualisations -- Studying How Visualisations of Statistical Concepts are Understood"
       link: "./keynote"
-      speaker: "Nigel John, University of Chester"
+      speaker: "Dr Cagatay Turkay, University of Warwick"
 
 - name: Awards and Closing
-  start: "12:00"
-  end: "12:30"
-  items:
-    - name: Lunch
-      start: "12:30"
-      end: "13:00"
+  authors: "Dr Martin Turner & Dr Peter Vangorp"
+  start: "14:00"
+  end: "14:30"
 
 - name: EGUK Annual General Meeting
   authors: Robert Laramee, University of Nottingham
-  start: "13:00"
-  end: "15:00"
-
-- date: "Day 3 (On site at the University of Lincoln), Friday 10th September, 2021"
-  name: Face to Face Networking workshop and tour of Lincoln
-  start: "9:00"
-  end: "17:00"
-  items:
-    - name: Breakfast
-      desc: Meet at <a href="https://www.harvester.co.uk/restaurants/eastandwestmidlands/thebrayfordwharflincoln">Brayford Warf Harvester</a>.
-      start: "9:00"
-      end: "10:00"
-    - name: Computer Graphics and Visual Computing Retrospective Workshop
-      desc: Meet us in the atrium of the Minerva building at the University of Lincoln During the workshop we will look back on the history of CGVC, and consider the state of the art in the current research.
-      start: "10:00"
-      end: "11:30"
-    - name: Lunch
-      desc: During the lunch break we will go to one of the many restaurants on the Brayford Pool. This will require a 10 min walk.
-      start: "11:30"
-      end: "13:00"
-    - name: The Future of CGVC
-      desc: In the second workshop we will attempt to predict the future of computer graphics research based on current trends in publication. We will end the workshop by defining a position statement on current issues and future opportunities.
-      start: "13:30"
-      end: "15:00"
-    - name: Tour of Lincoln
-      desc: At the end of the workshop, conference chair (Chris Headleand) will offer a tour of Lincoln, walking up step hill to the Cathedral and Lincoln Castle. This tour will go past the train station for anyone who wishes to head off at this point.
-      start: "15:00"
-      end: "17:00"
+  start: "14:30"
+  end: "15:30"
