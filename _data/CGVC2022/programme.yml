@@ -30,7 +30,7 @@
       type: short
       start: "11:05"
       end: "11:20"
-    - name: Surface Mesh Modeling of Spiny Neuronal Morphologies using Union Operators
+    - name: Meshing of Spiny Neuronal Morphologies using Union Operators
       authors: Marwan Abdellah, Juan José García Cantero, Alessandro Foni, Nadir Román Guerrero, Elvis Boci, and Felix Schürmann
       type: full
       start: "11:20"
