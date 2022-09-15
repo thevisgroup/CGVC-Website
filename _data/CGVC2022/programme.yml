@@ -122,8 +122,8 @@
       end: "13:00"
 
 - name: "Keynote 2"
-  start: "11:00"
-  end: "12:00"
+  start: "13:00"
+  end: "14:00"
   chair:
     name: Dr Franck P. Vidal
     affiliation: Bangor University
