@@ -7,11 +7,14 @@ title: Programme
 <a id="programme"></a>
 
 {% if site.data[page.year].general_information.proceedings %}
-<h5> {{page.year}} Conference Proceedings are now available online at <a href="{{site.data.CGVC2022.general_information.proceedings}}" target="_blank"> EG
+<h5> {{page.year}} Conference Proceedings are now available online at <a
+        href="{{site.data.CGVC2022.general_information.proceedings}}" target="_blank"> EG
         Digital Library</a>.</h5><br>
 {% endif %}
 
-<h5>The conference will be hosted virtually on <a href="https://teams.microsoft.com/l/meetup-join/19%3ac6e591ef70a6461eac374b58f2ab77fd%40thread.tacv2/1662461497232?context=%7b%22Tid%22%3a%22069c310c-d4c2-4554-b166-90ca805a5eaa%22%2c%22Oid%22%3a%22a27f12ff-f019-4405-8801-c7b3c7a00ad1%22%7d" target="_blank">Teams</a>.</h5>
+<h5>The conference will be hosted virtually on <a
+        href="https://teams.microsoft.com/l/meetup-join/19%3ac6e591ef70a6461eac374b58f2ab77fd%40thread.tacv2/1662461497232?context=%7b%22Tid%22%3a%22069c310c-d4c2-4554-b166-90ca805a5eaa%22%2c%22Oid%22%3a%22a27f12ff-f019-4405-8801-c7b3c7a00ad1%22%7d"
+        target="_blank">Teams</a>.</h5>
 
 {% for session in site.data[page.year].programme %}
 {% if session.date %}
@@ -20,12 +23,12 @@ title: Programme
 
 {% if session.name %}
 <h4>{{session.name}} {% if session.start %} {{session.start}} - {{session.end}}
-{% endif %}
+    {% endif %}
 
 </h4>
 {% if session.chair %}
 <h6 class="text-muted">Session chair: {{session.chair.name}}{% if session.chair.affiliation %},
-        {{session.chair.affiliation}}{% endif %}</h6>
+    {{session.chair.affiliation}}{% endif %}</h6>
 {% endif %}
 
 {% endif %}
@@ -53,8 +56,9 @@ title: Programme
                 <span>{{item.start}} - {{item.end}}</span>
                 {% endif %}
                 <b>{{item.name}}</b>
-                {% if item.type %}
-                <span class="badge badge-{{item.type}}">{{item.type}}</span>{% endif %}<br>
+                <span class="badge badge-{{item.type}}">{{item.type}}</span> {% if item.file %} <a
+                    href="documents/{{item.type}}/{{item.file}}">View</a>{% endif %}
+                {% if item.type %} {% endif %}<br>
                 <em class="text-muted">
                     by {{item.authors}}
                 </em>

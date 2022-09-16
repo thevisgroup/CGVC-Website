@@ -152,10 +152,10 @@ ul>li {
 .nav-link {
   font-size: 1.1rem;
   margin-right: 0.3rem;
-  color: $cgvc_main !important;
+  color: $cgvc_main  !important;
 
   &:hover {
-    color: $cgvc_highlight !important;
+    color: $cgvc_highlight  !important;
   }
 
   &::after {
@@ -271,4 +271,8 @@ table.sponsor-level {
   shape-outside: margin-box;
   margin: 0.5rem;
   max-width: 30%;
+}
+
+img.social {
+  width: inherit;
 }
