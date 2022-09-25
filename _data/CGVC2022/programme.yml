@@ -17,7 +17,7 @@
     - name: Depth-aware Neural Style Transfer using Instance Normalization
       authors: Eleftherios Ioannou and Steve Maddock
       type: full
-      # award: "The Terry Hewitt Prize: Best Student Technical Paper"
+      award: "The Terry Hewitt Prize: Best Student Technical Paper"
       start: "10:30"
       end: "10:50"
     - name: Parallelizing Rendering Calculations on Modern Mobile Phones with Multi-Core CPUs - An Implementation Suggestion for Educations
@@ -99,13 +99,13 @@
       type: full
       start: "10:30"
       end: "10:50"
-      # award: "The Ken Brodlie Prize: Best Full Paper"
+      award: "The Ken Brodlie Prize: Best Full Paper"
     - name: Towards Developing a Digital application for the Five Design-Sheets Methodology
       authors: Aron E. Owen and Jonathan C. Roberts
       type: short
       start: "10:50"
       end: "11:05"
-      # award: "The David Duce Prize: Best Short Paper"
+      award: "The David Duce Prize: Best Short Paper"
     - name: "Developing Transitional Activities to Support Student Transition to University: Findings From a Qualitative Co-design Study With University Stakeholders"
       authors: Danielle Threlfall, Christopher J. Headleand, Kieran Hicks, and Kirsty Miller
       type: poster
@@ -117,7 +117,7 @@
       type: full
       start: "11:15"
       end: "11:35"
-      # award: "The Rob Fletcher Prize: Best Student Application Paper"
+      award: "The Rob Fletcher Prize: Best Student Application Paper"
     - name: Lunch Break and Networking
       start: "12:00"
       end: "13:00"
