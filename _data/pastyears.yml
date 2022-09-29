@@ -1,3 +1,10 @@
+- year: 2022
+  title: 40th CGVC Computer Graphics & Visual Computing Conference
+  location: Leeds Trinity University, UK
+  date: 15 September
+  website: https://cgvc.org.uk/CGVC2022
+  proceedings: https://diglib.eg.org/handle/10.2312/2633209
+
 - year: 2021
   title: 39th CGVC Computer Graphics & Visual Computing Conference
   location: University of Lincoln, UK
@@ -134,7 +141,6 @@
   location: De Montfort University, Leicester, UK
   date: June
 
-
   # website: http://eguk.bangor.ac.uk/DMU02/index.html
 - year: 2001
   title: 19th EGUK Annual Eurographics UK Conference
@@ -229,7 +235,7 @@
   date_in: Summer
 
 - year: 1981
-  title: The Founding of Eurographics UK Chapter 
+  title: The Founding of Eurographics UK Chapter
   date_in: December
-  pdf: 'EGUK-History.pdf'
-  pdf_intro: 'History of the Chapter'
+  pdf: "EGUK-History.pdf"
+  pdf_intro: "History of the Chapter"

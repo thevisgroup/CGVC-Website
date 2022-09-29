@@ -1,0 +1,30 @@
+---
+layout: default
+year: CGVC2023
+title: Best Paper Awards
+---
+
+<a id="award"></a>
+
+<table class="mb-3">
+    {% for session in site.data[page.year].programme %}
+    {% for paper in session.items %}
+    {% if paper.award%}
+    <tr>
+        <td class="p-2">
+            <p>
+            <h4><span class="badge badge-danger">{{paper.award}}</span></h4><br>
+            {% if paper.img%}
+            <img class="mw-100" src="{{site.baseurl}}/assets/img/CGVC2023/award/{{paper.img}}"><br>
+            {% endif %}
+            <b>{{paper.name}}</b><br>
+            <em class="text-muted">
+                by {{paper.authors}}
+            </em>
+            </p>
+        </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</table>

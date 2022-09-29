@@ -25,11 +25,13 @@
 	</div>
 </div>
 
+<hr>
+
 <h4>Conference Committee</h4>
 
 {% assign committee = info.committee %}
 
-<h6>Conference Chair</h6>
+{% if committee.conference_chair %}
 <ul class="mb-3">
 	{% for chair in committee.conference_chair %}
 	<li class="committee-list">
@@ -45,8 +47,9 @@
 	</li>
 	{% endfor %}
 </ul>
+{% endif %}
 
-<h6>Programme Chairs</h6>
+{% if committee.programme_chair %}
 <ul>
 	{% for chair in committee.programme_chair %}
 	<li class="committee-list">
@@ -62,3 +65,4 @@
 	</li>
 	{% endfor %}
 </ul>
+{% endif %}
