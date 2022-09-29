@@ -10,6 +10,12 @@ a {
   border-bottom: 0.0625rem dotted $cgvc_highlight;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 // headers are all sans serif; body is serif
 h1,
 h2,
@@ -68,6 +74,8 @@ ul>li {
   color: $cgvc_light;
   background-color: $cgvc_main;
   font-size: larger;
+  height: 1.25rem;
+  margin-top: -1.25rem;
 
   img {
     height: 100%;
@@ -92,9 +100,13 @@ ul>li {
   }
 }
 
+.page-content-wrapper {
+  min-height: 80%;
+  padding-bottom: 1.25rem;
+}
+
 .page-content-default {
   padding-top: 1.25rem;
-  min-height: 40rem;
 
   .watermark::after {
     content: "";

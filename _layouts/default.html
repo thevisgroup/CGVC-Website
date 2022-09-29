@@ -3,15 +3,17 @@
 
 {% include head.html %}
 
-<body>
-  {% if page.year %}
-  {% include header.html year=page.year %}
-  {% else %}
-  {% include header.html year=site.current_year %}
-  {% endif %}
+{% if page.year %}
+{% include header.html year=page.year %}
+{% else %}
+{% include header.html year=site.current_year %}
+{% endif %}
 
-  <div class="page-content-default">
-    {% include twocolumn.html %}
+<body>
+  <div class="page-content-wrapper">
+    <div class="page-content-default">
+      {% include twocolumn.html %}
+    </div>
   </div>
 
   {% if page.year %}
