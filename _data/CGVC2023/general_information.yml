@@ -15,14 +15,13 @@ committee:
       affiliation: Aberystwyth University
       url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/hem23/
       email: hem23@aber.ac.uk
-  # programme_chair:
-  #   - name: Peter Vangorp
-  #     affiliation: Utrecht University
-  #     role: Programme Chair
-  #     url: http://www.pvangorp.be/
-  #     email: p.vangorp@uu.nl
-  #   - name: Martin Turner
-  #     affiliation: University of Manchester
-  #     role: Programme Chair
-  #     url: https://visualisationmatters.com/about-2/
-  #     email: Martin.Turner@manchester.ac.uk
+  programme_chair:
+    - name: David Hunter
+      affiliation: Aberystwyth University
+      role: Programme Chair
+      url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/dah56/
+
+    - name: Peter Vangorp
+      affiliation: Utrecht University
+      role: Programme Chair
+      url: http://www.pvangorp.be/
