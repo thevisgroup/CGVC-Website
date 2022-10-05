@@ -6,7 +6,7 @@
 
 <h3>Important Dates</h3>
 
-<!-- <h2>TBA</h2> -->
+{% if site.data[include.year].important_dates | size >0 %}
 
 <table class="cgvc-cfp-dates mb-2">
 	{% for item in site.data[include.year].important_dates %}
@@ -25,6 +25,7 @@
 	{% endfor %}
 </table>
 
+
 {% assign info = site.data[include.year].general_information %}
 
 {% if info.submission_started == true %}
@@ -36,4 +37,10 @@
 {% endif %}
 {% else %}
 <a class="btn btn-secondary btn-block disabled" href="#" role="button" aria-disabled="true">Submission Opening Soon</a>
+{% endif %}
+
+{% else %}
+
+<h2>TBA</h2>
+
 {% endif %}
