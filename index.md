@@ -16,7 +16,7 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 ### CGVC 2023
 
-We are excited to announce that CGVC 2023 will take place in September 2022 at Aberystwyth University. The [call for papers](CGVC2023/cfp.html) and [additional information](CGVC2023) are now available.
+We are excited to announce that CGVC 2023 will take place in September at Aberystwyth University. The [call for papers](CGVC2023/cfp.html) and [additional information](CGVC2023) are now available.
 
 <!-- End of the section -->
 
