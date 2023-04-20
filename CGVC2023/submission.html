@@ -3,22 +3,20 @@ layout: default
 year: CGVC2023
 title: Submission Guidelines
 ---
+<h1> {{page.title}} </h1>
 
-<h2>TBA</h2>
-
-<!-- 
-<p>We welcome both full paper and extended abstract submissions to CGVC2023.</p>
+<p>We welcome both full paper and extended abstract submissions to {{page.year}}.</p>
 
 <h4>1. Formatting your paper</h4>
-<p>When formatting your initial submission use the preliminary <a href="documents/egPublStyle-CGVC2023.zip">2021 LaTeX2e
-    file (TBA)</a>. The file contains the document class, style files, sample LaTeX2e source, a corresponding PDF output
-  file and the copyright assignment form for submissions accepted for publication.</p>
+<p>When formatting your initial submission use the preliminary <a href="documents/egPublStyle-{{page.year}}.zip">LaTeX
+    file</a>. The file contains the document class, style files, sample LaTeX source, a corresponding PDF output file
+  and the copyright assignment form for submissions accepted for publication.</p>
 <p>Prepare your submission as a PDF file. You can also include material in other media such as applets and video. Note
   however that the camera-ready paper that is to appear in the proceedings must be PDF only. Please make sure that any
   images embedded in your paper do not contain transparent pixels (that is, an alpha channel of a transparent color)
   because this will lead to problems when the resulting PDF is displayed.</p>
 <p>We ask you to follow the standard layout for EGUK publications. Please read the following information found in the
-  LaTeX2e zip file: EGauthorGuidelines-CGVC2023-sub.pdf.
+  LaTeX zip file: EGauthorGuidelines-{{page.year}}-sub.pdf.
 </p>
 
 <h4>2. Submit your paper for review</h4>
@@ -44,10 +42,8 @@ title: Submission Guidelines
 <p>
   For further information see the <a href="cfp.html">call for contributions</a>.
 </p>
-<p>
-  <a class="btn btn-primary btn-md" href="https://srmv2.eg.org/COMFy/Conference/CGVC_2022" role="button">Start
-    Submission </a>
-</p>
+
+{% include submission.html year=page.year %}
 
 <h4>3. If your paper is accepted</h4>
 <p>
@@ -55,20 +51,20 @@ title: Submission Guidelines
   the reviewers comments, and submit a final version (a camera ready copy) to the conference management tool.
 </p>
 <p>
-  Final papers must be formatted with an updated 2021 template: <a href="documents/egPublStyle-CGVC2023.zip">2021
-    LaTeX2e template</a>.
+  Final papers must be formatted with an updated template: <a href="documents/egPublStyle-{{page.year}}.zip">
+    LaTeX template</a>.
 </p>
 <p>
-  Make sure your paper is formatted using the correct (2021) template, which makes correct reference to this year's
+  Make sure your paper is formatted using the correct template, which makes correct reference to this year's
   editors.
 </p>
 
 <h4>4. Copyright form</h4>
 <p>
   Authors of papers approved for publication will be required to complete and return this <a
-    href="documents/ELF-EG-CGVC2023.pdf">Eurographics copyright assignment form</a>. Authors are requested to
+    href="documents/ELF-EG-{{page.year}}.pdf">Eurographics copyright assignment form</a>. Authors are requested to
   complete the form and to upload a scanned-in copy directly to the submission system.
 </p>
 
 <h4>5. Register for the conference</h4>
-Don't forget to <a href="registration" role="button">register</a> -->
+Don't forget to <a href="registration" role="button">register</a>.

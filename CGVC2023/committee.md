@@ -7,7 +7,7 @@ title: Committee
 ### Steering Committee
 
 <ul>
-    {% for member in site.data.CGVC2023.steering_committee %}
+    {% for member in site.data[page.year].steering_committee %}
     <li class="committee-list">
         <span class="committee name">
             {% if member.url %}
@@ -25,7 +25,7 @@ title: Committee
 ### Organizing Committee
 
 <ul>
-    {% for member in site.data.CGVC2023.organizing_committee %}
+    {% for member in site.data[page.year].organizing_committee %}
     <li class="committee-list">
         <span class="committee name">
             {% if member.url %}
@@ -47,7 +47,7 @@ title: Committee
 
 <div class="programme-committee">
 
-{% for member in site.data.CGVC2023.programme_committee %}
+{% for member in site.data[page.year].programme_committee %}
 {% assign index = forloop.index | modulo:3 %}
 
     {% if index == 1 %}

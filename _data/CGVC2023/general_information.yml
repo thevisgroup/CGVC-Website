@@ -3,9 +3,9 @@ host_intro: "CGVC 2023 will be hosted by <br> <b>Aberystwyth University, Wales, 
 logo: "logo.png"
 
 # variable below are required to generate the _includes/important_dates.html
+submission_started: true
 submission_closed: false
-submission_started: false
-submission_link:
+submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2023"
 proceedings:
 
 committee:

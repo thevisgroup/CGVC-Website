@@ -61,7 +61,6 @@ visibility to our sponsors as summarized in the following table:
   <tr>
     <td><b>Special Mention<sup>2</sup></b></td>
     <td>-</td>
-    <td>-</td>
     <td>Where possible<sup>2</sup></td>
     <td>Special recognition<sup>2</sup></td>
   </tr>
@@ -124,7 +123,7 @@ Depending on the choice of sponsoring package(s), the following advantages are o
 
 ### Questions?
 
-Please contact [chair@cgvc.org.uk](mailto:chair@cgvc.org.uk) or visit [the conference committee](../CGVC2020/committee) page.
+Please contact [chair@cgvc.org.uk](mailto:chair@cgvc.org.uk) or visit [the conference committee](../committee) page.
 
 ### Further Questions and Answers
 

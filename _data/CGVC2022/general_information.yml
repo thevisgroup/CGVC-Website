@@ -3,7 +3,7 @@ host_intro: "CGVC 2022 will be hosted virtually by <br> <b>Leeds Trinity Univers
 logo: "logo.jpg"
 
 # variable below are required to generate the _includes/important_dates.html
-submission_closed: false
+submission_closed: true
 submission_started: true
 submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2022"
 proceedings: "https://diglib.eg.org/handle/10.2312/2633209"

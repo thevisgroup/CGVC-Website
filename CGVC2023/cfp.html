@@ -4,6 +4,8 @@ year: CGVC2023
 title: Call for Papers
 ---
 
+<h1> {{page.title}} </h1>
+
 <p>
     CGVC 2022, hosted by <a href="https://www.aber.ac.uk/">Aberystwyth University, UK</a>, is the 41th annual
     computer graphics, visualization, and visual computing conference organized by the Eurographics UK Chapter. The
@@ -19,11 +21,11 @@ title: Call for Papers
     submission or not. Reviewers' identities are not revealed.
 </p>
 
-{% include important_dates.html year='CGVC2023' %}
+{% include important_dates.html year=page.year %}
 
 <h3>Full Papers</h3>
 <p>
-    A full paper submission is upto 8 pages describing completed research, plus 1 page of references only. Papers are
+    A full paper submission is up to 8 pages describing completed research, plus 1 page of references only. Papers are
     refereed by members of the EGUK programme committee. Authors of accepted papers are expected to give a 20-minute
     presentation at the conference. Accepted papers will appear in the Eurographics digital library and will serve as
     full paper publications.
@@ -128,9 +130,5 @@ title: Call for Papers
 </table>
 
 <h3>Location</h3>
-<!-- <p>
-    We will hold this year's CGVC paper and poster sessions online. We plan to host an in-person social event (as the
-    Covid situation allows).
-</p> -->
 
-<p>TBA</p>
+{% include host.html year=page.year %}
