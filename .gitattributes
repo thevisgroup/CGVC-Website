@@ -1,2 +1,3 @@
 /CGVC2018/Proceedings/**/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
 /CGVC2018/Proceedings/**/**/*.zip filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
