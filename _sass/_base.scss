@@ -164,10 +164,10 @@ ul>li {
 .nav-link {
   font-size: 1.1rem;
   margin-right: 0.3rem;
-  color: $cgvc_main  !important;
+  color: $cgvc_main !important;
 
   &:hover {
-    color: $cgvc_highlight  !important;
+    color: $cgvc_highlight !important;
   }
 
   &::after {
@@ -262,6 +262,11 @@ table.sponsor-level {
     color: white;
     background: rgba(0, 0, 0, 0.6);
   }
+}
+
+.badge-keynote {
+  background-color: rgb(243, 78, 7);
+  color: white;
 }
 
 .badge-full {
