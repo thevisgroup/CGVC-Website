@@ -40,7 +40,7 @@ title: Programme
     {% for item in session.items %}
     <tr>
         {% if item.start %}
-        <td class="w-25">
+        <td class="w-17">
             {{item.start}} - {{item.end}}
         </td>
         {% endif %}
@@ -63,7 +63,7 @@ title: Programme
 {% if session.speaker %}
 <table class="mb-3 table table-striped table-bordered">
     <tr>
-        <td class="w-25">
+        <td class="w-17">
             {{session.start}} - {{session.end}}
         </td>
         <td>
@@ -80,13 +80,13 @@ title: Programme
 
 <table class="mb-3 table table-striped table-bordered">
     <tr>
-        <td class="w-25">
+        <td class="w-17">
             {{session.start}}
             {% if session.end %}
             - {{session.end}}
             {% endif %}
         </td>
-        <td>
+        <td class="text-center">
             {{session.name}}
             {% if session.title %}
             <br>
