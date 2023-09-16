@@ -45,6 +45,9 @@ title: Programme
         </td>
         {% endif %}
         <td>
+            {% if item.award%}
+            <span class="badge badge-danger">{{item.award}}</span><br>
+            {% endif %}
             <span class="badge badge-{{item.type}}">{{item.type}}</span>
             {{item.name}}
             {% if item.file %} <a href="documents/{{item.type}}/{{item.file}}">View</a>{% endif %}

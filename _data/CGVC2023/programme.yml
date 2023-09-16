@@ -42,6 +42,7 @@
       items:
         - name: "RPS-Net: Indoor Scene Point Cloud Completion using RBF-Point Sparse Convolution"
           authors: Tao Wang, Jing Wu, Ze Ji, and Yu-Kun Lai
+          award: "The Terry Hewitt Prize: Best Student Technical Paper"
           type: "full"
           start: "11:00"
           end: "11:20"
@@ -148,6 +149,7 @@
           end: "10:40"
         - name: "AUPE: An Emulator for the ExoMars PanCam Instrument"
           authors: A. Ladegaard, M. Gunn, H. C. Miles, and L. Tyler
+          award: "The Rob Fletcher Prize: Best Student Application Paper"
           type: "full"
           start: "10:40"
           end: "11:00"
@@ -206,11 +208,13 @@
       items:
         - name: "Augmenting Anomaly Detection Datasets with Reactive Synthetic Elements"
           authors: I. Nikolov
+          award: "The Ken Brodlie Prize: Best Full Paper"
           type: "full"
           start: "14:00"
           end: "14:20"
         - name: "Just Noticeable Difference of Dead Pixels in Monochrome Computer-Generated Holograms"
           authors: Nicholas Lindfield, Remington Carey, Vedad Hulusic, Darran Milne, and Wen Tang
+          award: "The David Duce Prize: Best Short Paper"
           type: "short"
           start: "14:20"
           end: "14:35"

@@ -6,10 +6,11 @@ title: Best Paper Awards
 
 <a id="award"></a>
 
-<h2>TBD</h2>
+<h1> {{page.title}} </h1>
 
-<!-- <table class="mb-3">
-    {% for session in site.data[page.year].programme %}
+<table class="mb-3">
+    {% for day in site.data[page.year].programme %}
+    {% for session in day.items %}
     {% for paper in session.items %}
     {% if paper.award%}
     <tr>
@@ -29,4 +30,5 @@ title: Best Paper Awards
     {% endif %}
     {% endfor %}
     {% endfor %}
-</table> -->
+    {% endfor %}
+</table>
