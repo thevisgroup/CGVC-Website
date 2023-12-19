@@ -1,0 +1,32 @@
+# variable below are required to generate the _includes/host.html
+host_intro: "CGVC 2024 will be hosted by <br> <b>City, University of London, England, UK</b>."
+logo: "City UoL logo RGB DK1a.jpg"
+
+# variable below are required to generate the _includes/important_dates.html
+submission_started: false
+submission_closed: false
+submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2023"
+submission_link_text: "Submission will open in January 2024"
+proceedings: "https://diglib.eg.org/handle/10.2312/3543876"
+registration_started: false
+
+committee:
+  conference_chair:
+    - name: Mai Elshehaly
+      role: Conference Chair
+      affiliation: City, University of London
+      url: https://www.city.ac.uk/about/people/academics/mai-elshehaly
+      email: Mai.Elshehaly@city.ac.uk
+
+  programme_chair:
+    - name: Aidan Slingsby
+      role: Programme Chair
+      affiliation: City, University of London
+      url: https://www.city.ac.uk/about/people/academics/aidan-slingsby
+      email: A.Slingsby@city.ac.uk
+
+    - name: David Hunter
+      role: Programme Chair
+      affiliation: Aberystwyth University
+      url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/dah56/
+      email: dah56@aber.ac.uk

@@ -1,0 +1,14 @@
+# title and date are required to generate the _includes/important_dates.html
+- title: "Submission Deadline"
+  date: "3 June 2024"
+  # description: "Submission deadline extended."
+  # extend: "3 July 2023"
+
+- title: "Decisions Available"
+  date: "24 July 2024"
+
+- title: "Camera Ready"
+  date: "7 August 2024"
+
+- title: "Conference"
+  date: "12-13 September 2024"
