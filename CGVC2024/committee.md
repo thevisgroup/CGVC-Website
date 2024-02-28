@@ -1,6 +1,6 @@
 ---
 layout: default
-year: CGVC2023
+year: CGVC2024
 title: Committee
 ---
 
