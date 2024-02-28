@@ -1,5 +1,6 @@
 ---
 title: Call for Sponsors
+year: CGVC2024
 layout: default
 ---
 
