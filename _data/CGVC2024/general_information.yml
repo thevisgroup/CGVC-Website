@@ -3,10 +3,10 @@ host_intro: "CGVC 2024 will be hosted by <br> <b>City, University of London, UK<
 logo: "City UoL logo RGB DK1a.jpg"
 
 # variable below are required to generate the _includes/important_dates.html
-submission_started: false
+submission_started: true
 submission_closed: false
 submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2024"
-submission_link_text: "Please submit here"
+submission_link_text: "Submit here"
 proceedings: ""
 registration_started: false
 
