@@ -15,8 +15,8 @@ The participants of CGVC pay a registration fee for attending the conference. No
 (For reasons why supporting CGVC is a good idea, see further below.)
 We are open, of course, to ideas that sponsors also have on how to support CGVC and we welcome suggestions. Generally, we see two choices for those who plan to help us:
 
-1. Be a general sponsor (in one of four categories: platinum, gold, silver, or bronze)
-1. Choose a specific sponsoring package (and support the social event, an invited speaker, etc.)
+1. Be a **general sponsor** (in one of four categories: platinum, gold, silver, or bronze)
+1. Choose a **specific sponsoring package*** (and support a social event, an invited speaker, etc.)
 
 In the following, we explain these two choices in more detail.
 
