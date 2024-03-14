@@ -124,7 +124,7 @@ Depending on the choice of sponsoring package(s), the following advantages are o
 
 ### Questions?
 
-Please contact [chair@cgvc.org.uk](mailto:chair@cgvc.org.uk) or visit [the conference committee](../committee) page.
+Please contact [chairs-cgvc2024@eg.org](mailto:chairs-cgvc2024@eg.org) or visit [the conference committee](../committee) page.
 
 ### Further Questions and Answers
 
