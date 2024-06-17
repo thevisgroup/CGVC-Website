@@ -1,7 +1,7 @@
 # title and date are required to generate the _includes/important_dates.html
 - title: "Submission Deadline"
   date: "3 June 2024"
-  description: "Submission deadline (extended by one day)."
+  description: "Submission deadline (extended by a further day)."
   extend: "18 June 2024"
 
 - title: "Decisions Available"
