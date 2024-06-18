@@ -12,83 +12,7 @@ The participants of CGVC pay a registration fee for attending the conference. No
 
 ### How to support CGVC?
 
-(For reasons why supporting CGVC is a good idea, see further below.)
-We are open, of course, to ideas that sponsors also have on how to support CGVC and we welcome suggestions. Generally, we see two choices for those who plan to help us:
-
-1. Be a **general sponsor** (in one of four categories: platinum, gold, silver, or bronze)
-1. Choose a **specific sponsoring package*** (and support a social event, an invited speaker, etc.)
-
-In the following, we explain these two choices in more detail.
-
-#### Become a General Sponsor of CGVC
-
-Depending on the amount of contribution, sponsors can support CGVC at four
-different levels:
-
-- A Platinum Sponsor
-- A Gold Sponsor
-- A Silver Sponsor
-- A Bronze Sponsor
-
-Depending on the level of support, we offer various levels of advantages and
-visibility to our sponsors as summarized in the following table:
-
-<table class="sponsor-level mb-3">
-  <tr>
-    <th></th>
-    <th>Bronze</th>
-    <th>Silver</th>
-    <th>Gold</th>
-    <th>Platinum</th>
-  </tr>
-  <tr>
-    <td><b>Online/printed advertising</b></td>
-    <td colspan="4">All sponsors of CGVC are advertised with logo (and link) on conference web page and in the printed programme (order/prominence depends on level).</td>
-  </tr>
-  <tr>
-    <td><b>Advertisement in Conference Bag<sup>1</sup></b></td>
-    <td>-</td>
-    <td>1 piece<sup>1</sup></td>
-    <td>Up to 2 pieces<sup>1</sup></td>
-    <td>Up to 3 pieces<sup>1</sup></td>
-  </tr>
-  <tr>
-    <td><b>Additional Advertising</b></td>
-    <td>-</td>
-    <td>Where possible</td>
-    <td>On conference poster</td>
-    <td>On conference poster, <b>T-shirt</b>, ...</td>
-  </tr>
-  <tr>
-    <td><b>Special Mention<sup>2</sup></b></td>
-    <td>-</td>
-    <td>Where possible<sup>2</sup></td>
-    <td>Special recognition<sup>2</sup></td>
-  </tr>
-  <tr>
-    <td><b>Visibility at the venue<sup>3</sup></b></td>
-    <td>-</td>
-    <td>Poster<sup>3</sup></td>
-    <td><b>Booth</b><sup>3</sup></td>
-    <td><b>Booth</b>, poster, ...<sup>3</sup></td>
-  </tr>
-  <tr>
-    <td><b>Presentation in special session<sup>4</sup></b></td>
-    <td>-</td>
-    <td>~5 minutes</td>
-    <td><b>~15 minutes</b></td>
-    <td><b>~25 minutes</b></td>
-  </tr>
-  <tr>
-    <td><b>Free conference Passes</b></td>
-    <td>1</td>
-    <td>3</td>
-    <td><b>Up to 5</b></td>
-    <td><b>Up to 10</b></td>
-  </tr>
-</table>
-
-Notes:
+(For reasons why supporting CGVC is a good idea, see further below.) We are open, of course, to ideas that sponsors also have on how to support CGVC and we welcome suggestions.
 
 1. Advertisement materials in the conference bag could be a leaflet, a flyer, a pen, a writing block, …
 1. Special mention refers to special statements at the conference, e.g., in the
@@ -109,22 +33,19 @@ In addition to the option of becoming a general sponsor of CGVC, there is also a
 - A Lunch Sponsor supports the lunches on one of the days of CGVC
 - A Film Coverage Sponsor supports the production of videos from all conference talks
 - A Coffee Break Sponsor associates with all coffee breaks on one of the days
-- The Digital Media Sponsor supports the conference memory stick
-- A Sponsor of an Invited Speaker helps with the contribution of (available twice)
-- A Sponsor of the Best Paper Award helps to shape up the CGVC Award(s) with (available twice)
+- A Sponsor of an Invited Speaker
+- A Sponsor of the Best Paper Award helps to shape up the CGVC Award(s)
 - We invite Sponsors to help Young Researchers to attend CGVC
 
 Depending on the choice of sponsoring package(s), the following advantages are offered to our sponsors:
 
-- All sponsors of CGVC are advertised with their logo (and link) on the conference web page and in the printed programme (order/prominence according to the level of support).
-- Special Package Sponsors are visibly (and by announcement) associated with the conference part which they support – a Lunch Sponsor, for instance, can place a poster, roll-up, and/or selected advertising content along with the supported lunch; the Digital Media Sponsor will be visible on the conference memory stick.
-- Special Package Sponsors have also the opportunity to present themselves with a talk in a planned special session.
-- Special Package Sponsors get (a) free conference pass(es) according to the amount of support.
+- All sponsors of CGVC are advertised with their logo (and link) on the conference web page, in the venue and on the screens (order/prominence according to the level of support).
+- Sponsors get (a) free conference pass(es) according to the amount of support.
 - We put special emphasis on the opportunity to support Young Researchers (sponsors are welcome to choose their number of support packages. This support will be used to help young(er) participants, e.g., PhD and/or Master students, with the accommodation and travelling, and to keep their registration fee as low as possible.
 
 ### Questions?
 
-Please contact [chairs-cgvc2024@eg.org](mailto:chairs-cgvc2024@eg.org) or visit [the conference committee](../committee) page.
+Please contact [chairs-cgvc2024@eg.org](mailto:chairs-cgvc2024@eg.org).
 
 ### Further Questions and Answers
 
