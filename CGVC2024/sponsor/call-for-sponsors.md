@@ -14,34 +14,21 @@ The participants of CGVC pay a registration fee for attending the conference. No
 
 (For reasons why supporting CGVC is a good idea, see further below.) We are open, of course, to ideas that sponsors also have on how to support CGVC and we welcome suggestions.
 
-1. Advertisement materials in the conference bag could be a leaflet, a flyer, a pen, a writing block, …
-1. Special mention refers to special statements at the conference, e.g., in the
-   course of the welcome speech, in related press coverage / press releases.
-1. Posters / roll-ups / booths of sponsors are planned to be located in the
-   registration, meeting, and break areas. For details w.r.t. size of the poster,
-   dimensions of the booth, etc., please contact the conference organizers.
-   Usually A1 is recommended.
-1. We can organize a special session in which supporters of CGVC can present
-   themselves in the form of a talk. Please contact the conference organizers
-   with questions.
-
-#### Choosing a Specific Sponsoring Package
-
 In addition to the option of becoming a general sponsor of CGVC, there is also an opportunity to support the conference by sponsoring one or more specific part(s) of the event:
 
-- A Social Event Sponsor covers the cost of the social event at CGVC
-- A Lunch Sponsor supports the lunches on one of the days of CGVC
-- A Film Coverage Sponsor supports the production of videos from all conference talks
-- A Coffee Break Sponsor associates with all coffee breaks on one of the days
-- A Sponsor of an Invited Speaker
-- A Sponsor of the Best Paper Award helps to shape up the CGVC Award(s)
-- We invite Sponsors to help Young Researchers to attend CGVC
+- A **Social Event** Sponsor covers the cost of the social event at CGVC
+- A **Lunch** Sponsor supports the lunches on one of the days of CGVC
+- A **Film Coverage** Sponsor supports the production of videos from all conference talks
+- A **Coffee Break** Sponsor associates with all coffee breaks on one of the days
+- A Sponsor of an **Invited Speaker**
+- A Sponsor of the **Best Paper Award** helps to shape up the CGVC Award(s)
+- We invite Sponsors to help **Young Researchers** to attend CGVC
 
 Depending on the choice of sponsoring package(s), the following advantages are offered to our sponsors:
 
-- All sponsors of CGVC are advertised with their logo (and link) on the conference web page, in the venue and on the screens (order/prominence according to the level of support).
-- Sponsors get (a) free conference pass(es) according to the amount of support.
-- We put special emphasis on the opportunity to support Young Researchers (sponsors are welcome to choose their number of support packages. This support will be used to help young(er) participants, e.g., PhD and/or Master students, with the accommodation and travelling, and to keep their registration fee as low as possible.
+- All sponsors of CGVC are **advertised with their logo** (and link) on the conference web page, in the venue and on the screens (order/prominence according to the level of support).
+- Sponsors get (a) **free conference pass(es)** according to the amount of support.
+- We put special emphasis on the opportunity to support Young Researchers to help young(er) participants, e.g., PhD and/or Master students, with the accommodation and travelling, and to keep their registration fee as low as possible.
 
 ### Questions?
 
