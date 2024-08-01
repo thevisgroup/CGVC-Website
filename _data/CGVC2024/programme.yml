@@ -1,0 +1,213 @@
+- date: "Day 1, Thursday 12th September, 2024"
+  items:
+    - name: Registration
+      start: "09:00"
+      end: "09:30"
+
+    - name: Welcome
+      start: "09:30"
+      end: "09:45"
+
+    - name: "Session 1: Visualisation Design and Evaluation Methods"
+      chair: TBD
+      start: "09:45"
+      end: "11:00"
+      items:
+        - name: Multi-level visualization for exploration of structures in missing data
+          authors: Sarah Alsufyani, Matthew Forshaw, Silvia Del Din, Alison Yarnall, Lynn Rochester, and Sara Johansson Fernstad
+          type: "full"
+          start: "09:45"
+          end: "10:00"
+
+        - name: Interplay of Visual Analytics and Topic Modeling in Gameplay Analysis 
+          authors: Laleh Moussavi, Gennady Andrienko, Natalia Andrienko, and Aidan Slingsby
+          type: "full"
+          start: "10:00"
+          end: "10:15"
+
+        - name: Does empirical evidence from healthy ageing studies predict a practical difference between visualizations for different age groups?  
+          authors: Shan Shao, Yiran Li, Andrew Meso, and Nicolas Holliman
+          type: "full"
+          start: "10:15"
+          end: "10:30"
+
+        - name: Map Augmentation and Sketching for Cycling Experience Elicitation
+          authors: Mirela ....
+          type: "full"
+          start: "10:30"
+          end: "10:45"
+
+        - name: "Creating Data Art: Authentic Learning and Visualisation Exhibition"  
+          authors: Johnathan Roberts
+          type: "full"
+          start: "10:45"
+          end: "11:00"
+
+    - name: Break and Networking
+      start: "11:00"
+      end: "11:30"
+
+    - name: "Panel on Human-Centred Decision-Making: Progress in the UK Visualisation Research Agenda"
+      chair: TBD
+      start: "11:30"
+      end: "12:30"
+      
+    - name: Lunch Break
+      start: "12:30"
+      end: "13:30"
+
+    - name: "Keynote 1"
+      start: "13:30"
+      end: "14:30"
+      # chair:
+      link: "./keynote"
+      title: "Digital avatars and agents in Virtual Worlds"
+      speaker: "Dr. Rachel McDonnell"
+
+    - name: Break and Networking
+      start: "14:30"
+      end: "15:00"
+
+    - name: "Session 2: 3D Rendering and Virtual Reality (VR)"
+      chair: TBD
+      start: "15:00"
+      end: "16:00"
+      items:
+        - name: Assessing the Reliability of Integrated Gradients-Based Saliency Maps for 3D Point Cloud Semantic Segmentation Models
+          authors: Jorge Ciprián Sánchez, Josafat-Mattias Burmeister, Tim Cech, Rico Richter, and Jürgen Döllner
+          type: "full"
+          start: "15:00"
+          end: "15:15"
+
+        - name: Real-time Data-Oriented Virtual Forestry Simulation for Games
+          authors: Benjamin Williams, Tom Oliver, Davin Ward, and Chris Headleand
+          type: "full"
+          start: "15:15"
+          end: "15:30"
+
+        - name: "Skipping Spheres: SDF Scaling & Early Ray Termination for Fast Sphere Tracing"
+          authors: Andreas Polychronakis, George Alex Koulieris, and Katerina Mania
+          type: "full"
+          start: "15:30"
+          end: "15:45"
+
+        - name: "DFT-Net: Dual-Window Frequency Transformer for Rhythmic Motion Prediction"
+          authors: David Sinclair, Adeyemi Ademola, Babis Koniaris, Samantha Hannah, and Kenny Mitchell
+          type: "full"
+          start: "15:45"
+          end: "16:00"
+
+    - name: Break and Networking
+      start: "16:00"
+      end: "16:30"
+    
+   
+    - name: "Poster Session"
+      start: "16:30"
+      end: "17:30"
+      items: "TBD"
+       
+    - name: giCentre gelato @ South Bank
+      start: "18:30"
+      end: "19:00"
+
+    - name: Conference Dinner
+      start: "19:30"
+
+- date: "Day 2, Friday 13th September, 2024"
+  items:
+    - name: "Parallel Short Paper Sessions on (A) Information Visualisation and (B) Computer Graphics"
+      chair: TBD
+      start: "09:00"
+      end: "10:00"
+    
+    - name: "Keynote 2"
+      start: "10:00"
+      end: "11:00"
+      link: "./keynote"
+      title: "Bringing Data to Life: Embedded Visualizations for Pervasive and Mobile Data Exploration"
+      speaker: "Dr. Petra Isenberg"
+
+    - name: Break and Networking
+      start: "11:00"
+      end: "11:30"
+
+    - name: "Session 3: Geographic Visualisation"
+      chair: TBD
+      start: "11:30"
+      end: "12:30"
+      items:
+        - name: Exploring Data Analysts' Uncertainty Reasoning Strategies for 
+          authors: Christoph Kinkeldey, Mirela Reljan-Delaney, Georgia Panagiotidou, and Jason Dykes
+          type: "full"
+          start: "11:30"
+          end: "11:45"
+
+        - name: Comparing distance metrics in space-time clustering to provide 
+          authors: Peter Baudains, and Nicolas Holliman
+          type: "full"
+          start: "11:45"
+          end: "12:00"
+
+        - name: Reflections on the Evolution of the BookTracker Visualization 
+          authors: Yiwen Xing, Cristina Dondi, Rita Borgo, and Alfie Abdul-Rahman
+          type: "full"
+          start: "12:00"
+          end: "12:15"
+
+        - name: "Min-Max Modifiable Nested Octrees M3NO: Indexing Point" 
+          authors: Paul Hermann, Michel Krämer, Tobias Dorra, and Arjan Kuijper
+          type: "full"
+          start: "12:15"
+          end: "12:30"
+
+    - name: Lunch Break
+      start: "12:30"
+      end: "13:30"
+
+    - name: "Industry Panel: VIS in Practice"
+      chair: TBD
+      start: "13:30"
+      end: "14:30"
+    
+    - name: Break and Networking
+      start: "14:30"
+      end: "15:00"
+
+    - name: "Session 4: Machine Leaaarning and LLM-enabled Visual Analytics"
+      chair: TBD
+      start: "15:00"
+      end: "16:00"
+      items:
+        - name: "Visual Interpretation of Tagging: Advancing Understanding in Task-Oriented Dialogue Systems"
+          authors: Yazhou Zhou, Yiwen Xing, Alfie Abdul-Rahman, and Rita Borgo
+          type: "full"
+          start: "15:00"
+          end: "15:15"
+
+        - name: "LLM-Assisted Visual Analytics: Opportunities and Challenges"
+          authors: Maeve Hutchinson, Radu Jianu, Aidan Slingsby, and Pranava Madhyastha
+          type: "full"
+          start: "15:15"
+          end: "15:30"
+
+        - name: "Investigation of the organisation of the extracellular matrix using fibre tracing"
+          authors: Youssef Arafat, Cristina Cuesta-Apausa, Esther Castellano, and Carlos Constantino Reyes-Aldasoro
+          type: "full"
+          start: "15:30"
+          end: "15:45"
+
+        - name: "The Misclassification Likelihood Matrix: Some Classes Are More Likely To Be Misclassified"
+          authors: Daniel Sikar
+          type: "full"
+          start: "15:45"
+          end: "16:00"
+
+    - name: Awards and Closing
+      authors: "Aidan Slinsgby and Mai Elshehaly"
+      start: "16:00"
+      end: "16:30"
+
+    - name: EGUK Annual General Meeting
+      start: "16:30"
+      end: "17:30"
