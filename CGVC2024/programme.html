@@ -5,3 +5,110 @@ title: Programme
 ---
 
 <img src="documents/programme.png"/>
+
+<a id="programme"></a>
+
+<h1> {{page.title}} </h1>
+
+{% if site.data[page.year].general_information.proceedings %}
+<h5> {{page.year}} Conference Proceedings are now available online at <a
+        href="{{site.data.CGVC2023.general_information.proceedings}}" target="_blank"> EG
+        Digital Library</a>.</h5><br>
+{% endif %}
+
+
+{% for day in site.data[page.year].programme %}
+<h2>{{day.date}}</h2>
+
+
+{% for session in day.items %}
+
+{% if session.items %}
+
+</table>
+
+<h3>
+    {% if session.start %} {{session.start}} {% endif %} {% if session.end %} - {{session.end}}{% endif %} -
+    {{session.name}}
+</h3>
+
+{% if session.chair %}
+<div class="float-right">
+    <h5>Session Chair: {{session.chair}}</h5>
+</div>
+{% endif %}
+
+<table class="mb-3 table table-striped table-bordered">
+    {% for item in session.items %}
+    <tr>
+        {% if item.start %}
+        <td class="w-17">
+            {{item.start}} - {{item.end}}
+        </td>
+        {% endif %}
+        <td>
+            {% if item.award%}
+            <span class="badge badge-danger">{{item.award}}</span><br>
+            {% endif %}
+            <span class="badge badge-{{item.type}}">{{item.type}}</span>
+            {{item.name}}
+            {% if item.file %} <a href="documents/{{item.type}}/{{item.file}}">View</a>{% endif %}
+            {% if item.authors %}<br>
+            <em class="text-muted">
+                by {{item.authors}}
+            </em>
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% else %}
+
+{% if session.speaker %}
+<table class="mb-3 table table-striped table-bordered">
+    <tr>
+        <td class="w-17">
+            {{session.start}} - {{session.end}}
+        </td>
+        <td>
+            <span class="badge badge-keynote">keynote</span>
+            {{session.title}}
+            <br>
+            <em class="text-muted float-right">
+                by {{session.speaker}}
+            </em>
+        </td>
+    </tr>
+</table>
+{% else %}
+
+<table class="mb-3 table table-striped table-bordered">
+    <tr>
+        <td class="w-17">
+            {{session.start}}
+            {% if session.end %}
+            - {{session.end}}
+            {% endif %}
+        </td>
+        <td class="text-center">
+            {{session.name}}
+            {% if session.title %}
+            <br>
+            {{session.title}}
+            {% endif %}
+            {% if session.authors %}
+            <br>
+            <em class="text-muted float-right">
+                by {{session.authors}}
+            </em>
+
+            {% endif %}
+        </td>
+    </tr>
+
+</table>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
