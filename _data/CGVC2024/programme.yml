@@ -165,32 +165,32 @@
         - name: "Visualizing Complex Data Decisions: Design Study for Ethical Factors in AI Clinical Decision Support Systems"
           authors: Svitlana Surodina, Daria Volkova, Alfie Abdul-Rahman, Rita Borgo
           type: "short"
-          start: "09:50"
-          end: "10:00"
+          start: "09:00"
+          end: "09:10"
 
         - name: Authoring Visualisation of Routinely Collected Data Using LLMs
           authors: Amir Hosseini, Mai Elshehaly, Jo Wood
           type: "short"
-          start: "09:50"
-          end: "10:00"
+          start: "09:10"
+          end: "09:20"
 
         - name: "Visual Storytelling: A Methodological Approach to Designing and Implementing a Visualization Poster"
           authors: Rhiannon Owen, Jonathan Roberts
           type: "short"
-          start: "09:50"
-          end: "10:00"
+          start: "09:20"
+          end: "09:30"
 
         - name: Mapping Minority Women Bicycle Riding
           authors: Mirela Reljan-Delaney, Jo Wood, Alex Taylor
           type: "short"
-          start: "09:50"
-          end: "10:00"
+          start: "09:30"
+          end: "09:40"
 
         - name: Multi-fidelity Multi-disciplinary Optimisation of Propeller Design by Visual Analytics
           authors: Shubham Shubham, Andrea Spinelli, Timoleon Kipouros
           type: "short"
-          start: "09:50"
-          end: "10:00"
+          start: "09:40"
+          end: "09:50"
     
     - name: "Keynote 2"
       start: "10:00"
