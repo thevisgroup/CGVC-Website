@@ -116,7 +116,7 @@
 
 - date: "Day 2, Friday 13th September, 2024"
   items:
-    - name: "Session 10: sdssd"
+    - name: "Parallel Short Paper Session: Information Visualisation"
       chair: TBD
       start: "09:00"
       end: "10:00"
@@ -156,6 +156,18 @@
           type: "short"
           start: "09:50"
           end: "10:00"
+
+    - name: "Parallel Short Paper Session: Computer Graphics"
+      chair: TBD
+      start: "09:00"
+      end: "10:00"
+      items:
+        - name: Serial Gaussian Blue Noise Stippling
+          authors: Abdalla Ahmed
+          type: "short"
+          start: "09:50"
+          end: "10:00"
+
     
     - name: "Keynote 2"
       start: "10:00"
