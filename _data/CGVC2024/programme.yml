@@ -140,10 +140,10 @@
           end: "09:30"              
 
         - name: Exploring High-Dimensional Data by Pointwise Filtering of Low-Dimensional Embeddings
-            authors: Daniel Atzberger, Adrian Jobst, Willy Scheibel, Jürgen Döllner
-            type: "short"
-            start: "09:30"
-            end: "09:40"
+          authors: Daniel Atzberger, Adrian Jobst, Willy Scheibel, Jürgen Döllner
+          type: "short"
+          start: "09:30"
+          end: "09:40"
 
         - name: A Stereo-Integrated Novel View Synthesis Pipeline for the Enhancement of Road Surface Reconstruction Dataset
           authors: Mochuan Zhan, Terence Morley, Martin Turner
