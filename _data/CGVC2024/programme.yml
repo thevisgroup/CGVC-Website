@@ -120,7 +120,7 @@
       chair: TBD
       start: "09:00"
       end: "10:00"
-        items:
+      items:
             - name: Semantic UV mapping to improve texture inpainting for indoor scenes
               authors: Jelle Vermandere, Maarten Bassier, Maarten Vergauwen
               type: "short"
