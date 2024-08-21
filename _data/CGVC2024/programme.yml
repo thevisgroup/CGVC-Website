@@ -127,7 +127,7 @@
           start: "09:00"
           end: "09:10"
 
-        - name: EBBVH: A Novel Method for Constructing Bounding Volume Hierarchies
+        - name: "EBBVH: A Novel Method for Constructing Bounding Volume Hierarchies"
           authors: Matthew Houghton, Kristian Spoerer
           type: "short"
           start: "09:10"
