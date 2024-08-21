@@ -126,26 +126,31 @@
               type: "short"
               start: "09:00"
               end: "09:10"
+              
             - name: EBBVH: A Novel Method for Constructing Bounding Volume Hierarchies
               authors: Matthew Houghton, Kristian Spoerer
               type: "short"
               start: "09:10"
               end: "09:20"
+              
             - name: View-Consistent Virtual Try-on of Glasses using a Hybrid NeRF-Mesh Rendering Approach
               authors: Arne Rak, Tristan Wirth, Thomas Lindemeier, Volker Knauthe, Arjan Kuijper
               type: "short"
               start: "09:20"
               end: "09:30"
+              
             - name: Exploring High-Dimensional Data by Pointwise Filtering of Low-Dimensional Embeddings
               authors: Daniel Atzberger, Adrian Jobst, Willy Scheibel, Jürgen Döllner
               type: "short"
               start: "09:30"
               end: "09:40"
+              
             - name: A Stereo-Integrated Novel View Synthesis Pipeline for the Enhancement of Road Surface Reconstruction Dataset
               authors: Mochuan Zhan, Terence Morley, Martin Turner
               type: "short"
               start: "09:40"
               end: "09:50"
+              
             - name: Serial Gaussian Blue Noise Stippling
               authors: Abdalla Ahmed
               type: "short"
