@@ -116,7 +116,7 @@
 
 - date: "Day 2, Friday 13th September, 2024"
   items:
-    - name: "Parallel Short Paper Session: Computer Graphics"
+    - name: "Parallel Short Paper Session A: Computer Graphics"
       chair: TBD
       start: "09:00"
       end: "10:00"
@@ -157,12 +157,12 @@
           start: "09:50"
           end: "10:00"
 
-    - name: "Parallel Short Paper Session: Information Visualisation"
+    - name: "Parallel Short Paper Session B: Information Visualisation"
       chair: TBD
       start: "09:00"
       end: "10:00"
       items:
-        - name: Visualizing Complex Data Decisions: Design Study for Ethical Factors in AI Clinical Decision Support Systems
+        - name: "Visualizing Complex Data Decisions: Design Study for Ethical Factors in AI Clinical Decision Support Systems"
           authors: Svitlana Surodina, Daria Volkova, Alfie Abdul-Rahman, Rita Borgo
           type: "short"
           start: "09:50"
