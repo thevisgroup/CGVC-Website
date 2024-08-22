@@ -191,6 +191,7 @@
         
       - name: Conference Dinner
         start: "19:30"
+        end: "22:30"
 
 - date: "Day 2, Friday 13th September, 2024"
   items:
