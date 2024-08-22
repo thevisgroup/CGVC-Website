@@ -103,9 +103,19 @@
     
    
     - name: "Poster Session"
+      chair: "TBD"
       start: "16:30"
       end: "17:30"
-      items: "TBD"
+  
+      items:
+        - name: Fostering a Generative AI Design Dialogue: From Sketches to Structured Prompts to Visualisation Design
+          authors: Aron Owen, Jonathan Roberts
+          type: "poster"
+          start: "16:30"
+          end: "16:32"
+
+
+
        
     - name: giCentre gelato @ South Bank
       start: "18:30"
