@@ -181,13 +181,16 @@
 
 
        
-    - name: giCentre gelato @ South Bank
+    - name: Social events and dinner
       start: "18:30"
-      end: "19:00"
-      items: blah
-
-    - name: Conference Dinner
-      start: "19:30"
+      end: "22:30"
+      items:
+      - giCentre gelato @ South Bank
+        start: "18:30"
+        end: "19:00:
+        
+      - name: Conference Dinner
+        start: "19:30"
 
 - date: "Day 2, Friday 13th September, 2024"
   items:
