@@ -185,7 +185,7 @@
       start: "18:30"
       end: "22:30"
       items:
-      - giCentre gelato @ South Bank
+      - name: "giCentre gelato @ South Bank"
         start: "18:30"
         end: "19:00:
         
