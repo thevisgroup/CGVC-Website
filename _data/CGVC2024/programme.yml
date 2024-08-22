@@ -113,12 +113,78 @@
           start: "16:30"
           end: "16:32"
 
+        - name: Unexpected Visualization
+          authors: Asadullah Ibn Saifullah, Robert Spence
+          type: "poster"
+          start: "16:32"
+          end: "16:34"
+        
+        - name: On Handcrafted Machine Learning Features for Art Recognition
+          authors: Mpho Bwanali, Hassan Ugail, Zied Mnasri, Elias Jensen
+          type: "poster"
+          start: "16:34"
+          end: "16:36"
+
+        - name: "Wildfire Risk Classification: A Computer Vision study of estimating Environmental Resilience using Remote Sensing imagery for Carbon Offset Frameworks"
+          authors: Mansi Agrawal
+          type: "poster"
+          start: "16:38"
+          end: "16:40"
+
+        - name: Entropy-Based Graph Summarization Algorithm
+          authors: Osman Akbulut, Xin Tong, Matthew Forshaw, Nicolas Holliman
+          type: "poster"
+          start: "16:40"
+          end: "16:42"
+
+        - name: Visualising the Impact of High-dimensional Configuration Parameters on the Performance of Data Distribution Service
+          authors: Kaleem Peeroo, Vladimir Stankovic, Peter Popov, Tillman Weyde
+          type: "poster"
+          start: "16:42"
+          end: "16:44"
+
+        - name: Developing 2D Animations to Facilitate Cross-Disciplinary Communication in Cancer Research
+          authors: Caroline Walker, Staci Weiss, John Doorbar
+          type: "poster"
+          start: "16:44"
+          end: "16:46"
+
+        - name: "Visualizing Content-based Categorization of Social Media Platforms: A Study of UK Users"
+          authors: Bdour Alwuqaysi, Alfie Abdul-Rahman, Rita Borgo
+          type: "poster"
+          start: "16:46"
+          end: "16:48"
+
+        - name: A Novel Immersive Digital Twin Architecture for Rescue Mission Automated Guided Vehicle with VR Capabilities
+          authors: Mokhtar Salem Ba Wahal
+          type: "poster"
+          start: "16:48"
+          end: "16:50"
+
+        - name: Data Visualization Experiences of People with Language Disability, a Qualitative Study
+          authors: Niamh Devane, Tracey Booth, Nicola Botting, Madeline Cruice, Abi Roper, Stephanie Wilson, Jo Wood
+          type: "poster"
+          start: "16:50"
+          end: "16:52"
+
+        - name: Exploring the Evolution of Decarbonisation Scenarios with Gridded-glyphmaps Visualisations
+          authors: Dany Laksono, Radu Jianu, Aidan Slingsby
+          type: "poster"
+          start: "16:52"
+          end: "16:54"
+
+        - name: "From LitVis to Reasoning in Data Visualisation: A Research Plan"
+          authors: Maeve Hutchinson, Radu Jianu, Aidan Slingsby, Pranava Madhyastha
+          type: "poster"
+          start: "16:54"
+          end: "16:56"
 
 
        
     - name: giCentre gelato @ South Bank
       start: "18:30"
       end: "19:00"
+      items: blah
 
     - name: Conference Dinner
       start: "19:30"
