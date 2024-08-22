@@ -106,9 +106,8 @@
       chair: "TBD"
       start: "16:30"
       end: "17:30"
-  
       items:
-        - name: Fostering a Generative AI Design Dialogue: From Sketches to Structured Prompts to Visualisation Design
+        - name: "Fostering a Generative AI Design Dialogue: From Sketches to Structured Prompts to Visualisation Design"
           authors: Aron Owen, Jonathan Roberts
           type: "poster"
           start: "16:30"
