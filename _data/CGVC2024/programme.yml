@@ -91,7 +91,7 @@
           start: "15:30"
           end: "15:45"
 
-        - name: "DFT-Net: Dual-Window Frequency Transformer for Rhythmic Motion Prediction"
+        - name: "DeFT-Net: Dual-Window Extended Frequency Transformer for Rhythmic Motion Prediction"
           authors: Adeyemi Ademola, David Sinclair, Babis Koniaris, Samantha Hannah, Kenny Mitchell
           type: "full"
           start: "15:45"
