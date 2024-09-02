@@ -10,7 +10,13 @@ year: CGVC2024
 
 <!---p>Students can apply for <a href="scholarships.html">scholarships</a>.</p--->
 
-We would like to thank this year's sponsors.
+<hr>
+
+{% include important_dates.html year=page.year %}
+
+<hr\>
+
+<h4>Thanks to this year's sponsors:</h4>
 
 {% for sponsor in site.data[page.year].sponsors %}
 <div class="row mb-4">
@@ -20,7 +26,3 @@ We would like to thank this year's sponsors.
     <div class="col-9"><b><a href="{{sponsor.url}}">{{sponsor.name}}</a></b> - {{sponsor.intro}}</div>
 </div>
 {% endfor %}
-
-<hr>
-
-{% include important_dates.html year=page.year %}
