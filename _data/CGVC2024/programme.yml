@@ -4,11 +4,11 @@
       start: "09:00"
       end: "09:30"
 
-    - name: Welcome
+    - name: Welcome (ELGO3)
       start: "09:30"
       end: "09:45"
 
-    - name: "Session 1: Visualisation Design and Evaluation Methods"
+    - name: "Session 1: Visualisation Design and Evaluation Methods (ELGO3)"
       chair: Jonathan Roberts
       start: "09:45"
       end: "11:00"
@@ -47,7 +47,7 @@
       start: "11:00"
       end: "11:30"
 
-    - name: "Special session on Human-Centred Decision-Making: Progress in the UK Visualisation Research Agenda"
+    - name: "Special session on Human-Centred Decision-Making: Progress in the UK Visualisation Research Agenda (ELGO3)"
       chair: Jason Dykes
       start: "11:30"
       end: "12:30"
@@ -68,7 +68,7 @@
       start: "14:30"
       end: "15:00"
 
-    - name: "Session 2: 3D Rendering and Virtual Reality (VR)"
+    - name: "Session 2: 3D Rendering and Virtual Reality (VR) (ELGO3)"
       chair: Carlos Reyes-Aldasoro
       start: "15:00"
       end: "16:00"
@@ -102,7 +102,7 @@
       end: "16:30"
     
    
-    - name: "Poster Session"
+    - name: "Poster Session (ELGO3)"
       chair: "Mark Mon-Williams"
       start: "16:30"
       end: "17:00"
@@ -195,7 +195,7 @@
 
 - date: "Day 2, Friday 13th September, 2024"
   items:
-    - name: "Parallel Short Paper Session A: Computer Graphics"
+    - name: "Parallel Short Paper Session A: Computer Graphics (ELGO3)"
       chair: Panos Giannopoulos
       start: "09:00"
       end: "10:00"
@@ -236,7 +236,7 @@
           start: "09:50"
           end: "10:00"
 
-    - name: "Parallel Short Paper Session B: Information Visualisation"
+    - name: "Parallel Short Paper Session B: Information Visualisation (ELGO8)"
       chair: Tobias Isenberg
       start: "09:00"
       end: "10:00"
@@ -283,7 +283,7 @@
       start: "11:00"
       end: "11:30"
 
-    - name: "Session 3: Geographic Visualisation"
+    - name: "Session 3: Geographic Visualisation (ELGO3)"
       chair: Mirela Reljan-Delaney 
       start: "11:30"
       end: "12:30"
@@ -325,7 +325,7 @@
       start: "14:30"
       end: "15:00"
 
-    - name: "Session 4: Machine Learning and LLM-enabled Visual Analytics"
+    - name: "Session 4: Machine Learning and LLM-enabled Visual Analytics (ELGO3)"
       chair: Radu Jianu
       start: "15:00"
       end: "16:00"
@@ -354,7 +354,7 @@
           start: "15:45"
           end: "16:00"
 
-    - name: Awards and Closing
+    - name: Awards and Closing (ELGO3)
       authors: "Aidan Slingsby and Mai Elshehaly"
       start: "16:00"
       end: "16:30"
