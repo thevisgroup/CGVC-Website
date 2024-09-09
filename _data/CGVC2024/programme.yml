@@ -9,7 +9,7 @@
       end: "09:45"
 
     - name: "Session 1: Visualisation Design and Evaluation Methods"
-      chair: TBD
+      chair: Jonathan Roberts
       start: "09:45"
       end: "11:00"
       items:
@@ -59,7 +59,7 @@
     - name: "Keynote 1"
       start: "13:30"
       end: "14:30"
-      # chair:
+      chair: Mai Elshehaly
       link: "./keynote"
       title: "Digital avatars and agents in Virtual Worlds"
       speaker: "Dr. Rachel McDonnell"
@@ -69,7 +69,7 @@
       end: "15:00"
 
     - name: "Session 2: 3D Rendering and Virtual Reality (VR)"
-      chair: TBD
+      chair: Carlos Reyes-Aldasoro
       start: "15:00"
       end: "16:00"
       items:
@@ -103,7 +103,7 @@
     
    
     - name: "Poster Session"
-      chair: "TBD"
+      chair: "Mark Mon-Williams"
       start: "16:30"
       end: "17:00"
       items:
@@ -196,7 +196,7 @@
 - date: "Day 2, Friday 13th September, 2024"
   items:
     - name: "Parallel Short Paper Session A: Computer Graphics"
-      chair: TBD
+      chair: Panos Giannopoulos
       start: "09:00"
       end: "10:00"
       items:
@@ -237,7 +237,7 @@
           end: "10:00"
 
     - name: "Parallel Short Paper Session B: Information Visualisation"
-      chair: TBD
+      chair: Tobias Isenberg
       start: "09:00"
       end: "10:00"
       items:
@@ -277,13 +277,14 @@
       link: "./keynote"
       title: "Bringing Data to Life: Embedded Visualizations for Pervasive and Mobile Data Exploration"
       speaker: "Dr. Petra Isenberg"
+      chair: "Aidan Slingsby"
 
     - name: Break and Networking
       start: "11:00"
       end: "11:30"
 
     - name: "Session 3: Geographic Visualisation"
-      chair: TBD
+      chair: Mirela Reljan-Delaney 
       start: "11:30"
       end: "12:30"
       items:
@@ -316,7 +317,7 @@
       end: "13:30"
 
     - name: "Industry Panel: VIS in Practice"
-      chair: TBD
+      chair: Jason Dykes
       start: "13:30"
       end: "14:30"
     
@@ -325,7 +326,7 @@
       end: "15:00"
 
     - name: "Session 4: Machine Learning and LLM-enabled Visual Analytics"
-      chair: TBD
+      chair: Radu Jianu
       start: "15:00"
       end: "16:00"
       items:
