@@ -10,8 +10,8 @@ You may use HTML or markdown in all content pages.
 
 The repository is read-only for anyone, but in order to make changes you need to:
 
-1. Email Bob (robert.laramee"at"nottingham.ac.uk) or Qiru (qiru.wang1"at"nottingham.ac.uk) using your institutional email address.
-1. Include your GitHub account handler, you will be listed as a maintainer of this repository.
+1. Email Bob (robert.laramee"at"nottingham.ac.uk)
+2. Email the last CGVC maintainer(s).
 
 ### Submit changes
 
