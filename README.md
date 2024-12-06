@@ -8,7 +8,7 @@ You may use HTML or markdown in all content pages.
 
 ## Access to this repository
 
-The repository is read-only for anyone, but in order to make changes you need to:
+The repository is read-only for non-maintainers, in order to make changes you need to be invited as a maintainer:
 
 1. Email Bob (robert.laramee"at"nottingham.ac.uk)
 2. Email the last CGVC maintainer(s).
@@ -17,6 +17,8 @@ The repository is read-only for anyone, but in order to make changes you need to
 
 1. All changes **must** include a commit message explaining the changes you've made.
 1. A commit **must** focus on a single subject only, so it's easier to follow and debug.
+
+By doing so you are also leaving a useful guide to the future maintainers.
 
 ## Add a new conference
 
@@ -53,7 +55,8 @@ For example we are adding a new conference for the CGVC in 2024, follow the step
 ## Help
 
 1. Open an issue on CGVC's github page: <https://github.com/thevisgroup/CGVC/issues/new>
-1. Email Bob (robert.laramee"at"nottingham.ac.uk) or Qiru (qiru.wang1"at"nottingham.ac.uk)
+1. Email Bob (robert.laramee"at"nottingham.ac.uk)
+1. Email the last CGVC maintainer(s).
 
 <https://github.com/thevisgroup/CGVC>
 
@@ -61,4 +64,4 @@ Good luck.
 
 ---
 
-Updated on 12 Sep 2022 by Qiru Wang
+Updated on 6 Dec 2024 by Qiru Wang
