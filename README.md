@@ -10,8 +10,8 @@ You may use HTML or markdown in all content pages.
 
 The repository is read-only for non-maintainers, in order to make changes you need to be invited as a maintainer:
 
-1. Email Bob (robert.laramee"at"nottingham.ac.uk)
-2. Email the last CGVC maintainer(s).
+1. Email Kai (kai.xu"at"nottingham.ac.uk), or
+2. Contact the chair of the [previous CGVC conference](https://cgvc.org.uk/).
 
 ### Submit changes
 
