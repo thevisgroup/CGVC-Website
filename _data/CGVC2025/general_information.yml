@@ -1,6 +1,6 @@
 # variable below are required to generate the _includes/host.html
 host_intro: "CGVC 2025 will be hosted by <br> <b>City, Liverpool John Moores Universaity UK</b>."
-logo: "City UoL logo RGB DK1a.jpg"
+logo: "LJMU.png"
 
 # variable below are required to generate the _includes/important_dates.html
 submission_started: true
