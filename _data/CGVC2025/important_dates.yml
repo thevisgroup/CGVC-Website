@@ -1,0 +1,24 @@
+# title and date are required to generate the _includes/important_dates.html
+- title: "Submission Deadline"
+  date: "3 June 2024"
+  description: "submissions closed"
+  extend: "18 June 2024"
+  
+#  date: "3 June 2024"
+#  description: "Submission deadline (extended by a further day)."
+#  extend: "18 June 2024"
+
+- title: "Decisions Available"
+  date: "24 July 2024"
+  description: "<a href='https://cgvc.org.uk/CGVC2024/programme'>programme complete</a>."
+
+- title: "Camera Ready"
+  date: "28 August 2024"
+  description: "complete"
+
+- title: "Registration Deadline"
+  date: "06 September 2024"
+  description: "<a href='https://cgvc.org.uk/CGVC2024/registration'>register here</a>"
+
+- title: "Conference"
+  date: "12-13 September 2024"
