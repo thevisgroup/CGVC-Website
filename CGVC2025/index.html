@@ -1,0 +1,28 @@
+---
+layout: default
+hide_element: btn-learn-more
+year: CGVC2024
+---
+
+<h3>Welcome to the 42nd Computer Graphics & Visual Computing Conference!</h3>
+
+{% include host.html year=page.year %}
+
+<!---p>Students can apply for <a href="scholarships.html">scholarships</a>.</p--->
+
+<hr>
+
+{% include important_dates.html year=page.year %}
+
+<hr\>
+
+<h3>Thanks to this year's sponsors</h3>
+
+{% for sponsor in site.data[page.year].sponsors %}
+<div class="row mb-4">
+    <div class="col-3"><img class="h-auto w-100" src="{{site.baseurl}}/assets/img/{{sponsor.logo}}"
+            alt="{{sponsor.name}}" />
+    </div>
+    <div class="col-9"><b><a href="{{sponsor.url}}">{{sponsor.name}}</a></b> - {{sponsor.intro}}</div>
+</div>
+{% endfor %}
