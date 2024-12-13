@@ -1,6 +1,6 @@
 ---
 layout: front
-year: CGVC2024
+year: CGVC2025
 title: Welcome to CGVC!
 ---
 
