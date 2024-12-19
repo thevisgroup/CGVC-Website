@@ -1,18 +1,30 @@
-- name: Mai Elshehaly
+- name: Abdennour El Rhalibi
   role: Conference Chair
-  affiliation: City, University of London
-  url: https://www.city.ac.uk/about/people/academics/mai-elshehaly
+  affiliation: Liverpool John Moores University
+  url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/abdennour-el-rhalibi
 
 - name: Stephanie Behnke
   role: Technical Proceedings Master
   affiliation: Graz University of Technology
   url: https://graz.pure.elsevier.com/en/persons/stefanie-behnke
 
-- name: Qiru Wang
-  affiliation: University of Nottingham
+- name: Richard Warren
+  affiliation: Liverpool John Moores University
   url: http://www.cs.nott.ac.uk/~pszqw/
   role: CGVC Web Master
 
-- name: Horia Maior
-  affiliation: University of Nottingham
-  url: http://horiamaior.com/
+- name: Ryan Ward
+  affiliation: Liverpool John Moores University
+  url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/ryan-ward
+  role: CGVC Member
+
+- name: Sud Sudirman
+  affiliation: Liverpool John Moores University
+  url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/sud-sudirman
+  role: CGVC Member
+
+  - name: Anna Roberts
+  affiliation: Liverpool John Moores University
+  url: http://www.cs.nott.ac.uk/~pszqw/
+  role: CGVC Member
+
