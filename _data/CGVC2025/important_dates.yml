@@ -1,15 +1,15 @@
 # title and date are required to generate the _includes/important_dates.html
 - title: "Submission Deadline"
   date: "02 June 2025"
-  description: "Submission deadline "
+  description: "In Progress..."
 
 - title: "Decisions Available"
   date: "28 July 2025"
-  description: "<a href='https://cgvc.org.uk/CGVC2024/programme'>programme complete</a>."
+  description: "In Progress..."
 
 - title: "Camera Ready"
   date: "15 August 2025"
-  description: "complete"
+  description: "In Progress..."
 
 - title: "Registration Deadline"
   date: "29 August 2025"
@@ -17,3 +17,4 @@
 
 - title: "Conference"
   date: "11th to 12th September 2025"
+  description: "In Progress..."
