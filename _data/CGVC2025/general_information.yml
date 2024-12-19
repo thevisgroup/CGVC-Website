@@ -12,21 +12,21 @@ registration_started: true
 
 committee:
   conference_chair:
-    - name: Mai Elshehaly
+    - name: Abdennour El Rhalibi
       role: Conference Chair
-      affiliation: City, University of London
-      url: https://www.city.ac.uk/about/people/academics/mai-elshehaly
-      email: Mai.Elshehaly@city.ac.uk
+      affiliation: Liverpool John Moores University
+      url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/abdennour-el-rhalibi
+      email: A.Elrhalibi@ljmu.ac.uk
 
   programme_chair:
+    - name: Yun Sheng
+      role: Programme Chair
+      affiliation: Liverpool John Moores University
+      url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/yun-sheng
+      email: Y.Sheng@ljmu.ac.uk
+
     - name: Aidan Slingsby
       role: Programme Chair
-      affiliation: City, University of London
-      url: https://www.city.ac.uk/about/people/academics/aidan-slingsby
-      email: A.Slingsby@city.ac.uk
-
-    - name: David Hunter
-      role: Programme Chair
       affiliation: Aberystwyth University
-      url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/dah56/
-      email: dah56@aber.ac.uk
+      url: https://www.city.ac.uk/about/people/academics/aidan-slingsby
+      email: a.slingsby@city.ac.uk
