@@ -10,7 +10,8 @@ title: Venue and Accommodation
 
 {{page.year}} will be at Liverpool John Moores University, James Pearson's Building, L1 8LB
 
-We are in Clerkenwell, with Angel being the closest Underground Station. To plan your journey, you can use our [campus map and recommended travel advice](https://www.city.ac.uk/about/find-contact/find?dm_t=0%2C0%2C0%2C0%2C0&utm_medium=email&utm_source=UK%20Recruitment&utm_campaign=12459151_Individual%20Campus%20Tour%20Reminder%20On-Campus%20Keep%20Warm).
+We are in Liverpool City Centre, close to the Liverpool World Museum, the closest rail point is Liverpool Lime Street, view [LJMU Byrom Street Travel Guide]
+(https://www.ljmu.ac.uk/study/undergraduate-students/visit-us/directions/james-parsons-building)
 
 
 
