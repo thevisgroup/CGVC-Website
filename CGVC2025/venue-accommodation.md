@@ -1,6 +1,6 @@
 ---
 layout: default
-year: CGVC2024
+year: CGVC2025
 title: Venue and Accommodation
 ---
 
@@ -8,17 +8,17 @@ title: Venue and Accommodation
 
 ## Venue
 
-{{page.year}} will be at City, University of London, Northampton Square, London, EC1V 0HB.
+{{page.year}} will be at Liverpool John Moores University, James Pearson's Building, L1 8LB
 
 We are in Clerkenwell, with Angel being the closest Underground Station. To plan your journey, you can use our [campus map and recommended travel advice](https://www.city.ac.uk/about/find-contact/find?dm_t=0%2C0%2C0%2C0%2C0&utm_medium=email&utm_source=UK%20Recruitment&utm_campaign=12459151_Individual%20Campus%20Tour%20Reminder%20On-Campus%20Keep%20Warm).
 
 
 
 <figure class="figure">
-    <img src="/assets/img/CGVC2024/venue.jpg" class="figure-img img-fluid rounded"
-        alt="City, University of London">
+    <img src="/assets/img/CGVC2025/venue.jpg" class="figure-img img-fluid rounded"
+        alt="Liverpool John Moores University">
     <figcaption class="figure-caption text-center">
-        City, University of London
+        Liverpool John Moores University
     </figcaption>
 </figure>
 
