@@ -32,7 +32,7 @@ Depending on the choice of sponsoring package(s), the following advantages are o
 
 ### Questions?
 
-Please contact [chairs-cgvc2024@eg.org](mailto:chairs-cgvc2024@eg.org).
+Please contact [chairs-cgvc2025@eg.org](mailto:chairs-cgvc2025@eg.org).
 
 ### Further Questions and Answers
 
