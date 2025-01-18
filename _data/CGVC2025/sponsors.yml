@@ -3,17 +3,17 @@
   logo: ai_long logo_greentxt.png
   intro: Advanced Infrastructure is an award winning data science and software company providing spatial analytics and digital twins to accelerate and simplify the energy transition. The ‘Local Area Energy Planner Plus’  (LAEP+) platform has been deployed across over 200 local authorities and 3 Distribution System Operators to accelerate Local Area Energy Planning.  LAEP+ uses digital twins to support decision making by local stakeholders and forecasts network capacity, building retrofits, heat networks, and EV rollouts all in one platform.  LAEP+ digitalises Local Area Energy Plans and puts hundreds of datasets and analysis tools in the hands of councils and stakeholders. Local Authority and Energy Network users can identify sites for low carbon energy interventions, build project pipelines and and attract investment. <a href="https://www.youtube.com/watch?v=oqOW9gjrR-M">See their video here.</a>
   
-- name: TEST
+- name: TEST2
   url: https://www.gicentre.net/
   logo: gicentre.png
   intro: giCentre is a Research Group within the Department of Computer Science at City, University of London. We specialise in developing and applying new techniques for visualizing data. This ranges from visualization of 'big data' to personalised data presentation; from visual analytics to visual story telling; from cartography and GIS to statistical graphics.
 
-- name: TEST
+- name: TEST3
   url: https://www.advanced-infrastructure.co.uk/
   logo: springer.png
   intro: With more than 2,900 journals and 300,000 books, Springer offers many opportunities for authors, customers and partners.
 
-- name: TEST
+- name: TEST4
   url: https://www.eg.org/
   logo: branding_eg.png
   intro: Eurographics is the only truly Europe-wide professional Computer Graphics association.
