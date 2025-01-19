@@ -9,12 +9,13 @@ title: Travel
 ## Travel
 
 ### By Car:
-    -From the North: - On the M6 take the exit off at junction 26 and follow signs for the M58 Liverpool. Once you reach the end of the M58, follow signs for A59 Liverpool. Continue to follow signs for the Liverpool City Centre, specifically JM University, Byrom St.
-    
-    -From the South:- On the M6 leave the junction as 21A to merge onto the M62 for Liverpool. Once you reach the end of the M62, follow signs for Liverpool City Centre, specifically follow JM University, Byrom St.
+- From the North: [On the M6 take the exit off at junction 26 and follow signs for the M58 Liverpool. Once you reach the end of the M58, follow signs for A59 Liverpool. Continue to follow signs for the Liverpool City Centre, specifically JM University, Byrom St.]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])
+- From the South: [On the M6 leave the junction as 21A to merge onto the M62 for Liverpool. Once you reach the end of the M62, follow signs for Liverpool City Centre, specifically follow JM University, Byrom St.
+]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])
 
 
-###By Bus:
+
+### By Bus:
 If you are travelling via bus, most bus stops will reach Queens Square Bus Station or Liverpool One as the two main stops. Arrive at Queens Square Bus Station for a short 10-minute walk to Byrom Street Campus or arrive at Liverpool One Bust Station for a longer 20-minute walk.
 For further information on bus routes within Merseyside, you can visit https://www.merseytravel.gov.uk/customer-information/routes-and-maps/
 
