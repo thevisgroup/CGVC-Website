@@ -9,9 +9,9 @@ title: Travel
 ## Travel
 
 ### By Car:
-- From the North: [On the M6 take the exit off at junction 26 and follow signs for the M58 Liverpool. Once you reach the end of the M58, follow signs for A59 Liverpool. Continue to follow signs for the Liverpool City Centre, specifically JM University, Byrom St.]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])
+- From the North: [On the M6 take the exit off at junction 26 and follow signs for the M58 Liverpool. Once you reach the end of the M58, follow signs for A59 Liverpool. Continue to follow signs for the Liverpool City Centre, specifically JM University, Byrom St.]
 - From the South: [On the M6 leave the junction as 21A to merge onto the M62 for Liverpool. Once you reach the end of the M62, follow signs for Liverpool City Centre, specifically follow JM University, Byrom St.
-]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])
+]
 
 
 
