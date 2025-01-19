@@ -29,9 +29,9 @@ From Liverpool Lime Street it is a short 11-minute walk to Byrom Street Campus.
 - If arriving at Liverpool John Lennon Airport it will take approximately 20 minutes via a taxi, or if you wish to travel by bus, you can take the 500 bus straight into Liverpool City Centre on Elliot Street right by Liverpool Lime Street for 40 minutes approx. From there it is a short 11-minute walk to Byrom Street Campus.
 
 <figure class="figure">
-    <img src="/assets/img/CGVC2025/venue.jpg" class="figure-img img-fluid rounded"
+    <img src="/assets/img/CGVC2025/Travel.png" class="figure-img img-fluid rounded"
         alt="Liverpool John Moores University">
     <figcaption class="figure-caption text-center">
-        Liverpool John Moores University
+        Byrom Street Campus Location
     </figcaption>
 </figure>
