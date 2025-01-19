@@ -20,29 +20,29 @@ Chapter. The objective of Computer Graphics & Visual Computing (CGVC) is to fost
   - Artificial Intelligence for Graphics and Visualisation
 
 ### We also welcome topics including (but are not limited to):
-  - Computer Graphics – 
-  - Visualization – 
-  - Computer Vision – 
-  - Virtual Reality – 
-  - Visual Analytics – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html]) 
-  - Visual Data Science – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html]) 
-  - Computer Animation – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html]) 
-  - Computer-based Arts and Entertainment – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html]) 
-  - Image processing – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Acquisition and Reconstruction Techniques – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Graphics Architectures and Acceleration Hardware – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Human Computer Interaction, Robotics, and Haptics – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Medical Imaging – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Multimedia Visualisation – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Computer Games – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Rendering Techniques – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Scientific Visualisation and Big Data – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Information Visualization and Visual Analytics – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Geospatial Visualisation – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Augmented Reality and Collaborative Environments – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Mobile Apps and Interactive Devices – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html])  
-  - Modelling Methods – [Premier Inn Moorefields]([https://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool/liverpool-city-centre-moorfields.html]) 
-  
+  - Computer Graphics
+  - Visualization
+  - Computer Vision
+  - Virtual Reality
+  - Visual Analytics
+  - Visual Data Science
+  - Computer Animation
+  - Computer-based Arts and Entertainment
+  - Image processing 
+  - Acquisition and Reconstruction Techniques 
+  - Graphics Architectures and Acceleration Hardware 
+  - Human Computer Interaction, Robotics, and Haptics
+  - Medical Imaging 
+  - Multimedia Visualisation 
+  - Computer Games 
+  - Rendering Techniques 
+  - Scientific Visualisation and Big Data 
+  - Information Visualization and Visual Analytics 
+  - Geospatial Visualisation 
+  - Augmented Reality and Collaborative Environments 
+  - Mobile Apps and Interactive Devices 
+  - Modelling Methods
+    
 We welcome contributions in the form of full papers, short papers and posters. Submissions are optionally single- or double-blind: authors may choose whether to anonymize their submission or not. Reviewers' identities are not revealed.
 
 
