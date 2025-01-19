@@ -13,14 +13,14 @@ Chapter. The objective of Computer Graphics & Visual Computing (CGVC) is to fost
 </p>
 
 
-**This year, we particularly welcome submissions on:** 
+### This year, we particularly welcome submissions on:
   - Computer Graphics and Visualisation in Games 
   - Virtual Reality 
   - Augmented Reality 
   - Artificial Intelligence for Graphics and Visualisation
 
 
-**We also welcome topics including (but are not limited to):**
+### We also welcome topics including (but are not limited to):
   - Computer Graphics
   - Visualization
   - Computer Vision
