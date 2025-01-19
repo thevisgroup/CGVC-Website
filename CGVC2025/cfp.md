@@ -42,6 +42,6 @@ Chapter. The objective of Computer Graphics & Visual Computing (CGVC) is to fost
   - Mobile Apps and Interactive Devices 
   - Modelling Methods
     
-We welcome contributions in the form of full papers, short papers and posters. Submissions are optionally single- or double-blind: authors may choose whether to anonymize their submission or not. Reviewers' identities are not revealed.
+**We welcome contributions in the form of full papers, short papers and posters. Submissions are optionally single- or double-blind: authors may choose whether to anonymize their submission or not. Reviewers' identities are not revealed.**
 
 
