@@ -5,9 +5,6 @@ title: Venue
 ---
 
 # {{page.title}}
-
-## Venue
-
 {{page.year}} will be at Liverpool John Moores University, James Pearson's Building, L1 8LB
 
 The James Parsons Building as apart of Byrom Street Campus, is the largest building belonging to Liverpool John Moores University. The faculty of Science, Technology and Built Environment make up the departments within the building. In addition, the campus contains two cafes, and a range of high-spec facilities. To discover more about our facilities, explore the LJMU website [HERE](https://www.ljmu.ac.uk/about-us/faculties/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/facilities).
