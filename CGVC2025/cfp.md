@@ -12,14 +12,13 @@ CGVC 2025, hosted by Liverpool John Moores University, is the 43rd annual comput
 Chapter. The objective of Computer Graphics & Visual Computing (CGVC) is to foster greater exchange between visual computing researchers and practitioners, to welcome more researchers and industry partners in the UK, Europe, and beyond into this rapidly growing area of research. CGVC's scope encompasses all areas of visual computing. Bringing together researchers and practitioners from complementary visual computing research areas, this conference promotes the visibility of technical and theoretical advances in the field to achieve real-world impact.
 </p>
 
-
-### This year, we particularly welcome submissions on: 
+**This year, we particularly welcome submissions on:** 
   - Computer Graphics and Visualisation in Games 
   - Virtual Reality 
   - Augmented Reality 
   - Artificial Intelligence for Graphics and Visualisation
-
-### We also welcome topics including (but are not limited to):
+  - 
+**We also welcome topics including (but are not limited to):**
   - Computer Graphics
   - Visualization
   - Computer Vision
