@@ -18,7 +18,6 @@ Chapter. The objective of Computer Graphics & Visual Computing (CGVC) is to fost
   - Virtual Reality 
   - Augmented Reality 
   - Artificial Intelligence for Graphics and Visualisation
-
 **We also welcome topics including (but are not limited to):**
   - Computer Graphics
   - Visualization
