@@ -20,7 +20,6 @@ In addition to the option of becoming a general sponsor of CGVC, there is also a
 - A **Lunch** Sponsor supports the lunches on one of the days of CGVC
 - A **Film Coverage** Sponsor supports the production of videos from all conference talks
 - A **Coffee Break** Sponsor associates with all coffee breaks on one of the days
-- A Sponsor of an **Invited Speaker**
 - A Sponsor of the **Best Paper Award** helps to shape up the CGVC Award(s)
 - We invite Sponsors to help **Young Researchers** to attend CGVC
 
