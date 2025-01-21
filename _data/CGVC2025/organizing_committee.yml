@@ -8,22 +8,22 @@
   affiliation: Graz University of Technology
   url: https://graz.pure.elsevier.com/en/persons/stefanie-behnke
 
-- name: Richard Warren
+- name: Sud Sudirman
   affiliation: Liverpool John Moores University
-  role: CGVC Web Master
+  url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/sud-sudirman
+  role: local Organization Chair
 
 - name: Ryan Ward
   affiliation: Liverpool John Moores University
   url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/ryan-ward
-  role: CGVC Member
-
-- name: Sud Sudirman
-  affiliation: Liverpool John Moores University
-  url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/sud-sudirman
-  role: CGVC Member
+  role: Financial & Publication Chair
 
 - name: Anna Roberts
   affiliation: Liverpool John Moores University
   role: CGVC Member
+
+  - name: Richard Warren
+  affiliation: Liverpool John Moores University
+  role: CGVC Web Master
   
 
