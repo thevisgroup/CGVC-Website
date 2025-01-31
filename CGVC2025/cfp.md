@@ -6,7 +6,7 @@ title: Call for Papers
 
 <h1>{{page.title}}</h1>
 <p>
-This is a test <a href="documents/PublicStyle{{page.year}}.zip">.
+Download our Leaflet<a href="documents/PublicStyle{{page.year}}.zip">HERE!
 </p>
 
 <p>
