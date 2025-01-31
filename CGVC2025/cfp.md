@@ -7,7 +7,7 @@ title: Call for Papers
 <h1>{{page.title}}</h1>
 
   <p>
-    Download our Leaflet<a href="https://srmv2.eg.org/COMFy/Conference/CGVC_2025/Instruction">here.
+    Download our Leaflet<a href="https://srmv2.eg.org/COMFy/Conference/CGVC_2025/Instruction"> here.
   </p>
   
 <p>
