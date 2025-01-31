@@ -7,7 +7,7 @@ title: Call for Papers
 <h1>{{page.title}}</h1>
 
   <p>
-    Download our Leaflet <a href="CGVC2025/CallForPapers.zip">here.
+    Download our Leaflet <a href="/CallForPapers.zip">here.
   </p>
   
 <p>
