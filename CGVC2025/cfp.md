@@ -7,9 +7,9 @@ title: Call for Papers
 <h1>{{page.title}}</h1>
 
 <p>
-
-Download our Leaflet here.<a href="CGVC-Website/CGVC20205/cfm.md">
+Download our Leaflet here<a href="CGVC-Website/CGVC20205/cfm.md">
 </p>
+
 <p>
 CGVC 2025, hosted by Liverpool John Moores University, is the 43rd annual computer graphics, visualization, and visual computing conference organized by the Eurographics UK Chapter.
   
