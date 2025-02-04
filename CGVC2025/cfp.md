@@ -10,8 +10,6 @@ title: Call for Papers
 CGVC 2025, hosted by Liverpool John Moores University, is the 43rd annual computer graphics, visualization, and visual computing conference organized by the Eurographics UK Chapter.
   
 Chapter. The objective of Computer Graphics & Visual Computing (CGVC) is to foster greater exchange between visual computing researchers and practitioners, to welcome more researchers and industry partners in the UK, Europe, and beyond into this rapidly growing area of research. CGVC's scope encompasses all areas of visual computing. Bringing together researchers and practitioners from complementary visual computing research areas, this conference promotes the visibility of technical and theoretical advances in the field to achieve real-world impact.
-
-Download our Leaflet<a href="documents/CallForPapers.zip"> HERE!
 </p>
 
 ### This year, we particularly welcome submissions on:
