@@ -1,8 +1,8 @@
-- name: Aidan Slingsby
+- name: Aidan Slingsby,
   affiliation: City, University of London
   role: Programme Chair
   url: https://www.staff.city.ac.uk/~sbbb717/
-- name: Yun Sheng
+- name: Yun Sheng,
   affiliation: Liverpool John Moores University
   role: Programme Chair
   url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/yun-sheng
@@ -12,75 +12,75 @@
   affiliation: University of Leeds 
 - name: Fiona Carroll,   
   affiliation: Cardiff Met University 
-- name: Alexandra Diehl
+- name: Alexandra Diehl,
   affiliation: University of Zurich 
-- name: Mai Elshehaly
+- name: Mai Elshehaly,
   affiliation:  City University of London 
-- name: Hui Fang
+- name: Hui Fang,
   affiliation: Loughborough University
-- name: Sata Fernstad 
+- name: Sata Fernstad,
   affiliation: Newcastle University 
-- name: Rafael Kuffner dos Anjos
+- name: Rafael Kuffner dos Anjos,
   affiliation: University of Leeds 
-- name: Frederick W. B. Li
+- name: Frederick W. B. Li,
   affiliation: Durham University 
-- name: Steve Maddock
+- name: Steve Maddock,
   affiliation: University of Sheffield 
-- name: Amal Dev Parakkat
+- name: Amal Dev Parakkat,
   affiliation: Institut Polytechnique de Paris 
-- name: Mujeeb Ur Rehman
+- name: Mujeeb Ur Rehman,
   affiliation: York St. John University 
-- name: Panagiotis D. Ritsos
+- name: Panagiotis D. Ritsos,
   affiliation: Bangor University 
-- name: Gary KL Tam
+- name: Gary KL Tam,
   affiliation: Swansea University
-- name: Bernard Tiddeman
+- name: Bernard Tiddeman,
   affiliation: Aberystwyth University 
-- name: Cagatay Turkay
+- name: Cagatay Turkay,
   affiliation: University of Warwick 
-- name: Reyer Zwiggelaar
+- name: Reyer Zwiggelaar,
   affiliation: Aberystwyth University
-- name: Rinat Abdrashitov
+- name: Rinat Abdrashitov,
   affiliation: University of Toronto, Epic Games
-- name: Xiaokun Wang	
+- name: Xiaokun Wang,	
   affiliation: University of Science and Technology Beijing	
-- name: Nicolas Pronost	
+- name: Nicolas Pronost,
   affiliation: Université Claude Bernard Lyon 1	
-- name: Tolga Capin	
+- name: Tolga Capin,
   affiliation: TED University	
-- name: Jing Wu	
+- name: Jing Wu,
   affiliation: Cardiff University
-- name: Ran Song	
+- name: Ran Song,	
   affiliation: University of Brighton
-- name: Tim Morris	
+- name: Tim Morris,	
   affiliation: Univerity of Manchester	
-- name: Kenny Mitchell
+- name: Kenny Mitchell,
   affiliation: Edinburgh Napier University	
-- name: Panagiotis D. Ritsos
+- name: Panagiotis D. Ritsos,
   affiliation: Bangor University	
-- name: Sean Walton	
+- name: Sean Walton,	
   affiliation: University of Swansea	
-- name: Alfie Abdul-Rahman	
+- name: Alfie Abdul-Rahman,	
   affiliation: King's College London	
-- name: Alexandre Meyer	
+- name: Alexandre Meyer,
   affiliation: Université Lyon 1	
-- name: Franck Vidal 
+- name: Franck Vidal,
   affiliation: Bangor University	
-- name: Christos Gatzidis	
+- name: Christos Gatzidis,	
   affiliation: Bournemouth University	
-- name: Lpria Pierre-Frederic Villard 
+- name: Lpria Pierre-Frederic Villard,
   affiliation: University of Lorraine	
-- name: Martin Turner
+- name: Martin Turner,
   affiliation: University of Manchester	
-- name: Xianfang Sun
+- name: Xianfang Sun,
   affiliation: Cardiff University	
-- name: Roy Ruddle	
+- name: Roy Ruddle,
   affiliation: University of Leeds	
-- name: Edmond Prakash
+- name: Edmond Prakash,
   affiliation: Teesside University 	
-- name: Steve Pettifer
+- name: Steve Pettifer,
   affiliation: The University of Manchester	
-- name: Helen Miles
+- name: Helen Miles,
   affiliation: Aberystwyth University	
 - name: Robert Laramee
   affiliation: University of Nottingham	
@@ -94,24 +94,23 @@
   affiliation: City, University of London
 - name: Ioannis Ivrissimtzis
   affiliation: Durham University	
-- name: Min Chen	
+- name: Min Chen,	
   affiliation: University of Oxford	
-- name: Nadine Aburumman	
+- name: Nadine Aburumman,	
   affiliation: Brunel University	
-- name: Yufeng	Zhu
+- name: Yufeng	Zhu,
   affiliation: University of British Columbia
-- name: Kai Xu
+- name: Kai Xu,
   affiliation: University of Nottingham
 - name: Wen Tang	
   affiliation: Bournemouth University
-- name: Aaron Sújar
+- name: Aaron Sújar,
   affiliation: Universidad Rey Juan Carlos
-- name:Paul Hibbard	
+- name:Paul Hibbard,	
   affiliation: University of Essex
-- name: Bailin Deng
+- name: Bailin Deng,
   affiliation: Cardiff University
-- name: Louis Nisiotis
+- name: Louis Nisiotis,
   affiliation: University of Central Lancashire
-- name: Yi Zhang	
+- name: Yi Zhang,	
   affiliation: Sichuan University
-	
