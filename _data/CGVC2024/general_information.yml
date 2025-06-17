@@ -1,6 +1,6 @@
 
 # variable below are required to generate the _includes/host.html
-host_intro: "CGVC 2023 will be hosted by <br> <b>Aberystwyth University, Wales, UK</b>."
+host_intro: "CGVCe 2023 will be hosted by <br> <b>Aberystwyth University, Wales, UK</b>."
 logo: "logo.png"
 
 # variable below are required to generate the _includes/important_dates.html
