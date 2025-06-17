@@ -1,40 +1,31 @@
+
 # variable below are required to generate the _includes/host.html
-host_intro: "CGVC 2025 will be hosted by <br> <b>Liverpool John Moores University UK</b>."
-logo: "LJMU.png"
+host_intro: "CGVC 2023 will be hosted by <br> <b>Aberystwyth University, Wales, UK</b>."
+logo: "logo.png"
 
 # variable below are required to generate the _includes/important_dates.html
 submission_started: true
-submission_closed: false
-submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2024"
-submission_link_text: "Submit here"
-proceedings: ""
-registration_started: true
+submission_closed: true
+submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2023"
+proceedings: "https://diglib.eg.org/handle/10.2312/3543876"
 
 committee:
-    conference_chair:
-    - name: Dr Ryan Ward
+  conference_chair:
+    - name: Helen Miles
       role: Conference Chair
-      affiliation: Liverpool John Moores University
-      url: https://www.researchgate.net/profile/Ryan-Ward-8
-      email: r.j.ward@ljmu.ac.uk
-
-    conference_chair:
-    - name: Dr Sud Sudirman
-      role: Conference Chair
-      affiliation: Liverpool John Moores University
-      url: https://scholar.google.com/citations?user=tTm3Mv4AAAAJ&hl=en
-      email: s.sudirman@ljmu.ac.uk
-
-    programme_chair I:
-    - name: Yun Sheng
+      affiliation: Aberystwyth University
+      url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/hem23/
+      email: hem23@aber.ac.uk
+ 
+  programme_chair:
+    - name: David Hunter
+      affiliation: Aberystwyth University
       role: Programme Chair
-      affiliation: Liverpool John Moores University
-      url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/yun-sheng
-      email: Y.Sheng@ljmu.ac.uk
+      url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/dah56/
+      email: dah56@aber.ac.uk
 
-    programme_chair II:
-    - name: Aidan Slingsby
+    - name: Peter Vangorp
+      affiliation: Utrecht University
       role: Programme Chair
-      affiliation: City, University of London
-      url: https://www.city.ac.uk/about/people/academics/aidan-slingsby
-      email: a.slingsby@city.ac.uk
+      url: http://www.pvangorp.be/
+      email: peter.vangorp@gmail.com
