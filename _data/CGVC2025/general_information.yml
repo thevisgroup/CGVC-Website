@@ -18,7 +18,7 @@ committee:
       url: https://www.researchgate.net/profile/Ryan-Ward-8
       email: r.j.ward@ljmu.ac.uk
 
-    conference_chair:
+    conference_chair_II:
     - name: Dr Sud Sudirman
       role: Conference Chair
       affiliation: Liverpool John Moores University
@@ -31,7 +31,8 @@ committee:
       affiliation: Liverpool John Moores University
       url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/yun-sheng
       email: Y.Sheng@ljmu.ac.uk
-    programme_chair:
+   
+    programme_chair_II:
     - name: Aidan Slingsby
       role: Joint Programme Chair
       affiliation: City, University of London
