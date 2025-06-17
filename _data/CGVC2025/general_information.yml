@@ -11,7 +11,7 @@ proceedings: ""
 registration_started: true
 
 committee:
-  conference_chair:
+    conference_chair:
     - name: Dr Ryan Ward
       role: Conference Chair
       affiliation: Liverpool John Moores University
@@ -25,14 +25,14 @@ committee:
       url: https://scholar.google.com/citations?user=tTm3Mv4AAAAJ&hl=en
       email: s.sudirman@ljmu.ac.uk
 
-  programme_chair I:
+    programme_chair I:
     - name: Yun Sheng
       role: Programme Chair
       affiliation: Liverpool John Moores University
       url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/yun-sheng
       email: Y.Sheng@ljmu.ac.uk
 
-   programme_chair II:
+    programme_chair II:
     - name: Aidan Slingsby
       role: Programme Chair
       affiliation: City, University of London
