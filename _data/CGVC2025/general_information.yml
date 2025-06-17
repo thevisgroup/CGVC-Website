@@ -1,32 +1,40 @@
 # variable below are required to generate the _includes/host.html
-host_intro: "CGVC 2024 will be hosted by <br> <b>City, University of London, UK</b>."
-logo: "City UoL logo RGB DK1a.jpg"
+host_intro: "CGVC 2025 will be hosted by <br> <b>Liverpool John Moores University UK</b>."
+logo: "LJMU.png"
 
 # variable below are required to generate the _includes/important_dates.html
 submission_started: true
 submission_closed: false
-submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2024"
+submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2025"
 submission_link_text: "Submit here"
 proceedings: ""
 registration_started: true
 
 committee:
-  conference_chair:
-    - name: Maiz Elshehaly
-      role: Conference Chair
-      affiliation: City, University of London
-      url: https://www.city.ac.uk/about/people/academics/mai-elshehaly
-      email: Mai.Elshehaly@city.ac.uk
+    conference_chair I:
+      - name: Dr Ryan Ward
+        role: Conference Chair
+        affiliation: Liverpool John Moores University
+        url: https://www.researchgate.net/profile/Ryan-Ward-8
+        email: r.j.ward@ljmu.ac.uk
 
-  programme_chair:
-    - name: Aidan Slingsby
-      role: Programme Chair
-      affiliation: City, University of London
-      url: https://www.city.ac.uk/about/people/academics/aidan-slingsby
-      email: A.Slingsby@city.ac.uk
+    conference_chair II:
+      - name: Dr Sud Sudirman
+        role: Conference Chair
+        affiliation: Liverpool John Moores University
+        url: https://scholar.google.com/citations?user=tTm3Mv4AAAAJ&hl=en
+        email: s.sudirman@ljmu.ac.uk
 
-    - name: David Hunter
-      role: Programme Chair
-      affiliation: Aberystwyth University
-      url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/dah56/
-      email: dah56@aber.ac.uk
+  programme_chair I:
+      - name: Yun Sheng
+        role: Programme Chair
+        affiliation: Liverpool John Moores University
+        url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/yun-sheng
+        email: Y.Sheng@ljmu.ac.uk
+
+    programme_chair II:
+      - name: Aidan Slingsby
+        role: Programme Chair
+        affiliation: City, University of London
+        url: https://www.city.ac.uk/about/people/academics/aidan-slingsby
+        email: a.slingsby@city.ac.uk
