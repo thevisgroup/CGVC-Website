@@ -13,14 +13,14 @@ registration_started: true
 committee:
     conference_chair:
     - name: Dr Ryan Ward
-      role: Conference Chair
+      role: Joint Conference Chair
       affiliation: Liverpool John Moores University
       url: https://www.researchgate.net/profile/Ryan-Ward-8
       email: r.j.ward@ljmu.ac.uk
       
     conference_chair_II:
     - name: Dr Sud Sudirman
-      role: Conference Chair
+      role: Joint Conference Chair
       affiliation: Liverpool John Moores University
       url: https://scholar.google.com/citations?user=tTm3Mv4AAAAJ&hl=en
       email: s.sudirman@ljmu.ac.uk
