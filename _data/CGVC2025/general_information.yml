@@ -32,6 +32,7 @@ committee:
       url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/dah56/
       email: dah56@aber.ac.uk
 
+  programme_chair:
     - name: Peter Vangorp
       affiliation: Utrecht University
       role: Programme Chair
