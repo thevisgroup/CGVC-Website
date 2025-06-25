@@ -17,6 +17,14 @@ committee:
       affiliation: Aberystwyth University
       url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/hem23/
       email: hem23@aber.ac.uk
+      
+  programme_chair:
+    - name: David Hunter
+      affiliation: Aberystwyth University
+      role: Programme Chair
+      url: https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/dah56/
+      email: dah56@aber.ac.uk
+
   programme_chair:
     - name: David Hunter
       affiliation: Aberystwyth University
