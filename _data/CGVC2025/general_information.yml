@@ -10,7 +10,7 @@ submission_link_text: "Submit here"
 proceedings: ""
 registration_started: true
 
-Conference_Committee:
+Committee:
     joint_conference_chair:
     - name: Dr Ryan Ward
       role: Joint Conference Chair
