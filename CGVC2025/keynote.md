@@ -34,4 +34,4 @@ Noise has long been a fundamental building block in computer graphics, shaping t
 [Min Chen](https://sites.google.com/view/mchen) is a professor of scientific visualization at the [University of Oxford](https://eng.ox.ac.uk/people/min-chen/) and a fellow of Pembroke College. He built his academic career in Wales, particularly at Swansea University, where he rose from research officer to full professor. His research spans data visualization, computer graphics, and interdisciplinary applications, with over 200 publications. Chen has held key editorial and leadership roles in major visualization conferences and journals, and played a significant role in pandemic modeling through the RAMPVIS project. He is a fellow of several prestigious professional societies.
 
 ### Abstract:
-**To follow.**
+*To follow.*
