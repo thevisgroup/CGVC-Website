@@ -1,19 +1,19 @@
 # title and date are required to generate the _includes/important_dates.html
 - title: "Submission Deadline"
-  date: "30 June 2025"
+  date: "<s>30 June 2025</s>"
   description: "Submissions closed"
 
 - title: "Decisions Available"
-  date: "28 July 2025"
-  description: ""
+  date: "<s>28 July 2025</s>"
+  description: "Decisions communicated"
 
 - title: "Camera Ready"
-  date: "15 August 2025"
+  date: "<s>15 August 2025</s>"
   description: ""
 
 - title: "Registration Deadline"
   date: "29 August 2025"
-  description: ""
+  description: "<a href="https://buyonline.ljmu.ac.uk/conferences-and-events/ljmu/conferences/cgvc-2025-43rd-eurographics-uk-conference">Register here</a>"
 
 - title: "Conference Day"
   date: "11th to 12th September 2025"
