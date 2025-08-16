@@ -1,11 +1,11 @@
 # title and date are required to generate the _includes/important_dates.html
 - title: "Submission Deadline"
   date: "<s>30 June 2025</s>"
-  description: "Submissions closed"
+  description: ""
 
 - title: "Decisions Available"
   date: "<s>28 July 2025</s>"
-  description: "Decisions communicated"
+  description: ""
 
 - title: "Camera Ready"
   date: "<s>15 August 2025</s>"
