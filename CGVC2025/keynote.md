@@ -34,4 +34,13 @@ Noise has long been a fundamental building block in computer graphics, shaping t
 [Min Chen](https://sites.google.com/view/mchen) is a professor of scientific visualization at the [University of Oxford](https://eng.ox.ac.uk/people/min-chen/) and a fellow of Pembroke College. He built his academic career in Wales, particularly at Swansea University, where he rose from research officer to full professor. His research spans data visualization, computer graphics, and interdisciplinary applications, with over 200 publications. Chen has held key editorial and leadership roles in major visualization conferences and journals, and played a significant role in pandemic modeling through the RAMPVIS project. He is a fellow of several prestigious professional societies.
 
 ### Abstract:
-*To follow.*
+In the field of visualization and visual analytics, there are a number of schools of thought, most of which
+represent different believes about why visualization works, what makes a good visualization, and how
+visualization should be designed and evaluated. While having such schools of thought indicates a level
+of scholarly maturity, the different opinions and inconsistent wisdoms suggest the necessity for further
+theoretical discourses, empirical experimentation, and practical validation. In this talk, the speaker will
+use information theory to analyze several major schools of thought, including insightism (e.g., “providing
+insight about data”), cognitivism (e.g., “amplifing human cognition”), communicationism (e.g., “helping
+tell stories”), and economism (e.g., data-ink ratio). The speaker will also briefly discuss how this form
+of information-theoretical analysis can be applied to other computational and cognitive processes, e.g.,
+computer graphics, virtual reality, and machine learning.
