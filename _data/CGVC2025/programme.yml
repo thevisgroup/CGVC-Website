@@ -1,1 +1,240 @@
-- date: "To be Announced, stay tuned to find out more."
+- date: "Day 1, Thursday 11th September, 2025"
+  items:
+    - name: Registration
+      start: "09:00"
+      end: "09:30"
+
+    - name: Welcome
+      start: "09:30"
+      end: "09:45"
+
+    - name: "Full Paper Session 1: Computer Vision for Graphics"
+      chair: TBC
+      start: "09:45"
+      end: "11:00"
+      items:
+        - name: "OCCAM: Occlusion-aware Completeness via Coverage Analysis with Monte Carlo Sampling"
+          authors: Lizeth Joseline Fuentes Perez, Luciano Arnaldo Romero Calla, Renato Pajarola, Javier Turek
+          type: "full"
+          start: "09:45"
+          end: "10:05"
+
+        - name: Non-Invasive Detection and Characterization of Powdery Mildew in Strawberries Using Hyperspectral Imaging and Deep Learning under Plastic Tunnel Conditions
+          authors: Jobin Francis, Maximilian Pircher, Philipp Wree, Ali Al Masri
+          type: "full"
+          start: "10:05"
+          end: "10:25"
+
+        - name: "Differential Dynamic Gaussian Splatting: Full Scene Scalable Volumetric Video Reconstruction"
+          authors: Felix Hirt, Tianxiang Lu
+          type: "full"
+          start: "10:24"
+          end: "10:50"
+
+    - name: Break and Networking
+      start: "11:00"
+      end: "11:30"
+
+    - name: "Short Paper Session 1: VR and MR"
+      chair: TBC
+      start: "11:15"
+      end: "12:00"
+      items:
+        - name: Mixed Reality as a Tool for the Design and Implementation of Virtual Exhibits
+          authors: Luke Barsby, Christopher Headleand
+          type: "short"
+          start: "11:15"
+          end: "11:30"      
+
+        - name: "Designing UI for a VR Environment: Diegetic and Non-Diegetic Approaches"
+          authors: Jake Sharples, Benjamin Williams, Shaun Reeves
+          type: "short"
+          start: "11:30"
+          end: "11:45" 
+          
+        - name: "StaffsVerse: Exploring Unreal Editor for Fortnite in Virtual Campus Design"
+          authors: Callum Roberts, Christopher Headleand, Davin Ward, Victoria Searcey     
+          type: "short"
+          start: "11:45"
+          end: "12:00" 
+          
+              
+    - name: Posters
+      start: "12:00"
+      end: "12:30"
+
+    - name: Lunch
+      start: "12:30"
+      end: "13:30"
+      
+    - name: "Keynote: Dr. Gurprit Singh. The Shape of Noise - From Stippling to Generative AI"
+      start: "13:30"
+      end: "14:30"
+
+    - name: Break/Poster Exhibition
+      start: "14:30"
+      end: "15:00"
+
+
+    - name: "Full Paper Session 2: Geometry, Rendering and Animation"
+      chair: TBC
+      start: "15:00"
+      end: "16:00"
+      items:
+        - name: Efficient GPU-Based Real-Time Rendering of Curved Geometry for Large-Scale Applications
+          authors: Sharjeel Qaiser
+          type: "full"
+          start: "15:00"
+          end: "15:20"
+
+        - name: A Lightweight 3D Gaussian Splatting Based Virtual Object Insertion Strategy for Casually Captured Scenes 
+          authors: Tristan Wirth, Vicky Hagemeister, Volker Knauthe, Arjan Kuijper, Dieter Fellner
+          type: "full"
+          start: "15:20"
+          end: "15:40"
+
+        - name: "Geometry Compression Using Normal Uncertainty"
+          authors: Zuzana Káčereková, Filip Hácha, Libor Váša
+          type: "full"
+          start: "15:40"
+          end: "16:00"
+
+    - name: "Short Paper Session 2: Games and Graphics    "
+      chair: TBC
+      start: "16:00"
+      end: "17:00"
+      items:
+        - name: Investigation Into Virtual Reality Movement Methods
+          authors: Jake Sharples, Benjamin Williams, Shaun Reeves
+          type: "short"
+          start: "16:00"
+          end: "16:15"
+
+        - name: The Persistence of Agency within the Virtual World
+          authors: Jamie Tranter, Kieran Hicks, Christopher Headleand
+          type: "short"
+          start: "16:15"
+          end: "16:30"
+
+        - name: Visualising Game Audio: Increasing Audience Engagement Through the Ambient Display of Video Game Soundscapes
+          authors: Chris Payne, Mat Dalgleish, Sharon Coleclough, Kieran Hicks, Billy Gray, Christopher Headleand
+          type: "short"
+          start: "16:30"
+          end: "16:45"
+
+        - name: Q-ART Owen Scrambling
+          authors: Abdalla Ahmed
+          type: "short"
+          start: "16:45"
+          end: "17:00"
+
+
+
+    - name: Conference Banquet: Bon Pan Asian (Floor 1, Clayton Square Shopping Centre,
+Clayton Lane)
+      start: "19:00"
+      end: "21:30"
+
+
+
+- date: "Day 2, Friday 12th September, 2025"
+  items:
+    - name: "Full paper Session 3: Visualisation"
+      start: "09:00"
+      end: "10:00"
+      items:
+        - name: What Makes a Design Study Sustainable in Complex Domains? A Characterisation Framework for Regulated, Stakeholder-Rich Contexts
+          authors: Svitlana Surodina, Rita Borgo
+          type: "full"
+          start: "09:00"
+          end: "09:20"
+
+        - name: A Natural Language Interface for the Visualization and Analysis of 3D Point Cloud Saliency Maps
+          authors: Jorge Ciprián Sánchez, Adrian Jobst, Rico Richter, Jürgen Döllner
+          type: "full"
+          start: "09:20"
+          end: "09:40"
+
+        - name: Interactive Visual Analytics for Local Decarbonisation Planning: Empowering Policy-Aligned Scenario Exploration
+          authors: Dany Laksono, Radu Jianu, Aidan Slingsby
+          type: "full"
+          start: "09:40"
+          end: "10:00"
+
+
+    - name: "Keynote: Prof Min Chen: “Isms” in Visualisation"
+      start: "10:00"
+      end: "11:00"
+      link: "./keynote"
+      title: "Bringing Data to Life: Embedded Visualizations for Pervasive and Mobile Data Exploration"
+      speaker: "Dr. Petra Isenberg"
+      chair: "Aidan Slingsby"
+
+
+    - name: Break and Networking
+      start: "11:00"
+      end: "11:30"
+
+    - name: "Short Paper Session 3: Visualisation"
+      start: "11:30"
+      end: "12:30"
+      items:
+        - name: Investigating the Ways in Which Mobile Phone Images with Open-Source Data Can Be Used to Create an Augmented Virtual Environment (AVE)
+          authors: Russell Beale, Benjamin Rutter
+          type: "short"
+          start: "11:30"
+          end: "11:45"
+
+        - name: Enhancing Environmental Data Communication Through VR
+          authors: Marlene Huber, Johannes Eschner, Katharina Krösl, Milena Vuckovic
+          type: "short"
+          start: "11:45"
+          end: "12:00"
+
+        - name: Mind-Mapping Data Analysis with LLMs: From Vision to First Steps 
+          authors: Radu Jianu, Maeve Hutchinson, Natalia Andrienko, Gennady Andrienko, Mai Elshehaly, Aidan Slingsby
+          type: "short"
+          start: "12:00"
+          end: "12:15"
+
+        - name: "GPU Accelerated Cartoon Rendering for Interactive Docking with Receptor Flexibility" 
+          authors: Holdsworth, Georgios Iakovou, Steven Hayward, Stephen Laycock
+          type: "short"
+          start: "12:15"
+          end: "12:30"
+
+    - name: Lunch/Poster Exhibition
+      start: "12:30"
+      end: "13:30"
+
+    - name: "Full Paper Session 4: Games"
+      chair: TBC
+      start: "13:30"
+      end: "14:30"
+      items:
+        - name: "Social Dimensions in Content Creation for Games: A Systematic Review of Fairness, Social Bias, and Diversity in Computational Character and Environment Generation "
+          authors: Robin Horst, Ralf Dörner
+          type: "full"
+          start: "13:30"
+          end: "13:50"
+
+        - name: "Run-time Performance Comparison of Sparse-set and Archetype Entity-Component Systems"
+          authors: Louis Cox, Benjamin Williams, James Vickers, Davin Ward, Christopher Headleand
+          type: "full"
+          start: "13:50"
+          end: "14:10"
+
+        - name: "1UP Placements Scheme: Simmersive Education for Games Development Professional Skills"
+          authors: Christopher Headleand, David James, Davin Ward, Kieran Hicks, Carolina Salinas, Raheel Nawaz
+          type: "full"
+          start: "14:10"
+          end: "14:30"
+
+     
+    - name: Awards and Closing
+      start: "14:30"
+      end: "15:00"
+
+    - name: EGUK Annual General Meeting
+      start: "15:00"
+      end: "16:00"
