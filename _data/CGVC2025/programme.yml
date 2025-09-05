@@ -130,8 +130,8 @@
 
 
 
-    - name: Conference Banquet: Bon Pan Asian (Floor 1, Clayton Square Shopping Centre,
-Clayton Lane)
+    - name: "Conference Banquet: Bon Pan Asian (Floor 1, Clayton Square Shopping Centre,
+Clayton Lane)"
       start: "19:00"
       end: "21:30"
 
@@ -162,13 +162,12 @@ Clayton Lane)
           end: "10:00"
 
 
-    - name: "Keynote: Prof Min Chen: “Isms” in Visualisation"
+    - name: "Keynote: Prof Min Chen"
       start: "10:00"
       end: "11:00"
       link: "./keynote"
-      title: "Bringing Data to Life: Embedded Visualizations for Pervasive and Mobile Data Exploration"
-      speaker: "Dr. Petra Isenberg"
-      chair: "Aidan Slingsby"
+      title: "“Isms” in Visualisation"
+      speaker: "Prof Min Chen"
 
 
     - name: Break and Networking
