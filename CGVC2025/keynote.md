@@ -6,7 +6,7 @@ title: Keynote
 
 # {{page.title}}
 
-
+<a name="1"></a>
 ### Dr Gurprit Singh:
 <figure class="figure">
     <img src="/assets/img/CGVC2025/Singh2.jpg" class="figure-img img-fluid rounded"
@@ -21,7 +21,7 @@ title: Keynote
 ### Abstract:
 Noise has long been a fundamental building block in computer graphics, shaping textures, patterns, and realism across decades. In this keynote, we trace the evolution of noise — spanning from the art of stippling to physically based rendering. We then transition to the transformative role of noise in modern generative AI, where (correlated) noise scheduling has become a silent yet powerful lever in shaping image generation. We will explore how adjusting noise schedules can dramatically alter generated outputs without retraining or fine-tuning, revealing surprising artistic and technical "control" over deep generative models. This talk will take you to a journey through the visual and mathematical evolution of noise — the invisible hand behind the modern generative AI tools.
 
-
+<a name="2"></a>
 ### Professor Min Chen
 <figure class="figure">
     <img src="/assets/img/CGVC2025/Min.jpg" class="figure-img img-fluid rounded"
