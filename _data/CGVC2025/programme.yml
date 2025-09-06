@@ -88,10 +88,17 @@
       start: "12:30"
       end: "13:30"
       -items:
-      
-    - name: "Keynote: Dr. Gurprit Singh. The Shape of Noise - From Stippling to Generative AI"
+
+    - name: "Keynote: The Shape of Noise - From Stippling to Generative AI"
+      chair: TBC
       start: "13:30"
       end: "14:30"
+      items:
+      
+        - name: "Noise has long been a fundamental building block in computer graphics, shaping textures, patterns, and realism across decades. In this keynote, we trace the evolution of noise — spanning from the art of stippling to physically based rendering. We then transition to the transformative role of noise in modern generative AI, where (correlated) noise scheduling has become a silent yet powerful lever in shaping image generation. We will explore how adjusting noise schedules can dramatically alter generated outputs without retraining or fine-tuning, revealing surprising artistic and technical “control” over deep generative models. This talk will take you to a journey through the visual and mathematical evolution of noise — the invisible hand behind the modern generative AI tools."
+          author: Dr. Gurprit Singh
+          start: "13:30"
+          end: "14:30"
 
     - name: Break/Poster Exhibition
       start: "14:30"
@@ -121,7 +128,7 @@
           start: "15:40"
           end: "16:00"
 
-    - name: "Short Paper Session 2: Games and Graphics    "
+    - name: "Short Paper Session 2: Games and Graphics"
       chair: TBC
       start: "16:00"
       end: "17:00"
@@ -184,12 +191,17 @@ Clayton Lane)"
           end: "10:00"
 
 
-    - name: "Keynote: Prof Min Chen"
+    - name: "Keynote: “Isms” in Visualisation"
       start: "10:00"
       end: "11:00"
-      link: "./keynote"
       title: "“Isms” in Visualisation"
-      speaker: "Prof Min Chen"
+      items:
+
+        - name: "Keynote: “Isms” in Visualisation"
+          start: "10:00"
+          end: "11:00"
+          title: "In the field of visualization and visual analytics, there are a number of schools of thought, most of which represent different believes about why visualization works, what makes a good visualization, and how visualization should be designed and evaluated. While having such schools of thought indicates a level of scholarly maturity, the different opinions and inconsistent wisdoms suggest the necessity for further theoretical discourses, empirical experimentation, and practical validation. In this talk, the speaker will use information theory to analyze several major schools of thought, including insightism (e.g., “providing insight about data”), cognitivism (e.g., “amplifing human cognition”), communicationism (e.g., “helping tell stories”), and economism (e.g., data-ink ratio). The speaker will also briefly discuss how this form of information-theoretical analysis can be applied to other computational and cognitive processes, e.g., computer graphics, virtual reality, and machine learning."
+          author: "Prof Min Chen"
 
 
     - name: Break and Networking
