@@ -60,12 +60,34 @@
           
               
     - name: Posters
+      chair: TBC
       start: "12:00"
       end: "12:30"
+      items:
+
+      - name: Visualising Chaos through Real-Time Heat Maps in a Flocking Simulation
+        authors: David White, Craig Weightman
+        
+      - name: A Unity Framework for Conducting Virtual Reality Experiments
+        authors: Benjamin Williams, Bradley Davis, Emma Fallows, James Banton, Christopher Headleand
+        
+      - name: "Microknight: A Shared Framework for Game Analysis in Design Education"
+        authors: David James, Kieran Hicks, Christopher Headleand
+
+      - name: "Peril: A Level Design Tool for Games Education"
+        authors: David James, Kieran Hicks, Christopher Headleand
+
+      - name: "MechHead: Arcade Framework for Game Design Education"
+        authors: David James, Kieran Hicks, Mike Beardwood, Christopher Headleand
+
+      - name: Optimized Hyperspectral Band Selection Approach for a Deep Learning-Based Disease Detection in Strawberry Leaves
+        authors: Jobin Francis, Ali Al Masri, Shivangi Agarwal, Shobha Mary Varghese, Maximilian Pircher, Philipp Wree      
+
 
     - name: Lunch
       start: "12:30"
       end: "13:30"
+      -items:
       
     - name: "Keynote: Dr. Gurprit Singh. The Shape of Noise - From Stippling to Generative AI"
       start: "13:30"
