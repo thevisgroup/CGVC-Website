@@ -9,7 +9,7 @@
       end: "09:45"
 
     - name: "Full Paper Session 1: Computer Vision for Graphics"
-      chair: TBC
+      chair: Abdalla Gafar
       start: "09:45"
       end: "11:00"
       items:
@@ -36,7 +36,7 @@
       end: "11:30"
 
     - name: "Short Paper Session 1: VR and MR"
-      chair: TBC
+      chair: Robin Horst
       start: "11:15"
       end: "12:00"
       items:
@@ -90,7 +90,7 @@
       -items:
 
     - name: "Keynote: The Shape of Noise - From Stippling to Generative AI"
-      chair: TBC
+      chair: Yun Sheng
       start: "13:30"
       end: "14:30"
       items:
@@ -107,7 +107,7 @@
 
 
     - name: "Full Paper Session 2: Geometry, Rendering and Animation"
-      chair: TBC
+      chair: Daniel Doolan
       start: "15:00"
       end: "16:00"
       items:
@@ -130,7 +130,7 @@
           end: "16:00"
 
     - name: "Short Paper Session 2: Games and Graphics"
-      chair: TBC
+      chair: Charitha Liyanaarachcilage
       start: "16:00"
       end: "17:00"
       items:
@@ -172,6 +172,7 @@ Clayton Lane)"
     - name: "Full paper Session 3: Visualisation"
       start: "09:00"
       end: "10:00"
+      chair: Christopher Headleand
       items:
         - name: What Makes a Design Study Sustainable in Complex Domains? A Characterisation Framework for Regulated, Stakeholder-Rich Contexts
           authors: Svitlana Surodina, Rita Borgo
@@ -195,7 +196,8 @@ Clayton Lane)"
     - name: "Keynote: “Isms” in Visualisation"
       start: "10:00"
       end: "11:00"
-      title: "“Isms” in Visualisation"
+      chair: Sud Sudirman
+      
       items:
 
         - name: "In the field of visualization and visual analytics, there are a number of schools of thought, most of which represent different believes about why visualization works, what makes a good visualization, and how visualization should be designed and evaluated. While having such schools of thought indicates a level of scholarly maturity, the different opinions and inconsistent wisdoms suggest the necessity for further theoretical discourses, empirical experimentation, and practical validation. In this talk, the speaker will use information theory to analyze several major schools of thought, including insightism (e.g., “providing insight about data”), cognitivism (e.g., “amplifing human cognition”), communicationism (e.g., “helping tell stories”), and economism (e.g., data-ink ratio). The speaker will also briefly discuss how this form of information-theoretical analysis can be applied to other computational and cognitive processes, e.g., computer graphics, virtual reality, and machine learning."
@@ -212,6 +214,8 @@ Clayton Lane)"
     - name: "Short Paper Session 3: Visualisation"
       start: "11:30"
       end: "12:30"
+      chair: Peter Convery
+
       items:
         - name: Investigating the Ways in Which Mobile Phone Images with Open-Source Data Can Be Used to Create an Augmented Virtual Environment (AVE)
           authors: Russell Beale, Benjamin Rutter
@@ -242,7 +246,7 @@ Clayton Lane)"
       end: "13:30"
 
     - name: "Full Paper Session 4: Games"
-      chair: TBC
+      chair: Ryan Ward
       start: "13:30"
       end: "14:30"
       items:
