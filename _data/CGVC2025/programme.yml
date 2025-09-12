@@ -60,7 +60,7 @@
           
               
     - name: Posters
-      chair: TBC
+      chair: Anna Roberts
       start: "12:00"
       end: "12:30"
       items:
@@ -236,7 +236,7 @@ Clayton Lane)"
           end: "12:15"
 
         - name: "GPU Accelerated Cartoon Rendering for Interactive Docking with Receptor Flexibility" 
-          authors: Holdsworth, Georgios Iakovou, Steven Hayward, Stephen Laycock
+          authors: Katerina Holdsworth, Georgios Iakovou, Steven Hayward, Stephen Laycock
           type: "short"
           start: "12:15"
           end: "12:30"
