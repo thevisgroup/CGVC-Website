@@ -1,0 +1,20 @@
+# title and date are required to generate the _includes/important_dates.html
+- title: "Submission Deadline"
+  date: "<s>30 June 2025</s>"
+  description: ""
+
+- title: "Decisions Available"
+  date: "<s>28 July 2025</s>"
+  description: ""
+
+- title: "Camera Ready"
+  date: "<s>15 August 2025</s>"
+  description: ""
+
+- title: "Registration Deadline"
+  date: "<s>10 September 2025</s>"
+  description: ''
+
+- title: "Conference Day"
+  date: "<s>11th to 12th September 2025</s>"
+  description: ""
