@@ -1,5 +1,5 @@
 # variable below are required to generate the _includes/host.html
-host_intro: "CGVC 2025 will be hosted by <br> <b>Liverpool John Moores University UK</b>."
+host_intro: "CGVC 2026 will be hosted by <br> <b>University of Nottingham UK</b>."
 logo: "LJMU.png"
 
 # variable below are required to generate the _includes/important_dates.html
@@ -12,26 +12,26 @@ registration_started: false
 
 committee:
   conference_chair:
-    - name: Dr Ryan Ward
+    - name: Dr Bob Laramee
       role: Joint Conference Chair
-      affiliation: Liverpool John Moores University
-      url: https://www.researchgate.net/profile/Ryan-Ward-8
-      email: r.j.ward@ljmu.ac.uk
-    - name: Dr Sud Sudirman
+      affiliation: University of Nottingham
+      url: https://www.nottingham.ac.uk/computerscience/People/robert.laramee
+      email: Robert.Laramee@nottingham.ac.uk
+    - name: Dr Kristian Spoerer
       role: Joint Conference Chair
-      affiliation: Liverpool John Moores University
-      url: https://scholar.google.com/citations?user=tTm3Mv4AAAAJ&hl=en
-      email: s.sudirman@ljmu.ac.uk  
+      affiliation: University of Nottingham
+      url: https://www.nottingham.ac.uk/computerscience/people/kristian.spoerer
+      email: Kristian.Spoerer@nottingham.ac.uk
   programme_chair:
     - name: Yun Sheng
       role: Programme Chair
       affiliation: Liverpool John Moores University
       url: https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/yun-sheng
       email: Y.Sheng@ljmu.ac.uK  
-    - name: Aidan Slingsby
+    - name: Mai Elshehaly
       role: Programme Chair
-      affiliation: City, University of London
-      url: https://www.city.ac.uk/about/people/academics/aidan-slingsby
-      email: a.slingsby@city.ac.uk
+      affiliation: City St George's
+      url: https://www.citystgeorges.ac.uk/about/people/academics/mai-elshehaly
+      email: mai.elshehaly@citystgeorges.ac.uk
 
 
