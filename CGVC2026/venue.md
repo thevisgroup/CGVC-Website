@@ -5,16 +5,15 @@ title: Venue
 ---
 
 # {{page.title}}
-{{page.year}} will be at Liverpool John Moores University, James Pearson's Building, L1 8LB
+{{page.year}} will be at Trent Conference Centre, Unit 1, Easter Park, Lenton Lane, Nottingham, Nottinghamshire, NG7 2PX, United Kingdom.
 
-The James Parsons Building as apart of Byrom Street Campus, is the largest building belonging to Liverpool John Moores University. The faculty of Science, Technology and Built Environment make up the departments within the building. In addition, the campus contains two cafes, and a range of high-spec facilities. To discover more about our facilities, explore the LJMU website [HERE](https://www.ljmu.ac.uk/about-us/faculties/faculty-of-engineering-and-technology/school-of-computer-science-and-mathematics/facilities).
+Trent Conference Centre is a modern conference venue with dedicated space to hold CGVC sessions.  Catering will be provided on site.  There’s also a cafe located on site for casual breakout meetings.  WiFi is also included on site.  The Trent Conference Centre web site provides more information about the conference venue for those that are interested.
 
-We are in Liverpool City Centre, close to the Liverpool World Museum, the closest rail point is Liverpool Lime Street, view [LJMU Byrom Street Travel Guide](https://www.ljmu.ac.uk/study/undergraduate-students/visit-us/directions/james-parsons-building).
 
 <figure class="figure">
-    <img src="/assets/img/CGVC2025/venue.jpg" class="figure-img img-fluid rounded"
-        alt="Liverpool John Moores University">
+    <img src="/assets/img/CGVC2026/venue.png" class="figure-img img-fluid rounded"
+        alt="Trent Conference Centre">
     <figcaption class="figure-caption text-center">
-        Liverpool John Moores University
+        Trent Conference Centre
     </figcaption>
 </figure>
