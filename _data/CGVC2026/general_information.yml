@@ -8,7 +8,7 @@ submission_closed: false
 submission_link: "https://srmv2.eg.org/COMFy/Conference/CGVC_2026"
 submission_link_text: "Submit here"
 proceedings: ""
-registration_started: false
+registration_started: true
 
 committee:
   conference_chair:
