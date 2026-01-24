@@ -1,6 +1,6 @@
 # variable below are required to generate the _includes/host.html
 host_intro: "CGVC 2026 will be hosted by <br> <b>University of Nottingham UK</b>."
-logo: "UON.png"
+logo: "UON2.png"
 
 # variable below are required to generate the _includes/important_dates.html
 submission_started: true
