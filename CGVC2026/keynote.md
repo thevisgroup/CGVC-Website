@@ -9,7 +9,7 @@ title: Keynote
 <a name="1"></a>
 ### Dr Narges Mahyar:
 <figure class="figure">
-    <img src="/assets/img/CGVC2026/narges.jpg" class="figure-img img-fluid rounded"
+    <img src="/assets/img/CGVC2026/narges2.jpg" class="figure-img img-fluid rounded"
         alt="City St George’s">
     <figcaption class="figure-caption text-center">
     </figcaption>
