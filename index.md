@@ -20,11 +20,12 @@ CGVC papers are published in the Eurographics Digital Library of the Eurographic
 
 We are excited to announce that {{page.year | replace: "CGVC","CGVC "}} will take place in June at University of Nottingham, and will be collocated with [EUROVIS'26](https://eurovis.org.uk/). The [call for papers]({{page.year}}/cfp.html) and [additional information]({{page.year}}) are now available.
 
+{% include submission.html year=page.year %}
+
 <!-- End of the section -->
 
 {% include host.html year=page.year %}
 
-{% include submission.html year=page.year %}
 
 <hr>
 
