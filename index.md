@@ -24,6 +24,8 @@ We are excited to announce that {{page.year | replace: "CGVC","CGVC "}} will tak
 
 {% include host.html year=page.year %}
 
+{% include submission.html year=page.year %}
+
 <hr>
 
 {% include important_dates.html year=page.year %}
