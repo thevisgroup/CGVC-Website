@@ -146,17 +146,6 @@
           start: "16:45"
           end: "17:00"
 
-        - name: Multimodal Satellite Image Captioning via CLIP–LLaMA Integration with a Learnable Mapping Network
-          authors: Alqahtani Ali, Alshahri Fatoon, Alshehri Ghaida, Saad Bashayer
-          type: "short"
-          start: "17:00"
-          end: "17:15"
-
-        - name: Clonoxels: Exploiting Repetitive Structures for Efficient View Synthesis
-          authors: Camilleri Oliver
-          type: "short"
-          start: "17:15"
-          end: "17:30"
 
 
 
