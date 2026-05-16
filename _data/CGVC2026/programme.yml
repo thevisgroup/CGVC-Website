@@ -86,74 +86,81 @@
       end: "14:00"
       -items:
 
-    - name: "Keynote: The Shape of Noise - From Stippling to Generative AI"
-      chair: Yun Sheng
-      start: "13:30"
-      end: "14:30"
+    - name: "Keynote 1"
+      chair: TBC
+      start: "14:00"
+      end: "15:00"
       items:
       
-        - name: "Noise has long been a fundamental building block in computer graphics, shaping textures, patterns, and realism across decades. In this keynote, we trace the evolution of noise — spanning from the art of stippling to physically based rendering. We then transition to the transformative role of noise in modern generative AI, where (correlated) noise scheduling has become a silent yet powerful lever in shaping image generation. We will explore how adjusting noise schedules can dramatically alter generated outputs without retraining or fine-tuning, revealing surprising artistic and technical “control” over deep generative models. This talk will take you to a journey through the visual and mathematical evolution of noise — the invisible hand behind the modern generative AI tools."
-          speaker: Dr. Gurprit Singh
-          type: keynote
-          start: "13:30"
-          end: "14:30"
-
-    - name: Break/Poster Exhibition
-      start: "14:30"
-      end: "15:00"
 
 
-    - name: "Full Paper Session 2: Geometry, Rendering and Animation"
-      chair: Daniel Doolan
+
+    - name: "Short Paper Session: Learning and Reflecting with Visualisation"
+      chair: TBC
       start: "15:00"
-      end: "16:00"
+      end: "15:30"
       items:
-        - name: Efficient GPU-Based Real-Time Rendering of Curved Geometry for Large-Scale Applications
-          authors: Sharjeel Qaiser
-          type: "full"
-          start: "15:00"
-          end: "15:20"
 
-        - name: A Lightweight 3D Gaussian Splatting Based Virtual Object Insertion Strategy for Casually Captured Scenes 
-          authors: Tristan Wirth, Vicky Hagemeister, Volker Knauthe, Arjan Kuijper, Dieter Fellner
-          type: "full"
-          start: "15:20"
-          end: "15:40"
-
-        - name: "Geometry Compression Using Normal Uncertainty"
-          authors: Zuzana Káčereková, Filip Hácha, Libor Váša
-          type: "full"
-          start: "15:40"
-          end: "16:00"
-
-    - name: "Short Paper Session 2: Games and Graphics"
-      chair: Charitha Liyanaarachcilage
-      start: "16:00"
-      end: "17:00"
-      items:
-        - name: Investigation Into Virtual Reality Movement Methods
-          authors: Jake Sharples, Benjamin Williams, Shaun Reeves
+        - name: Evaluating Student Learning Gains Through a Data-Driven Storytelling Worksheet Intervention
+          authors: Srinivas Chandana, Kenia Bhavi, Joshi Alark
           type: "short"
+          start: "15:00"
+          end: "15:15"
+
+        - name: "Holding Your Mind: Opportunities for Young People to Reflect on Their Minds through Personal EEG Data Art Sculptures"
+          authors: Ortoleva Maria Teresa, Borgo Rita, Abdul-Rahman Alfie
+          type: "full"
+          start: "15:15"
+          end: "15:30"
+
+
+
+    - name: Break
+      start: "15:30"
+      end: "16:00"
+      -items:
+
+
+    - name: "Session III – Computer Graphics and Generative Visualisation"
+      chair: TBC
+      start: "16:00"
+      end: "17:30"
+      items:
+        - name: Information-Guided 3D Gaussian Splatting
+          authors: Dang Ying-Kai, Amghane Chihab, Stenvers Victor, Vangorp Peter
+          type: "full"
           start: "16:00"
           end: "16:15"
 
-        - name: The Persistence of Agency within the Virtual World
-          authors: Jamie Tranter, Kieran Hicks, Christopher Headleand
-          type: "short"
+        - name: TreesFormer: Multimodal Grammar-Based 3D Tree Reconstruction from Sparse Geodata
+          authors: Grammatikaki Angeliki, Vuckovic Milena, Waldner Manuela
+          type: "full"
           start: "16:15"
           end: "16:30"
 
-        - name: "Visualising Game Audio: Increasing Audience Engagement Through the Ambient Display of Video Game Soundscapes"
-          authors: Chris Payne, Mat Dalgleish, Sharon Coleclough, Kieran Hicks, Billy Gray, Christopher Headleand
-          type: "short"
+        - name: "Decoupled Remapping for 4D Gaussian Splatting: Improving Complex Dynamic Motion Modelling in Aligned Space"
+          authors: Zhan Mochuan, Turner Martin, Morley Terence
+          type: "full"
           start: "16:30"
           end: "16:45"
 
-        - name: Q-ART Owen Scrambling
-          authors: Abdalla Ahmed
-          type: "short"
+        - name: VisCom: Communication-Aware Graph Layout and Visual Abstraction for Message-Passing Communication Networks
+          authors: Schröter Valentin, Scheibel Willy, Döllner Jürgen
+          type: "full"
           start: "16:45"
           end: "17:00"
+
+        - name: Multimodal Satellite Image Captioning via CLIP–LLaMA Integration with a Learnable Mapping Network
+          authors: Alqahtani Ali, Alshahri Fatoon, Alshehri Ghaida, Saad Bashayer
+          type: "short"
+          start: "17:00"
+          end: "17:15"
+
+        - name: Clonoxels: Exploiting Repetitive Structures for Efficient View Synthesis
+          authors: Camilleri Oliver
+          type: "short"
+          start: "17:15"
+          end: "17:30"
 
 
 
