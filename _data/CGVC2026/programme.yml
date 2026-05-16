@@ -117,34 +117,6 @@
 
 
 
-    - name: "Session III – Computer Graphics and Generative Visualisation"
-      chair: TBC
-      start: "16:00"
-      end: "17:30"
-      items:
-        - name: Information-Guided 3D Gaussian Splatting
-          authors: Dang Ying-Kai, Amghane Chihab, Stenvers Victor, Vangorp Peter
-          type: "full"
-          start: "16:00"
-          end: "16:15"
-
-        - name: TreesFormer: Multimodal Grammar-Based 3D Tree Reconstruction from Sparse Geodata
-          authors: Grammatikaki Angeliki, Vuckovic Milena, Waldner Manuela
-          type: "full"
-          start: "16:15"
-          end: "16:30"
-
-        - name: "Decoupled Remapping for 4D Gaussian Splatting: Improving Complex Dynamic Motion Modelling in Aligned Space"
-          authors: Zhan Mochuan, Turner Martin, Morley Terence
-          type: "full"
-          start: "16:30"
-          end: "16:45"
-
-        - name: VisCom: Communication-Aware Graph Layout and Visual Abstraction for Message-Passing Communication Networks
-          authors: Schröter Valentin, Scheibel Willy, Döllner Jürgen
-          type: "full"
-          start: "16:45"
-          end: "17:00"
 
 
 
