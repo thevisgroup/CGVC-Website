@@ -91,6 +91,11 @@
       start: "14:00"
       end: "15:00"
       items:
+        - name: "TBC"
+          speaker: TBC
+          type: keynote
+          start: "14:00"
+          end: "15:00"
       
 
 
