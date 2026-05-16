@@ -117,35 +117,46 @@
 
 
 
-    - name: "Short Paper Session 2: Games and Graphics"
-      chair: Charitha Liyanaarachcilage
+    - name: "Session III – Computer Graphics and Generative Visualisation"
+      chair: TBC
       start: "16:00"
-      end: "17:00"
+      end: "17:30"
       items:
-        - name: Investigation Into Virtual Reality Movement Methods
-          authors: Jake Sharples, Benjamin Williams, Shaun Reeves
-          type: "short"
+        - name: Information-Guided 3D Gaussian Splatting
+          authors: Dang Ying-Kai, Amghane Chihab, Stenvers Victor, Vangorp Peter
+          type: "full"
           start: "16:00"
           end: "16:15"
 
-        - name: The Persistence of Agency within the Virtual World
-          authors: Jamie Tranter, Kieran Hicks, Christopher Headleand
-          type: "short"
+        - name: TreesFormer: Multimodal Grammar-Based 3D Tree Reconstruction from Sparse Geodata
+          authors: Grammatikaki Angeliki, Vuckovic Milena, Waldner Manuela
+          type: "full"
           start: "16:15"
           end: "16:30"
 
-        - name: "Visualising Game Audio: Increasing Audience Engagement Through the Ambient Display of Video Game Soundscapes"
-          authors: Chris Payne, Mat Dalgleish, Sharon Coleclough, Kieran Hicks, Billy Gray, Christopher Headleand
-          type: "short"
+        - name: "Decoupled Remapping for 4D Gaussian Splatting: Improving Complex Dynamic Motion Modelling in Aligned Space"
+          authors: Zhan Mochuan, Turner Martin, Morley Terence
+          type: "full"
           start: "16:30"
           end: "16:45"
 
-        - name: Q-ART Owen Scrambling
-          authors: Abdalla Ahmed
-          type: "short"
+        - name: VisCom: Communication-Aware Graph Layout and Visual Abstraction for Message-Passing Communication Networks
+          authors: Schröter Valentin, Scheibel Willy, Döllner Jürgen
+          type: "full"
           start: "16:45"
           end: "17:00"
 
+        - name: Multimodal Satellite Image Captioning via CLIP–LLaMA Integration with a Learnable Mapping Network
+          authors: Alqahtani Ali, Alshahri Fatoon, Alshehri Ghaida, Saad Bashayer
+          type: "short"
+          start: "17:00"
+          end: "17:15"
+
+        - name: Clonoxels: Exploiting Repetitive Structures for Efficient View Synthesis
+          authors: Camilleri Oliver
+          type: "short"
+          start: "17:15"
+          end: "17:30"
 
 
 
