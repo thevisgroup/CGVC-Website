@@ -198,8 +198,8 @@
 
     - name: "Keynote 2"
       chair: TBC
-      start: "14:00"
-      end: "15:00"
+      start: "09:30"
+      end: "10:30"
       items:
         - name: "TBC"
           speaker: TBC
