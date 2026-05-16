@@ -134,6 +134,11 @@
           start: "16:00"
           end: "16:15"
 
+        - name: TreesFormer: Multimodal Grammar-Based 3D Tree Reconstruction from Sparse Geodata
+          authors: Grammatikaki Angeliki, Vuckovic Milena, Waldner Manuela
+          type: "full"
+          start: "16:15"
+          end: "16:30"
 
 
 
