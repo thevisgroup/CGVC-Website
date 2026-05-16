@@ -166,37 +166,28 @@
           end: "17:30"
 
 
-    - name: "Conference Banquet: Bon Pan Asian (Floor 1, Clayton Square Shopping Centre,
-Clayton Lane)"
-      start: "19:00"
-      end: "21:30"
 
 
 
-- date: "Day 2, Friday 12th September, 2025"
+- date: "Day 2, Friday 12th June, 2026"
   items:
-    - name: "Full paper Session 3: Visualisation"
+    - name: "Session IV – Emerging Methods and Exploratory Techniques in Visualisation "
       start: "09:00"
-      end: "10:00"
-      chair: Christopher Headleand
+      end: "09:30"
+      chair: TBC
       items:
-        - name: What Makes a Design Study Sustainable in Complex Domains? A Characterisation Framework for Regulated, Stakeholder-Rich Contexts
-          authors: Svitlana Surodina, Rita Borgo
-          type: "full"
+        - name: Generalized ART-Owen Scrambling
+          authors: Ahmed Abdalla, Wang Cheng
+          type: "short"
           start: "09:00"
-          end: "09:20"
+          end: "09:15"
 
-        - name: A Natural Language Interface for the Visualization and Analysis of 3D Point Cloud Saliency Maps
-          authors: Jorge Ciprián Sánchez, Adrian Jobst, Rico Richter, Jürgen Döllner
-          type: "full"
-          start: "09:20"
-          end: "09:40"
+        - name: Extending Visually Guided Extraction of Prevalent Topics
+          authors: Witschard Daniel, Kucher Kostiantyn, Jusufi Ilir, Kerren Andreas
+          type: "short"
+          start: "09:15"
+          end: "09:30"
 
-        - name: "Interactive Visual Analytics for Local Decarbonisation Planning: Empowering Policy-Aligned Scenario Exploration"
-          authors: Dany Laksono, Radu Jianu, Aidan Slingsby
-          type: "full"
-          start: "09:40"
-          end: "10:00"
 
 
     - name: "Keynote: “Isms” in Visualisation"
