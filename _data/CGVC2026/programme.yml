@@ -1,35 +1,37 @@
-- date: "Day 1, Thursday 11th September, 2025"
+- date: "Day 1, Thursday 11th June, 2026"
   items:
-    - name: Registration
+    - name: Registration and Welcome
       start: "09:00"
       end: "09:30"
 
-    - name: Welcome
+    - name: "Session I – Human-Centred Visualisation: Perception, Cognition, and Data Interpretation"
+      chair: TBC
       start: "09:30"
-      end: "09:45"
-
-    - name: "Full Paper Session 1: Computer Vision for Graphics"
-      chair: Abdalla Gafar
-      start: "09:45"
-      end: "11:00"
+      end: "10:30"
       items:
-        - name: "OCCAM: Occlusion-aware Completeness via Coverage Analysis with Monte Carlo Sampling"
-          authors: Lizeth Joseline Fuentes Perez, Luciano Arnaldo Romero Calla, Renato Pajarola, Javier Turek
+        - name: "Optimal Viewing Distance for Displaying Images of Real-World Scenarios"
+          authors: Basak Debadipta, Madsen Claus, Das Avishek
+          type: "full"
+          start: "09:30"
+          end: "09:45"
+
+        - name: How Folks See Strokes
+          authors: Mailee Hamila, Morley Terence, Kuffner dos Anjos Rafael, Petrescu David Gabriel
           type: "full"
           start: "09:45"
-          end: "10:05"
+          end: "10:00"
 
-        - name: Non-Invasive Detection and Characterization of Powdery Mildew in Strawberries Using Hyperspectral Imaging and Deep Learning under Plastic Tunnel Conditions
-          authors: Jobin Francis, Maximilian Pircher, Philipp Wree, Ali Al Masri
+        - name: "Holding Your Mind: Opportunities for Young People to Reflect on Their Minds through Personal EEG Data Art Sculptures"
+          authors: Ortoleva Maria Teresa, Borgo Rita, Abdul-Rahman Alfie
           type: "full"
-          start: "10:05"
-          end: "10:25"
+          start: "10:00"
+          end: "10:15"
 
-        - name: "Differential Dynamic Gaussian Splatting: Full Scene Scalable Volumetric Video Reconstruction"
-          authors: Felix Hirt, Tianxiang Lu
+        - name: "Visualization for Data Quality Assessment"
+          authors: Wolosiuk Dawid, Vuckovic Milena, Matkovic Kresimir, Schmidt Johanna
           type: "full"
-          start: "10:24"
-          end: "10:50"
+          start: "10:15"
+          end: "10:30"
 
     - name: Break and Networking
       start: "11:00"
