@@ -188,88 +188,23 @@
           start: "09:15"
           end: "09:30"
 
+        - name: Towards green computing in X-ray computed tomography
+          authors: Vidal Franck, Nwokolo Sunday, Mitchell Iwan, Letang Jean-michel, Makurunje Phylis, Pasca Edoarado, Turner Martin
+          type: "poster"
+          start: "09:30"
+          end: "09:30"
 
 
-    - name: "Keynote: “Isms” in Visualisation"
-      start: "10:00"
-      end: "11:00"
-      chair: Sud Sudirman
-      
-      items:
 
-        - name: "In the field of visualization and visual analytics, there are a number of schools of thought, most of which represent different believes about why visualization works, what makes a good visualization, and how visualization should be designed and evaluated. While having such schools of thought indicates a level of scholarly maturity, the different opinions and inconsistent wisdoms suggest the necessity for further theoretical discourses, empirical experimentation, and practical validation. In this talk, the speaker will use information theory to analyze several major schools of thought, including insightism (e.g., “providing insight about data”), cognitivism (e.g., “amplifing human cognition”), communicationism (e.g., “helping tell stories”), and economism (e.g., data-ink ratio). The speaker will also briefly discuss how this form of information-theoretical analysis can be applied to other computational and cognitive processes, e.g., computer graphics, virtual reality, and machine learning."
-          start: "10:00"
-          end: "11:00"
-          type: keynote          
-          speaker: "Prof Min Chen"
-
-
-    - name: Break and Networking
-      start: "11:00"
-      end: "11:30"
-
-    - name: "Short Paper Session 3: Visualisation"
-      start: "11:30"
-      end: "12:30"
-      chair: Peter Convery
-
-      items:
-        - name: Investigating the Ways in Which Mobile Phone Images with Open-Source Data Can Be Used to Create an Augmented Virtual Environment (AVE)
-          authors: Russell Beale, Benjamin Rutter
-          type: "short"
-          start: "11:30"
-          end: "11:45"
-
-        - name: Enhancing Environmental Data Communication Through VR
-          authors: Marlene Huber, Johannes Eschner, Katharina Krösl, Milena Vuckovic
-          type: "short"
-          start: "11:45"
-          end: "12:00"
-
-        - name: "Mind-Mapping Data Analysis with LLMs: From Vision to First Steps" 
-          authors: Radu Jianu, Maeve Hutchinson, Natalia Andrienko, Gennady Andrienko, Mai Elshehaly, Aidan Slingsby
-          type: "short"
-          start: "12:00"
-          end: "12:15"
-
-        - name: "GPU Accelerated Cartoon Rendering for Interactive Docking with Receptor Flexibility" 
-          authors: Katerina Holdsworth, Georgios Iakovou, Steven Hayward, Stephen Laycock
-          type: "short"
-          start: "12:15"
-          end: "12:30"
-
-    - name: Lunch/Poster Exhibition
-      start: "12:30"
-      end: "13:30"
-
-    - name: "Full Paper Session 4: Games"
-      chair: Ryan Ward
-      start: "13:30"
-      end: "14:30"
-      items:
-        - name: "Social Dimensions in Content Creation for Games: A Systematic Review of Fairness, Social Bias, and Diversity in Computational Character and Environment Generation "
-          authors: Robin Horst, Ralf Dörner
-          type: "full"
-          start: "13:30"
-          end: "13:50"
-
-        - name: "Run-time Performance Comparison of Sparse-set and Archetype Entity-Component Systems"
-          authors: Louis Cox, Benjamin Williams, James Vickers, Davin Ward, Christopher Headleand
-          type: "full"
-          start: "13:50"
-          end: "14:10"
-
-        - name: "1UP Placements Scheme: Simmersive Education for Games Development Professional Skills"
-          authors: Christopher Headleand, David James, Davin Ward, Kieran Hicks, Carolina Salinas, Raheel Nawaz
-          type: "full"
-          start: "14:10"
-          end: "14:30"
-
-     
-    - name: Awards and Closing
-      start: "14:30"
+    - name: "Keynote 2"
+      chair: TBC
+      start: "14:00"
       end: "15:00"
+      items:
+        - name: "TBC"
+          speaker: TBC
+          type: keynote
+          start: "14:00"
+          end: "15:00"
 
-    - name: EGUK Annual General Meeting
-      start: "15:00"
-      end: "16:00"
+
