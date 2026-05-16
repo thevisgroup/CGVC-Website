@@ -34,61 +34,56 @@
           end: "10:30"
 
     - name: Break and Networking
+      start: "10:30"
+      end: "11:00"
+
+    - name: "Session II – Visualisation for Urban and Environmental Planning"
+      chair: TBC
       start: "11:00"
-      end: "11:30"
-
-    - name: "Short Paper Session 1: VR and MR"
-      chair: Robin Horst
-      start: "11:15"
-      end: "12:00"
-      items:
-        - name: Mixed Reality as a Tool for the Design and Implementation of Virtual Exhibits
-          authors: Luke Barsby, Christopher Headleand
-          type: "short"
-          start: "11:15"
-          end: "11:30"      
-
-        - name: "Designing UI for a VR Environment: Diegetic and Non-Diegetic Approaches"
-          authors: Jake Sharples, Benjamin Williams, Shaun Reeves
-          type: "short"
-          start: "11:30"
-          end: "11:45" 
-          
-        - name: "StaffsVerse: Exploring Unreal Editor for Fortnite in Virtual Campus Design"
-          authors: Callum Roberts, Christopher Headleand, Davin Ward, Victoria Searcey     
-          type: "short"
-          start: "11:45"
-          end: "12:00" 
-          
-              
-    - name: Posters
-      chair: Anna Roberts
-      start: "12:00"
       end: "12:30"
       items:
+        - name: Visualization of Metro Delay in Control Center Settings
+          authors: Almajyul Aljawharah, Archambault Daniel
+          type: "full"
+          start: "11:00"
+          end: "11:15"      
 
-      - name: Visualising Chaos through Real-Time Heat Maps in a Flocking Simulation
-        authors: David White, Craig Weightman
-        
-      - name: A Unity Framework for Conducting Virtual Reality Experiments
-        authors: Benjamin Williams, Bradley Davis, Emma Fallows, James Banton, Christopher Headleand
-        
-      - name: "Microknight: A Shared Framework for Game Analysis in Design Education"
-        authors: David James, Kieran Hicks, Christopher Headleand
+        - name: "ECOVIS: A Design Study for Visualising Energy Consumption in Green Machine Learning"
+          authors: Santos Samara, Medeiros Laís, L. C. Ottoni André, Borgo Rita, Nepomuceno Erivelton
+          type: "full"
+          start: "11:15"
+          end: "11:30" 
+          
+        - name: "Discovering City-Scale Mobility Reconfigurations via Topic Modelling of Extreme Flows"
+          authors: Moussavi Laleh, Andrienko Gennady, Andrienko Natalia, Slingsby Aidan
+          type: "full"
+          start: "11:30"
+          end: "11:45" 
 
-      - name: "Peril: A Level Design Tool for Games Education"
-        authors: David James, Kieran Hicks, Christopher Headleand
+        - name: "Interactive Decision Support for Exploratory Planning of EV Charging Infrastructure"
+          authors: Laksono Dany, Jianu Radu, Slingsby Aidan
+          type: "full"
+          start: "11:45"
+          end: "12:00" 
 
-      - name: "MechHead: Arcade Framework for Game Design Education"
-        authors: David James, Kieran Hicks, Mike Beardwood, Christopher Headleand
+        - name: "A Qualitative and Quantitative Study for Cross-modal and Cross-region Analysis of recent Urban 3D Reconstruction Methods"
+          authors: Christodoulides Andreas, Tam Gary KL, Micallef Nicholas, Holland David, Villamizar Nelly, Walton Sean
+          type: "short"
+          start: "12:00"
+          end: "12:15" 
 
-      - name: Optimized Hyperspectral Band Selection Approach for a Deep Learning-Based Disease Detection in Strawberry Leaves
-        authors: Jobin Francis, Ali Al Masri, Shivangi Agarwal, Shobha Mary Varghese, Maximilian Pircher, Philipp Wree      
+        - name: "Web-Based Visual Network Centrality Analysis for Multivariate and Temporal Networks with ViNCent 2.0"
+          authors: Szuter Adrian, Kucher Kostiantyn, Kerren Andreas
+          type: "short"
+          start: "12:15"
+          end: "12:30" 
+          
+              
 
 
-    - name: Lunch
+    - name: Lunch break
       start: "12:30"
-      end: "13:30"
+      end: "14:00"
       -items:
 
     - name: "Keynote: The Shape of Noise - From Stippling to Generative AI"
