@@ -1,0 +1,26 @@
+conference_number: "TODO"
+host_name: "TODO"
+homepage_announcement: "will take place at TODO."
+host_intro: "CGVC YYYY will be hosted by <br> <b>TODO</b>."
+logo: "TODO.png"
+
+submission_started: false
+submission_closed: false
+submission_link: "#"
+submission_link_text: "Submission details coming soon"
+proceedings: ""
+registration_started: false
+
+committee:
+  conference_chair:
+    - name: TODO
+      role: Conference Chair
+      affiliation: TODO
+      url:
+      email:
+  programme_chair:
+    - name: TODO
+      role: Programme Chair
+      affiliation: TODO
+      url:
+      email:

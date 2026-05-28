@@ -1,0 +1,13 @@
+---
+layout: default
+year: CGVCYYYY
+title: Current Sponsors
+---
+
+<h1> {{page.title}} </h1>
+
+{% for sponsor in site.data[page.year].sponsors %}
+<p>{{ sponsor.name }}</p>
+{% else %}
+<p>Sponsor details are not yet available.</p>
+{% endfor %}

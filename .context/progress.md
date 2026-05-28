@@ -23,5 +23,8 @@ Todos:
   - Added `_data/navigation.yml`.
   - Updated `_includes/header.html` to render author, attendee, and sponsor links from data.
   - Adversarial review passed; Liquid parse and YAML load checks passed.
-- [ ] 5. Add template year/data folders.
+- [x] 5. Add template year/data folders.
+  - Added `_templates/CGVCYYYY` and `_templates/_data/CGVCYYYY`.
+  - Updated `scripts/new-conference-year` to prefer templates.
+  - Verified temp 2027 generation and checker pass; adversarial review passed.
 - [ ] 6. Refresh `README.md` with clear maintainer instructions.

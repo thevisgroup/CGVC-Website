@@ -8,6 +8,8 @@ CONFIG_PATH = File.join(ROOT, "_config.yml")
 INDEX_PATH = File.join(ROOT, "index.md")
 DATA_ROOT = File.join(ROOT, "_data")
 PAST_YEARS_PATH = File.join(DATA_ROOT, "pastyears.yml")
+TEMPLATE_YEAR_ROOT = File.join(ROOT, "_templates", "CGVCYYYY")
+TEMPLATE_DATA_ROOT = File.join(ROOT, "_templates", "_data", "CGVCYYYY")
 
 def abort_with(message)
   warn "Error: #{message}"
@@ -87,16 +89,21 @@ abort_with("usage: scripts/new-conference-year YYYY") unless target_year&.match?
 target = "CGVC#{target_year}"
 source = current_year
 source_year = source.delete_prefix("CGVC")
+year_template = Dir.exist?(TEMPLATE_YEAR_ROOT)
+data_template = Dir.exist?(TEMPLATE_DATA_ROOT)
 
 abort_with("#{target}/ already exists") if Dir.exist?(File.join(ROOT, target))
 abort_with("_data/#{target}/ already exists") if Dir.exist?(File.join(DATA_ROOT, target))
-abort_with("#{source}/ does not exist") unless Dir.exist?(File.join(ROOT, source))
-abort_with("_data/#{source}/ does not exist") unless Dir.exist?(File.join(DATA_ROOT, source))
+abort_with("#{source}/ does not exist") unless year_template || Dir.exist?(File.join(ROOT, source))
+abort_with("_data/#{source}/ does not exist") unless data_template || Dir.exist?(File.join(DATA_ROOT, source))
 
-FileUtils.cp_r(File.join(ROOT, source), File.join(ROOT, target))
-FileUtils.cp_r(File.join(DATA_ROOT, source), File.join(DATA_ROOT, target))
+FileUtils.cp_r(year_template ? TEMPLATE_YEAR_ROOT : File.join(ROOT, source), File.join(ROOT, target))
+FileUtils.cp_r(data_template ? TEMPLATE_DATA_ROOT : File.join(DATA_ROOT, source), File.join(DATA_ROOT, target))
 
 replacements = {
+  "CGVCYYYY" => target,
+  "CGVC YYYY" => "CGVC #{target_year}",
+  "YYYY" => target_year,
   source => target,
   "CGVC #{source_year}" => "CGVC #{target_year}",
   "CGVC_#{source_year}" => "CGVC_#{target_year}"
@@ -116,6 +123,7 @@ stale_references = stale_year_references(File.join(ROOT, target), target) +
                    stale_year_references(File.join(DATA_ROOT, target), target)
 
 puts "Created #{target}/ and _data/#{target}/ from #{source}."
+puts "Used _templates/CGVCYYYY and _templates/_data/CGVCYYYY." if year_template && data_template
 puts "Updated _config.yml current_year and root index.md."
 puts "Added _data/pastyears.yml placeholder for #{source}." if added_past_year
 puts "Next: update event details, assets, dates, committees, sponsors, and the #{source} past-years placeholder."
