@@ -19,6 +19,9 @@ Todos:
   - Added `scripts/check-conference-year`.
   - Verified syntax, current-year warnings, missing-year failures, and `_data` stale-reference warnings.
   - Adversarial review passed after adding `_data` scanning.
-- [ ] 4. Make navigation easier to maintain.
+- [x] 4. Make navigation easier to maintain.
+  - Added `_data/navigation.yml`.
+  - Updated `_includes/header.html` to render author, attendee, and sponsor links from data.
+  - Adversarial review passed; Liquid parse and YAML load checks passed.
 - [ ] 5. Add template year/data folders.
 - [ ] 6. Refresh `README.md` with clear maintainer instructions.

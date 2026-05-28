@@ -1,0 +1,40 @@
+authors:
+  - label: Important Dates
+    path: dates
+  - label: Call for Papers
+    path: cfp
+  - label: Submission Guidelines
+    path: submission
+
+attendees:
+  - label: Registration
+    path: registration
+  - label: Venue
+    path: venue
+  - label: Travel
+    path: travel
+  - label: Accomodation
+    path: accomodation
+  - label: Programme
+    path: programme
+  - label: Keynote
+    path: keynote
+  - label: Invited Talks
+    path: talk
+    optional: true
+  - divider: true
+  - label: Best Paper Awards
+    path: award
+  - divider: true
+  - label: Presenter Guidelines
+    path: presenter
+  - divider: true
+  - label: Social Events
+    path: social-events
+
+sponsors:
+  - label: Current Sponsors
+    path: sponsor/current-sponsor
+  - divider: true
+  - label: Call for Sponsors
+    path: sponsor/call-for-sponsors
