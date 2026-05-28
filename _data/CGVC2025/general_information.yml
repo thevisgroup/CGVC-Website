@@ -1,4 +1,7 @@
 # variable below are required to generate the _includes/host.html
+conference_number: "43rd"
+host_name: "Liverpool John Moores University"
+homepage_announcement: "will take place at Liverpool John Moores University."
 host_intro: "CGVC 2025 will be hosted by <br> <b>Liverpool John Moores University UK</b>."
 logo: "LJMU.png"
 
@@ -33,5 +36,4 @@ committee:
       affiliation: City, University of London
       url: https://www.city.ac.uk/about/people/academics/aidan-slingsby
       email: a.slingsby@city.ac.uk
-
 

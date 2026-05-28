@@ -4,7 +4,9 @@ hide_element: btn-learn-more
 year: CGVC2026
 ---
 
-<h3>Welcome to the 43rd Computer Graphics & Visual Computing Conference!</h3>
+{% assign info = site.data[page.year].general_information %}
+
+<h3>Welcome to the {{ info.conference_number }} Computer Graphics & Visual Computing Conference!</h3>
 
 {% include host.html year=page.year %}
 
@@ -15,4 +17,3 @@ year: CGVC2026
 {% include important_dates.html year=page.year %}
 
 <hr\>
-

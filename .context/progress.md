@@ -11,7 +11,10 @@ Todos:
   - Added `scripts/new-conference-year`.
   - Verified Ruby syntax and a temp 2027 rollover.
   - Adversarial review passed after stale-reference and past-years placeholder fixes.
-- [ ] 2. Move repeated yearly facts into `_data`.
+- [x] 2. Move repeated yearly facts into `_data`.
+  - Added `conference_number`, `host_name`, and `homepage_announcement` to recent year data.
+  - Updated current/recent index and CFP pages to read those values from `_data`.
+  - Adversarial review passed; local build remains blocked by missing Jekyll executable.
 - [ ] 3. Add rollover validation checks.
 - [ ] 4. Make navigation easier to maintain.
 - [ ] 5. Add template year/data folders.
