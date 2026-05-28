@@ -27,4 +27,6 @@ Todos:
   - Added `_templates/CGVCYYYY` and `_templates/_data/CGVCYYYY`.
   - Updated `scripts/new-conference-year` to prefer templates.
   - Verified temp 2027 generation and checker pass; adversarial review passed.
-- [ ] 6. Refresh `README.md` with clear maintainer instructions.
+- [x] 6. Refresh `README.md` with clear maintainer instructions.
+  - Replaced stale copy-forward instructions with generator, edit, checker, preview, navigation, and template guidance.
+  - Adversarial review passed after adding all generated public pages to the checklist.
