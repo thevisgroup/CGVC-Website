@@ -4,7 +4,8 @@ Goal: make annual CGVC conference rollover easier for future maintainers with li
 
 Notes:
 - Pre-existing modified file: `CGVC2024/documents/ELF-EG-CGVC2024.pdf`. Leave untouched and exclude from commits.
-- Local build initially cannot run because this checkout has no installed Jekyll executable; verify again after dependency setup if available.
+- Local build cannot run because this checkout has no installed Jekyll executable; `bundle exec jekyll build --trace` reports `bundler: command not found: jekyll`.
+- Final available checks passed: Ruby syntax for scripts, YAML parsing, Liquid parse for header, temp 2027 generation plus checker, `scripts/check-conference-year CGVC2026`, and `git diff --check`.
 
 Todos:
 - [x] 1. Add a new-year generation workflow.
