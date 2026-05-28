@@ -37,6 +37,7 @@ For example we are adding a new conference for the CGVC in 2024, follow the step
    1. Update `pastyears.yml` to include CGVC 2023 (the previous year so it shows up in the Past Year list).
 
 1. Update `index.md` in the root directory, replace `CGVC2023` with `CGVC2024`.
+1. Update `current_year` in `_config.yml` to the new conference folder name, for example `CGVC2024`. Pages without their own `year` front matter use this value for navigation links.
 
 ## Manual update/tweak for webpages
 
