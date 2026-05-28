@@ -15,7 +15,10 @@ Todos:
   - Added `conference_number`, `host_name`, and `homepage_announcement` to recent year data.
   - Updated current/recent index and CFP pages to read those values from `_data`.
   - Adversarial review passed; local build remains blocked by missing Jekyll executable.
-- [ ] 3. Add rollover validation checks.
+- [x] 3. Add rollover validation checks.
+  - Added `scripts/check-conference-year`.
+  - Verified syntax, current-year warnings, missing-year failures, and `_data` stale-reference warnings.
+  - Adversarial review passed after adding `_data` scanning.
 - [ ] 4. Make navigation easier to maintain.
 - [ ] 5. Add template year/data folders.
 - [ ] 6. Refresh `README.md` with clear maintainer instructions.
