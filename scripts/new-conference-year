@@ -1,0 +1,127 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "fileutils"
+
+ROOT = File.expand_path("..", __dir__)
+CONFIG_PATH = File.join(ROOT, "_config.yml")
+INDEX_PATH = File.join(ROOT, "index.md")
+DATA_ROOT = File.join(ROOT, "_data")
+PAST_YEARS_PATH = File.join(DATA_ROOT, "pastyears.yml")
+
+def abort_with(message)
+  warn "Error: #{message}"
+  exit 1
+end
+
+def current_year
+  config = File.read(CONFIG_PATH)
+  match = config.match(/^current_year:\s*(CGVC\d{4})\s*$/)
+  abort_with("could not find current_year in _config.yml") unless match
+
+  match[1]
+end
+
+def text_file?(path)
+  sample = File.binread(path, 4096)
+  !sample.include?("\0")
+rescue StandardError
+  false
+end
+
+def replace_in_text_files(root, replacements)
+  Dir.glob(File.join(root, "**", "*"), File::FNM_DOTMATCH).each do |path|
+    next unless File.file?(path)
+    next unless text_file?(path)
+
+    content = File.read(path)
+    updated = replacements.reduce(content) do |memo, (from, to)|
+      memo.gsub(from, to)
+    end
+    File.write(path, updated) if updated != content
+  end
+end
+
+def stale_year_references(root, target)
+  references = []
+  allowed = [target, target.sub("CGVC", "CGVC "), target.sub("CGVC", "CGVC_")]
+  pattern = /CGVC[ _]?20\d{2}/
+
+  Dir.glob(File.join(root, "**", "*"), File::FNM_DOTMATCH).each do |path|
+    next unless File.file?(path)
+    next unless text_file?(path)
+
+    File.readlines(path).each_with_index do |line, index|
+      line.scan(pattern).uniq.each do |match|
+        next if allowed.include?(match)
+
+        references << "#{path.delete_prefix("#{ROOT}/")}:#{index + 1}: #{match}"
+      end
+    end
+  end
+
+  references
+end
+
+def add_past_year_placeholder(source_year)
+  content = File.read(PAST_YEARS_PATH)
+  return false if content.match?(/^- year:\s*#{source_year}\s*$/)
+
+  placeholder = <<~YAML
+    - year: #{source_year}
+      title: TODO: CGVC #{source_year} Computer Graphics & Visual Computing Conference
+      location: TODO
+      date: TODO
+      website: https://cgvc.org.uk/CGVC#{source_year}
+      proceedings: TODO
+
+  YAML
+
+  File.write(PAST_YEARS_PATH, placeholder + content)
+  true
+end
+
+target_year = ARGV[0]
+abort_with("usage: scripts/new-conference-year YYYY") unless target_year&.match?(/\A\d{4}\z/)
+
+target = "CGVC#{target_year}"
+source = current_year
+source_year = source.delete_prefix("CGVC")
+
+abort_with("#{target}/ already exists") if Dir.exist?(File.join(ROOT, target))
+abort_with("_data/#{target}/ already exists") if Dir.exist?(File.join(DATA_ROOT, target))
+abort_with("#{source}/ does not exist") unless Dir.exist?(File.join(ROOT, source))
+abort_with("_data/#{source}/ does not exist") unless Dir.exist?(File.join(DATA_ROOT, source))
+
+FileUtils.cp_r(File.join(ROOT, source), File.join(ROOT, target))
+FileUtils.cp_r(File.join(DATA_ROOT, source), File.join(DATA_ROOT, target))
+
+replacements = {
+  source => target,
+  "CGVC #{source_year}" => "CGVC #{target_year}",
+  "CGVC_#{source_year}" => "CGVC_#{target_year}"
+}
+
+replace_in_text_files(File.join(ROOT, target), replacements)
+replace_in_text_files(File.join(DATA_ROOT, target), replacements)
+
+config = File.read(CONFIG_PATH)
+File.write(CONFIG_PATH, config.sub(/^current_year:\s*#{source}\s*$/, "current_year: #{target}"))
+
+index = File.read(INDEX_PATH)
+File.write(INDEX_PATH, index.gsub(source, target).gsub("CGVC #{source_year}", "CGVC #{target_year}"))
+
+added_past_year = add_past_year_placeholder(source_year)
+stale_references = stale_year_references(File.join(ROOT, target), target) +
+                   stale_year_references(File.join(DATA_ROOT, target), target)
+
+puts "Created #{target}/ and _data/#{target}/ from #{source}."
+puts "Updated _config.yml current_year and root index.md."
+puts "Added _data/pastyears.yml placeholder for #{source}." if added_past_year
+puts "Next: update event details, assets, dates, committees, sponsors, and the #{source} past-years placeholder."
+
+unless stale_references.empty?
+  warn
+  warn "Manual review required: copied files still contain older CGVC year references:"
+  stale_references.each { |reference| warn "  #{reference}" }
+end
