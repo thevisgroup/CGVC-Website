@@ -1,0 +1,161 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "yaml"
+
+ROOT = File.expand_path("..", __dir__)
+CONFIG_PATH = File.join(ROOT, "_config.yml")
+DATA_ROOT = File.join(ROOT, "_data")
+PAST_YEARS_PATH = File.join(DATA_ROOT, "pastyears.yml")
+
+REQUIRED_PAGES = %w[
+  index
+  dates
+  cfp
+  submission
+  reviewer
+  presenter
+  committee
+  registration
+  programme
+  keynote
+  venue
+  travel
+  accomodation
+  social-events
+  award
+].freeze
+
+REQUIRED_DATA_FILES = %w[
+  general_information.yml
+  important_dates.yml
+  organizing_committee.yml
+  programme.yml
+  programme_committee.yml
+  sponsors.yml
+  steering_committee.yml
+].freeze
+
+REQUIRED_GENERAL_FIELDS = %w[
+  conference_number
+  host_name
+  homepage_announcement
+  host_intro
+  logo
+  submission_started
+  submission_closed
+  submission_link
+  submission_link_text
+  registration_started
+].freeze
+
+def current_year
+  config = File.read(CONFIG_PATH)
+  match = config.match(/^current_year:\s*(CGVC\d{4})\s*$/)
+  return match[1] if match
+
+  nil
+end
+
+def text_file?(path)
+  sample = File.binread(path, 4096)
+  !sample.include?("\0")
+rescue StandardError
+  false
+end
+
+def add_error(errors, message)
+  errors << "ERROR: #{message}"
+end
+
+def add_warning(warnings, message)
+  warnings << "WARN: #{message}"
+end
+
+def check_yaml(path, errors)
+  YAML.load_file(path)
+rescue Psych::SyntaxError => e
+  add_error(errors, "#{path.delete_prefix("#{ROOT}/")} is invalid YAML: #{e.message}")
+end
+
+target = ARGV[0] || current_year
+unless target&.match?(/\ACGVC\d{4}\z/)
+  warn "Usage: scripts/check-conference-year [CGVCYYYY]"
+  warn "No valid current_year found in _config.yml."
+  exit 1
+end
+
+errors = []
+warnings = []
+year_root = File.join(ROOT, target)
+data_root = File.join(DATA_ROOT, target)
+
+add_error(errors, "#{target}/ is missing") unless Dir.exist?(year_root)
+add_error(errors, "_data/#{target}/ is missing") unless Dir.exist?(data_root)
+
+if Dir.exist?(year_root)
+  REQUIRED_PAGES.each do |page|
+    html = File.join(year_root, "#{page}.html")
+    md = File.join(year_root, "#{page}.md")
+    next if File.exist?(html) || File.exist?(md)
+
+    add_warning(warnings, "#{target}/#{page}.html or #{target}/#{page}.md is missing")
+  end
+end
+
+if Dir.exist?(data_root)
+  check_yaml(PAST_YEARS_PATH, errors) if File.exist?(PAST_YEARS_PATH)
+
+  REQUIRED_DATA_FILES.each do |file|
+    path = File.join(data_root, file)
+    if File.exist?(path)
+      check_yaml(path, errors)
+    else
+      add_error(errors, "_data/#{target}/#{file} is missing")
+    end
+  end
+
+  general = File.join(data_root, "general_information.yml")
+  if File.exist?(general)
+    content = File.read(general)
+    REQUIRED_GENERAL_FIELDS.each do |field|
+      add_error(errors, "_data/#{target}/general_information.yml is missing #{field}") unless content.match?(/^#{Regexp.escape(field)}:/)
+    end
+  end
+end
+
+if Dir.exist?(year_root) || Dir.exist?(data_root)
+  allowed = [target, target.sub("CGVC", "CGVC "), target.sub("CGVC", "CGVC_")]
+  pattern = /CGVC[ _]?20\d{2}/
+
+  [year_root, data_root].each do |root|
+    next unless Dir.exist?(root)
+
+    Dir.glob(File.join(root, "**", "*"), File::FNM_DOTMATCH).each do |path|
+      next unless File.file?(path)
+      next unless text_file?(path)
+
+      File.readlines(path).each_with_index do |line, index|
+        line.scan(pattern).uniq.each do |match|
+          next if allowed.include?(match)
+
+          add_warning(warnings, "#{path.delete_prefix("#{ROOT}/")}:#{index + 1} contains old year reference #{match}")
+        end
+      end
+    end
+  end
+end
+
+if Dir.exist?(year_root)
+  legacy_page = File.join(year_root, "venue-accommodation.md")
+  add_warning(warnings, "#{target}/venue-accommodation.md exists; current navigation uses venue.md, travel.md, and accomodation.md") if File.exist?(legacy_page)
+
+  accommodation = File.join(year_root, "accommodation.md")
+  add_warning(warnings, "#{target}/accommodation.md exists; current navigation spelling is accomodation.md") if File.exist?(accommodation)
+end
+
+puts "Checked #{target}."
+warnings.each { |message| warn message }
+errors.each { |message| warn message }
+
+exit(errors.empty? ? 0 : 1)

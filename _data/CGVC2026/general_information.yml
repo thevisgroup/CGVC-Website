@@ -1,4 +1,7 @@
 # variable below are required to generate the _includes/host.html
+conference_number: "44th"
+host_name: "University of Nottingham"
+homepage_announcement: "will take place in June at University of Nottingham, and will be collocated with [EUROVIS'26](https://eurovis.org.uk/)."
 host_intro: "CGVC 2026 will be hosted by <br> <b>University of Nottingham UK</b>."
 logo: "UON2.png"
 
@@ -33,5 +36,4 @@ committee:
       affiliation: City St George's
       url: https://www.citystgeorges.ac.uk/about/people/academics/mai-elshehaly
       email: mai.elshehaly@citystgeorges.ac.uk
-
 

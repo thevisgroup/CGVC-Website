@@ -37,17 +37,11 @@
 						For Authors
 					</a>
 					<div class="dropdown-menu">
-					
-					</a>
-						<a>
-							<a class="dropdown-item" href="/{{include.year}}/dates">Important Dates
+						{% for item in site.data.navigation.authors %}
+						<a class="dropdown-item" href="/{{include.year}}/{{item.path}}">
+							{{item.label}}
 						</a>
-						<a>
-							<a class="dropdown-item" href="/{{include.year}}/cfp">Call for Papers
-						</a>
-						<a>
-							<a class="dropdown-item" href="/{{include.year}}/submission">Submission Guidelines 
-						</a>
+						{% endfor %}
 					</div>
 			</li>
 			<li class="nav-item dropdown">
@@ -56,61 +50,19 @@
 					<i class="fas fa-suitcase" aria-hidden="true"></i> For Attendees
 				</a>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="/{{include.year}}/registration">Registration
+					{% for item in site.data.navigation.attendees %}
+					{% if item.divider %}
+					<div class="dropdown-divider"></div>
+					{% else %}
+					{% capture item_path %}/{{include.year}}/{{item.path}}.html{% endcapture %}
+					{% assign nav_page = site.pages | where: "url", item_path | first %}
+					{% unless item.optional and nav_page == nil %}
+					<a class="dropdown-item" href="/{{include.year}}/{{item.path}}">
+						{{item.label}}
 					</a>
-
-					<!-- only include the page if there is one -->
-					{% capture file_path %}/{{include.year}}/venue-accommodation.html{% endcapture %}
-
-					{% assign page = site.pages | where: "url", file_path | first %}
-					{% if page %}
-					
-					</a>
-
+					{% endunless %}
 					{% endif %}
-			
-					<a class="dropdown-item" href="/{{include.year}}/venue">
-						Venue
-
-						
-					<a class="dropdown-item" href="/{{include.year}}/travel">
-						Travel
-
-						
-					<a class="dropdown-item" href="/{{include.year}}/accomodation">
-						Accomodation
-						
-					
-					<a class="dropdown-item" href="/{{include.year}}/programme">
-						Programme
-					</a>
-					<a class="dropdown-item" href="/{{include.year}}/keynote">
-						Keynote
-					</a>
-
-
-					<!-- only include the talk link if there is one -->
-					{% capture talk_path %}/{{include.year}}/talk.html{% endcapture %}
-
-					{% assign page = site.pages | where: "url", talk_path | first %}
-					{% if page %}
-					<a class="dropdown-item" href="/{{include.year}}/talk">
-						Invited Talks
-					</a>
-					{% endif %}
-
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="/{{include.year}}/award">
-						Best Paper Awards
-					</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="/{{include.year}}/presenter">
-						Presenter Guidelines
-					</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="/{{include.year}}/social-events">
-						Social Events
-					</a>
+					{% endfor %}
 				</div>
 			</li>
 			<li class="nav-item dropdown">
@@ -119,13 +71,15 @@
 					<i class="fas fa-feather-alt" aria-hidden="true"></i> For Sponsors
 				</a>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="/{{include.year}}/sponsor/current-sponsor">
-						Current Sponsors
-					</a>
+					{% for item in site.data.navigation.sponsors %}
+					{% if item.divider %}
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="/{{include.year}}/sponsor/call-for-sponsors">
-						Call for Sponsors
+					{% else %}
+					<a class="dropdown-item" href="/{{include.year}}/{{item.path}}">
+						{{item.label}}
 					</a>
+					{% endif %}
+					{% endfor %}
 				</div>
 			</li>
 		</ul>
