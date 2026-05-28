@@ -1,9 +1,12 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require "yaml"
+
 ROOT = File.expand_path("..", __dir__)
 CONFIG_PATH = File.join(ROOT, "_config.yml")
 DATA_ROOT = File.join(ROOT, "_data")
+PAST_YEARS_PATH = File.join(DATA_ROOT, "pastyears.yml")
 
 REQUIRED_PAGES = %w[
   index
@@ -69,6 +72,12 @@ def add_warning(warnings, message)
   warnings << "WARN: #{message}"
 end
 
+def check_yaml(path, errors)
+  YAML.load_file(path)
+rescue Psych::SyntaxError => e
+  add_error(errors, "#{path.delete_prefix("#{ROOT}/")} is invalid YAML: #{e.message}")
+end
+
 target = ARGV[0] || current_year
 unless target&.match?(/\ACGVC\d{4}\z/)
   warn "Usage: scripts/check-conference-year [CGVCYYYY]"
@@ -95,9 +104,15 @@ if Dir.exist?(year_root)
 end
 
 if Dir.exist?(data_root)
+  check_yaml(PAST_YEARS_PATH, errors) if File.exist?(PAST_YEARS_PATH)
+
   REQUIRED_DATA_FILES.each do |file|
     path = File.join(data_root, file)
-    add_error(errors, "_data/#{target}/#{file} is missing") unless File.exist?(path)
+    if File.exist?(path)
+      check_yaml(path, errors)
+    else
+      add_error(errors, "_data/#{target}/#{file} is missing")
+    end
   end
 
   general = File.join(data_root, "general_information.yml")

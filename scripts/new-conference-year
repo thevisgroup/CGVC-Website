@@ -71,7 +71,7 @@ def add_past_year_placeholder(source_year)
 
   placeholder = <<~YAML
     - year: #{source_year}
-      title: TODO: CGVC #{source_year} Computer Graphics & Visual Computing Conference
+      title: "TODO: CGVC #{source_year} Computer Graphics & Visual Computing Conference"
       location: TODO
       date: TODO
       website: https://cgvc.org.uk/CGVC#{source_year}
