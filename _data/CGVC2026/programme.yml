@@ -46,7 +46,6 @@
       name: "Visualization for Collective Empowerment and Societal Transformation"
       speaker: "Narges Mahyar"
 
-
 - name: "Session 2: Emerging Techniques in Visualisation and Graphics"
   chair: Mai Elshehaly
   start: "12:00"
@@ -71,7 +70,6 @@
        start: "12:30"
        end: "14:00"
 
-
 - name: "Keynote 2"
   chair: 
     name: Alfie Abdul-Rahman
@@ -82,8 +80,6 @@
     - link: "./keynote"
       name: "Intelligence Augmentation: Bridging Human and Artificial"
       speaker: "Mennatallah Al-Assady"
-
-
 
 - name: "Session 3: Short Papers"
   chair: TBC
@@ -108,7 +104,6 @@
      - name: Break
        start: "15:30"
        end: "16:00"
-
 
 - name: "Session 4: Computer Graphics and Generative Visualisation"
   chair: TBC
@@ -181,4 +176,3 @@
      - name: Break
        start: "10:30"
        end: "11:00"
-
