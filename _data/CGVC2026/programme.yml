@@ -36,11 +36,11 @@
 
 
 - name: "Keynote 1"
-  chair: 
-    name: Mai Elshehaly
-    affiliation: 
   start: "11:00"
   end: "12:00"
+  chair: 
+    name: Mai Elshehaly
+    affiliation: City, University of London
   items:
     - link: "./keynote"
       name: "Visualization for Collective Empowerment and Societal Transformation"
@@ -73,7 +73,7 @@
 - name: "Keynote 2"
   chair: 
     name: Alfie Abdul-Rahman
-    affiliation: 
+    affiliation: King’s College London
   start: "14:00"
   end: "15:00"
   items:
