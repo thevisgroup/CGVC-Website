@@ -26,6 +26,8 @@
           type: "full"
           start: "10:00"
           end: "10:15"
+      	  award: "Rabin Ezra Scholarship Trust Prize for Best Student Practice Paper 2026"
+	  img: "practice.jpg"
 
         - name: "Visualization for Data Quality Assessment"
           authors: Wolosiuk Dawid, Vuckovic Milena, Matkovic Kresimir, Schmidt Johanna
