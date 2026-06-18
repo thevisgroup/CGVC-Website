@@ -4,41 +4,41 @@
       start: "09:00"
       end: "09:30"
 
-    - name: "Session I – Human-Centred Visualisation: Perception, Cognition, and Data Interpretation"
+    - name: "Session 1: Human-Centred Visualisation: Perception, Cognition, and Data Interpretation"
       chair: TBC
       start: "09:30"
       end: "10:30"
       items:
-        - name: "Optimal Viewing Distance for Displaying Images of Real-World Scenarios"
-          authors: Basak Debadipta, Madsen Claus, Das Avishek
+        - name: "How Folks See Strokes"
+          authors: Mailee Hamila, Morley Terence, Kuffner dos Anjos Rafael, Petrescu David Gabriel
           type: "full"
           start: "09:30"
           end: "09:45"
 
-        - name: How Folks See Strokes
-          authors: Mailee Hamila, Morley Terence, Kuffner dos Anjos Rafael, Petrescu David Gabriel
+        - name: Holding Your Mind: Opportunities for Young People to Reflect on Their Minds through Personal EEG Data Art Sculptures
+          authors: Ortoleva Maria Teresa, Borgo Rita, Abdul-Rahman Alfie
           type: "full"
           start: "09:45"
           end: "10:00"
 
-        - name: "Holding Your Mind: Opportunities for Young People to Reflect on Their Minds through Personal EEG Data Art Sculptures"
-          authors: Ortoleva Maria Teresa, Borgo Rita, Abdul-Rahman Alfie
+        - name: "Visualization for Data Quality Assessment"
+          authors: Wolosiuk Dawid, Vuckovic Milena, Matkovic Kresimir, Schmidt Johanna
           type: "full"
           start: "10:00"
           end: "10:15"
           award: "Rabin Ezra Scholarship Trust Prize for Best Student Practice Paper 2026"
 
-        - name: "Visualization for Data Quality Assessment"
-          authors: Wolosiuk Dawid, Vuckovic Milena, Matkovic Kresimir, Schmidt Johanna
+        - name: "Optimal Viewing Distance for Displaying Images of Real-World Scenarios"
+          authors: Basak Debadipta, Madsen Claus, Das Avishek
           type: "full"
           start: "10:15"
           end: "10:30"
 
-    - name: Break and Networking
+    - name: Break
       start: "10:30"
       end: "11:00"
 
-    - name: "Session II – Visualisation for Urban and Environmental Planning"
+    - name: "Session 2: Visualisation for Urban and Environmental Planning"
       chair: TBC
       start: "11:00"
       end: "12:30"
@@ -97,7 +97,7 @@
           start: "14:00"
           end: "15:00"
 
-    - name: "Short Paper Session: Learning and Reflecting with Visualisation"
+    - name: "Session 3: Learning and Reflecting with Visualisation"
       chair: TBC
       start: "15:00"
       end: "15:30"
@@ -124,7 +124,7 @@
       -items:
 
 
-    - name: "Session III – Computer Graphics and Generative Visualisation"
+    - name: "Session 4: Computer Graphics and Generative Visualisation"
       chair: TBC
       start: "16:00"
       end: "17:30"
