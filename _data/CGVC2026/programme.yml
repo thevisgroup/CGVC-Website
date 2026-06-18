@@ -4,39 +4,36 @@
       start: "09:00"
       end: "09:30"
 
-    - name: "Session 1: Human-Centred Visualisation: Perception, Cognition, and Data Interpretation"
-      chair: TBC
+- name: "Session 1: Human-Centred Visualisation: Perception, Cognition, and Data Interpretation"
+  chair: TBC
+  start: "09:30"
+  end: "10:30"
+  items:
+    - name: "How Folks See Strokes"
+      authors: Mailee Hamila, Morley Terence, Kuffner dos Anjos Rafael, Petrescu David Gabriel
+      type: "full"
       start: "09:30"
+      end: "09:45"
+    - name: "Holding Your Mind: Opportunities for Young People to Reflect on Their Minds through Personal EEG Data Art Sculptures"
+      authors: Ortoleva Maria Teresa, Borgo Rita, Abdul-Rahman Alfie
+      type: "full"
+      start: "09:45"
+      end: "10:00"
+    - name: "Visualization for Data Quality Assessment"
+      authors: Wolosiuk Dawid, Vuckovic Milena, Matkovic Kresimir, Schmidt Johanna
+      type: "full"
+      start: "10:00"
+      end: "10:15"
+      award: "Rabin Ezra Scholarship Trust Prize for Best Student Practice Paper 2026"
+    - name: "Optimal Viewing Distance for Displaying Images of Real-World Scenarios"
+      authors: Basak Debadipta, Madsen Claus, Das Avishek
+      type: "full"
+      start: "10:15"
       end: "10:30"
-      items:
-        - name: "How Folks See Strokes"
-          authors: Mailee Hamila, Morley Terence, Kuffner dos Anjos Rafael, Petrescu David Gabriel
-          type: "full"
-          start: "09:30"
-          end: "09:45"
 
-        - name: "Holding Your Mind: Opportunities for Young People to Reflect on Their Minds through Personal EEG Data Art Sculptures"
-          authors: Ortoleva Maria Teresa, Borgo Rita, Abdul-Rahman Alfie
-          type: "full"
-          start: "09:45"
-          end: "10:00"
-
-        - name: "Visualization for Data Quality Assessment"
-          authors: Wolosiuk Dawid, Vuckovic Milena, Matkovic Kresimir, Schmidt Johanna
-          type: "full"
-          start: "10:00"
-          end: "10:15"
-          award: "Rabin Ezra Scholarship Trust Prize for Best Student Practice Paper 2026"
-
-        - name: "Optimal Viewing Distance for Displaying Images of Real-World Scenarios"
-          authors: Basak Debadipta, Madsen Claus, Das Avishek
-          type: "full"
-          start: "10:15"
-          end: "10:30"
-
-    - name: Break
-      start: "10:30"
-      end: "11:00"
+- name: Break
+  start: "10:30"
+  end: "11:00"
 
     - name: "Session 2: Visualisation for Urban and Environmental Planning"
       chair: TBC
