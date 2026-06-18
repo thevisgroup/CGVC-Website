@@ -36,7 +36,9 @@
 
 
 - name: "Keynote 1"
-  chair: Mai Elshehaly
+  chair: 
+    name: Mai Elshehaly
+    affiliation: 
   start: "11:00"
   end: "12:00"
   items:
