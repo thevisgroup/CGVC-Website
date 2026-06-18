@@ -5,7 +5,7 @@
       end: "09:30"
 
 - name: "Session 1: Human-Centred Visualisation: Perception, Cognition, and Data Interpretation"
-  chair: TBC
+  chair: Kai Xu
   start: "09:30"
   end: "10:30"
   items:
@@ -33,6 +33,17 @@
     - name: Break
       start: "10:30"
       end: "11:00"
+
+
+- name: "Keynote 1"
+  chair: Mai Elshehaly
+  start: "11:00"
+  end: "12:00"
+  items:
+    - link: "./keynote"
+      name: "Visualization for Collective Empowerment and Societal Transformation"
+      speaker: "Narges Mahyar"
+
 
 - name: "Session 2: Visualisation for Urban and Environmental Planning"
   chair: TBC
@@ -74,16 +85,6 @@
        end: "14:00"
 
 
-- name: "Keynote 1"
-  chair: TBC
-  start: "14:00"
-  end: "15:00"
-  items:
-      - name: "TBC"
-        speaker: TBC
-        type: keynote
-        start: "14:00"
-        end: "15:00"
 
 - name: "Session 3: Learning and Reflecting with Visualisation"
   chair: TBC
