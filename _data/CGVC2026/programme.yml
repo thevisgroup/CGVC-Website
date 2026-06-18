@@ -83,7 +83,6 @@
   start: "14:00"
   end: "15:00"
   items:
-    - link: "./keynote"
       name: "Intelligence Augmentation: Bridging Human and Artificial"
       speaker: "Mennatallah Al-Assady"
 
