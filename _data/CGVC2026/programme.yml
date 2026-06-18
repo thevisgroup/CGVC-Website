@@ -40,18 +40,15 @@
 - name: "Keynote 1"
   start: "11:00"
   end: "12:00"
-  chair: 
+  chair:
     name: Mai Elshehaly
     affiliation: "City, University of London"
   items:
       name: "Visualization for Collective Empowerment and Societal Transformation"
       speaker: "Narges Mahyar"
 
-
-- date: "Day 2, Friday 12th June, 2026"
-
 - name: "Session 2: Emerging Techniques in Visualisation and Graphics"
-  chair: 
+  chair:
     name: Mai Elshehaly
     affiliation: "City, University of London"
   start: "12:00"
@@ -61,7 +58,7 @@
        authors: Srinivas Chandana, Kenia Bhavi, Joshi Alark
        type: "short"
        start: "12:00"
-       end: "12:10"      
+       end: "12:10"
      - name: "Clonoxels: Exploiting Repetitive Structures for Efficient View Synthesis"
        authors: Camilleri Oliver
        type: "short"
@@ -71,13 +68,13 @@
        authors: Vidal Franck, Nwokolo Sunday, Mitchell Iwan, Letang Jean-michel, Makurunje Phylis, Pasca Edoarado, Turner Martin
        type: "poster"
        start: "12:20"
-       end: "12:30" 
+       end: "12:30"
      - name: Lunch break
        start: "12:30"
        end: "14:00"
 
 - name: "Keynote 2"
-  chair: 
+  chair:
     name: Alfie Abdul-Rahman
     affiliation: "King’s College London"
   start: "14:00"
@@ -87,7 +84,7 @@
       speaker: "Mennatallah Al-Assady"
 
 - name: "Session 3: Short Papers"
-  chair: 
+  chair:
     name: Mai Elshehaly
     affiliation: "City, University of London"
   start: "15:00"
@@ -113,7 +110,7 @@
        end: "16:00"
 
 - name: "Session 4: Computer Graphics and Generative Visualisation"
-  chair: 
+  chair:
     name: Mai Elshehaly
     affiliation: "City, University of London"
   start: "16:00"
