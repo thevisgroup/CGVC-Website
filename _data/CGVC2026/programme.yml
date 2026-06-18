@@ -47,61 +47,63 @@
       speaker: "Narges Mahyar"
 
 
-- name: "Session 2: Visualisation for Urban and Environmental Planning"
-  chair: TBC
-  start: "11:00"
+- name: "Session 2: Emerging Techniques in Visualisation and Graphics"
+  chair: Mai Elshehaly
+  start: "12:00"
   end: "12:30"
   items:
-     - name: Visualization of Metro Delay in Control Center Settings
-       authors: Almajyul Aljawharah, Archambault Daniel
-       type: "full"
-       start: "11:00"
-       end: "11:15"      
-     - name: "ECOVIS: A Design Study for Visualising Energy Consumption in Green Machine Learning"
-       authors: Santos Samara, Medeiros Laís, L. C. Ottoni André, Borgo Rita, Nepomuceno Erivelton
-       type: "full"
-       start: "11:15"
-       end: "11:30"
-     - name: "Discovering City-Scale Mobility Reconfigurations via Topic Modelling of Extreme Flows"
-       authors: Moussavi Laleh, Andrienko Gennady, Andrienko Natalia, Slingsby Aidan
-       type: "full"
-       start: "11:30"
-       end: "11:45" 
-     - name: "Interactive Decision Support for Exploratory Planning of EV Charging Infrastructure"
-       authors: Laksono Dany, Jianu Radu, Slingsby Aidan
-       type: "full"
-       start: "11:45"
-       end: "12:00" 
-     - name: "A Qualitative and Quantitative Study for Cross-modal and Cross-region Analysis of recent Urban 3D Reconstruction Methods"
-       authors: Christodoulides Andreas, Tam Gary KL, Micallef Nicholas, Holland David, Villamizar Nelly, Walton Sean
+     - name: Evaluating Student Learning Gains Through a Data-Driven Storytelling Worksheet Intervention
+       authors: Srinivas Chandana, Kenia Bhavi, Joshi Alark
        type: "short"
        start: "12:00"
-       end: "12:15" 
-     - name: "Web-Based Visual Network Centrality Analysis for Multivariate and Temporal Networks with ViNCent 2.0"
-       authors: Szuter Adrian, Kucher Kostiantyn, Kerren Andreas
+       end: "12:10"      
+     - name: "Clonoxels: Exploiting Repetitive Structures for Efficient View Synthesis"
+       authors: Camilleri Oliver
        type: "short"
-       start: "12:15"
+       start: "12:10"
+       end: "12:20"
+     - name: "Towards green computing in X-ray computed tomography"
+       authors: Vidal Franck, Nwokolo Sunday, Mitchell Iwan, Letang Jean-michel, Makurunje Phylis, Pasca Edoarado, Turner Martin
+       type: "poster"
+       start: "12:20"
        end: "12:30" 
      - name: Lunch break
        start: "12:30"
        end: "14:00"
 
 
+- name: "Keynote 2"
+  chair: 
+    name: Alfie Abdul-Rahman
+    affiliation: 
+  start: "14:00"
+  end: "15:00"
+  items:
+    - link: "./keynote"
+      name: "Intelligence Augmentation: Bridging Human and Artificial"
+      speaker: "Mennatallah Al-Assady"
 
-- name: "Session 3: Learning and Reflecting with Visualisation"
+
+
+- name: "Session 3: Short Papers"
   chair: TBC
   start: "15:00"
   end: "15:30"
   items:
-     - name: Evaluating Student Learning Gains Through a Data-Driven Storytelling Worksheet Intervention
-       authors: Srinivas Chandana, Kenia Bhavi, Joshi Alark
+     - name: Extending Visually Guided Extraction of Prevalent Topics
+       authors: Witschard Daniel, Kucher Kostiantyn, Jusufi Ilir, Kerren Andreas
        type: "short"
        start: "15:00"
-       end: "15:15"
-     - name: "Holding Your Mind: Opportunities for Young People to Reflect on Their Minds through Personal EEG Data Art Sculptures"
-       authors: Ortoleva Maria Teresa, Borgo Rita, Abdul-Rahman Alfie
-       type: "full"
-       start: "15:15"
+       end: "15:10"
+     - name: "Multimodal Satellite Image Captioning via CLIP–LLaMA Integration with a Learnable Mapping Network"
+       authors: Alqahtani Ali, Alshahri Fatoon, Alshehri Ghaida, Saad Bashayer
+       type: "short"
+       start: "15:10"
+       end: "15:20"
+     - name: "Web-Based Visual Network Centrality Analysis for Multivariate and Temporal Networks with ViNCent 2.0"
+       authors: Szuter Adrian, Kucher Kostiantyn, Kerren Andreas
+       type: "short"
+       start: "15:20"
        end: "15:30"
      - name: Break
        start: "15:30"
@@ -111,74 +113,74 @@
 - name: "Session 4: Computer Graphics and Generative Visualisation"
   chair: TBC
   start: "16:00"
-  end: "17:30"
+  end: "17:00"
   items:
-      - name: Information-Guided 3D Gaussian Splatting
-        authors: Dang Ying-Kai, Amghane Chihab, Stenvers Victor, Vangorp Peter
+      - name: Visualization of Metro Delay in Control Center Settings
+        authors: Almajyul Aljawharah, Archambault Daniel
         type: "full"
         start: "16:00"
         end: "16:15"
-      - name: "TreesFormer: Multimodal Grammar-Based 3D Tree Reconstruction from Sparse Geodata"
-        authors: Grammatikaki Angeliki, Vuckovic Milena, Waldner Manuela
+      - name: "ECOVIS: A Design Study for Visualising Energy Consumption in Green Machine Learning"
+        authors: Santos Samara, Medeiros Laís, L. C. Ottoni André, Borgo Rita, Nepomuceno Erivelton
         type: "full"
         start: "16:15"
         end: "16:30"
-      - name: "Decoupled Remapping for 4D Gaussian Splatting: Improving Complex Dynamic Motion Modelling in Aligned Space"
-        authors: Zhan Mochuan, Turner Martin, Morley Terence
+      - name: "Discovering City-Scale Mobility Reconfigurations via Topic Modelling of Extreme Flows"
+        authors: Moussavi Laleh, Andrienko Gennady, Andrienko Natalia, Slingsby Aidan
         type: "full"
         start: "16:30"
         end: "16:45"
-      - name: "VisCom: Communication-Aware Graph Layout and Visual Abstraction for Message-Passing Communication Networks"
-        authors: Schroter Valentin, Scheibel Willy, Dollner Jürgen
+      - name: "Interactive Decision Support for Exploratory Planning of EV Charging Infrastructure"
+        authors: Laksono Dany, Jianu Radu, Slingsby Aidan
         type: "full"
         start: "16:45"
         end: "17:00"
-      - name: Multimodal Satellite Image Captioning via CLIP–LLaMA Integration with a Learnable Mapping Network
-        authors: Alqahtani Ali, Alshahri Fatoon, Alshehri Ghaida, Saad Bashayer
-        type: "short"
-        start: "17:00"
-        end: "17:15"
-      - name: "Clonoxels: Exploiting Repetitive Structures for Efficient View Synthesis"
-        authors: Camilleri Oliver
-        type: "short"
-        start: "17:15"
-        end: "17:30"
 
 
 
 
 
 - date: "Day 2, Friday 12th June, 2026"
-  name: "Session IV – Emerging Methods and Exploratory Techniques in Visualisation "
+  name: "Session 5 – Computer Graphics and Generative Visualisation"
   start: "09:00"
-  end: "09:30"
-  chair: TBC
+  end: "10:20"
+  chair: Kristian Spoerer
   items:
-      - name: Generalized ART-Owen Scrambling
-        authors: Ahmed Abdalla, Wang Cheng
-        type: "short"
+      - name: Information-Guided 3D Gaussian Splatting
+        authors: Dang Ying-Kai, Amghane Chihab, Stenvers Victor, Vangorp Peter
+        type: "full"
         start: "09:00"
         end: "09:15"
-      - name: Extending Visually Guided Extraction of Prevalent Topics
-        authors: Witschard Daniel, Kucher Kostiantyn, Jusufi Ilir, Kerren Andreas
-        type: "short"
+      - name: TreesFormer: Multimodal Grammar-Based 3D Tree Reconstruction from Sparse Geodata
+        authors: Grammatikaki Angeliki, Vuckovic Milena, Waldner Manuela
+        type: "full"
         start: "09:15"
         end: "09:30"
-      - name: Towards green computing in X-ray computed tomography
-        authors: Vidal Franck, Nwokolo Sunday, Mitchell Iwan, Letang Jean-michel, Makurunje Phylis, Pasca Edoarado, Turner Martin
-        type: "poster"
+      - name: Decoupled Remapping for 4D Gaussian Splatting: Improving Complex Dynamic Motion Modelling in Aligned Space
+        authors: Zhan Mochuan, Turner Martin, Morley Terence
+        type: "full"
         start: "09:30"
-        end: "09:30"
-
-- name: "Keynote 2"
-  chair: TBC
-  start: "09:30"
-  end: "10:30"
-  items:
-       - name: "TBC"
-         speaker: TBC
-         type: keynote
-         start: "14:00"
-         end: "15:00"
-
+        end: "09:45"
+     - name: "VisCom: Communication-Aware Graph Layout and Visual Abstraction for Message-Passing Communication Networks"
+       authors: Schröter Valentin, Scheibel Willy, Döllner Jürgen
+       type: "full"
+       start: "09:45"
+       end: "10:00" 
+     - name: "Generalized ART-Owen Scrambling"
+       authors: Ahmed Abdalla, Wang Cheng
+       type: "short"
+       start: "10:00"
+       end: "10:10" 
+     - name: "A Qualitative and Quantitative Study for Cross-modal and Cross-region Analysis of recent Urban 3D Reconstruction Methods"
+       authors: Christodoulides Andreas, Tam Gary KL, Micallef Nicholas, Holland David, Villamizar Nelly, Walton Sean
+       type: "short"
+       start: "10:10"
+       end: "10:20" 
+     - name: "Wrap-up and Best Paper Award"
+       authors: Martin Turner
+       start: "10:20"
+       end: "10:30"
+     - name: Break
+       start: "10:30"
+       end: "11:00"
 
