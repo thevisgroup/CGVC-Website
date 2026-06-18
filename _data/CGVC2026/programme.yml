@@ -137,11 +137,13 @@
         end: "17:00"
 
 - date: "Day 2, Friday 12th June, 2026"
-  name: "Session 5 – Computer Graphics and Generative Visualisation"
-  start: "09:00"
-  end: "10:20"
-  chair: Kristian Spoerer
-  items:
+    name: "Session 5 – Computer Graphics and Generative Visualisation"
+    start: "09:00"
+    end: "10:20"
+    chair: 
+      name: Kristian Spoerer
+      affiliation: 
+      items:
       - name: Information-Guided 3D Gaussian Splatting
         authors: Dang Ying-Kai, Amghane Chihab, Stenvers Victor, Vangorp Peter
         type: "full"
