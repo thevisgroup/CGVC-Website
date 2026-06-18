@@ -156,7 +156,7 @@
         type: "full"
         start: "09:15"
         end: "09:30"
-      - name: Decoupled Remapping for 4D Gaussian Splatting: Improving Complex Dynamic Motion Modelling in Aligned Space
+      - name: "Decoupled Remapping for 4D Gaussian Splatting: Improving Complex Dynamic Motion Modelling in Aligned Space"
         authors: Zhan Mochuan, Turner Martin, Morley Terence
         type: "full"
         start: "09:30"
